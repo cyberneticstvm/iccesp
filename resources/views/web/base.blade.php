@@ -9,9 +9,9 @@
 
     <title>ICCESP - 2024</title>
 
-    <meta name="keywords" content="WebSite Template" />
-    <meta name="description" content="Porto - Multipurpose Website Template">
-    <meta name="author" content="okler.net">
+    <meta name="keywords" content="ASCE" />
+    <meta name="description" content="American Society for Civil Engineers. Second International Conference in Civil Engineering for Sustainable Planet">
+    <meta name="author" content="cybernetics.me">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ asset('/web/img/favicon.ico') }}" type="image/x-icon" />
@@ -60,27 +60,16 @@
                             <div class="header-row">
                                 <div class="header-logo mb-0">
                                     <a href="index.html">
-                                        <img alt="Porto" width="123" height="46" src="{{ asset('/web/img/demos/insurance/logo.png') }}">
+                                        <img alt="Porto" width="123" height="46" src="{{ asset('/web/img/demos/insurance/iccesp-logo.png') }}">
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="header-column justify-content-end align-items-center flex-row">
-                            <ul class="header-social-icons social-icons social-icons-clean social-icons-icon-dark social-icons-medium me-2 mb-0 d-none d-sm-block">
-                                <li class="social-icons-instagram">
-                                    <a href="http://www.instagram.com/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li class="social-icons-twitter">
-                                    <a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li class="social-icons-facebook">
-                                    <a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                            </ul>
                             <div class="header-nav-features">
                                 <a href="tel:0123456789" class="d-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold ms-1 me-3">
                                     <i class="icon icon-phone text-4-5 me-2"></i>
-                                    800-123-4567
+                                    +91 9562417322, +91 9048550123
                                 </a>
                             </div>
                             <div class="header-nav-features d-none d-md-block">
@@ -120,42 +109,29 @@
                                                     </li>
                                                     <li>
                                                         <a class="nav-link" href="demo-insurance-about-us.html">
-                                                            About Us
+                                                            About the Conference
                                                         </a>
-                                                    </li>
-                                                    <li class="dropdown">
-                                                        <a class="nav-link dropdown-toggle" href="demo-insurance-insurances.html">
-                                                            Insurances
-                                                        </a>
-                                                        <ul class="dropdown-menu">
-                                                            <li><a href="demo-insurance-insurances-detail.html" class="dropdown-item">Auto Insurance</a></li>
-                                                            <li><a href="demo-insurance-insurances-detail.html" class="dropdown-item">Life Insurance</a></li>
-                                                            <li><a href="demo-insurance-insurances-detail.html" class="dropdown-item">Business Insurance</a></li>
-                                                            <li><a href="demo-insurance-insurances-detail.html" class="dropdown-item">Travel Insurance</a></li>
-                                                            <li><a href="demo-insurance-insurances-detail.html" class="dropdown-item">Home Insurance</a></li>
-                                                            <li><a href="demo-insurance-insurances-detail.html" class="dropdown-item">Others</a></li>
-                                                        </ul>
                                                     </li>
                                                     <li>
                                                         <a class="nav-link" href="demo-insurance-agents.html">
-                                                            Agents
+                                                            Registration
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a class="nav-link" href="demo-insurance-blog.html">
-                                                            Blog
+                                                            Advisory Committee
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a class="nav-link" href="demo-insurance-contact.html">
-                                                            Contact
+                                                            Contact Us
                                                         </a>
                                                     </li>
                                                 </ul>
                                             </nav>
                                         </div>
                                     </div>
-                                    <a href="#" class="position-relative top-5 btn btn-outline btn-rounded btn-secondary text-2 font-weight-bold text-uppercase px-5 btn-py-2 mb-3">GET A QUOTE</a>
+                                    <a href="#" class="position-relative top-5 btn btn-outline btn-rounded btn-secondary text-2 font-weight-bold text-uppercase px-5 btn-py-2 mb-3">REGISTER NOW</a>
                                     <button class="btn header-btn-collapse-nav" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav">
                                         <i class="fas fa-bars"></i>
                                     </button>

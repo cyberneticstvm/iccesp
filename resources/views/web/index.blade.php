@@ -1,7 +1,7 @@
 @extends("web.base")
 @section("content")
 <div role="main" class="main">
-    <section class="section position-relative border-0 m-0" style="background-image: url('{{ asset('/web/img/demos/insurance/backgrounds/background-1.jpg') }}'); background-position: center; background-size: cover;">
+    <section class="section position-relative border-0 m-0" style="background-image: url('{{ asset('/web/img/demos/insurance/backgrounds/background-1.webp') }}'); background-position: center; background-size: cover;">
         <div class="container position-relative pb-5 mb-5">
             <svg class="d-none d-lg-block custom-svg-position-1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1686.88 1095.86" data-appear-animation-svg="true">
                 <path class="appear-animation" data-appear-animation="customLines1anim" data-appear-animation-delay="100" data-appear-animation-duration="7s" fill="none" stroke="#d8d8d8" stroke-width="2px" stroke-miterlimit="10" d="M87.95,1.4c6.82,9.14,15.53,21.59,24.68,36.94c6.82,11.45,27.18,46.82,42.55,96.51
@@ -77,20 +77,21 @@
             <div class="row align-items-center pb-5 mb-4">
                 <div class="col-lg-6">
                     <h1 class="font-weight-bold text-color-light custom-big-text-1 ws-nowrap pt-5 pb-5-5 mb-1 my-md-5 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">
-                        <span class="d-none d-lg-block">INSURANCE</span>
+                        <span class="d-none d-lg-block">ASCE</span>
                     </h1>
-                    <h2 class="text-color-dark font-weight-bold text-12 line-height-3 mb-2 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">Providing Insurance Protection For You</h2>
-                    <p class="text-color-dark text-4 font-weight-medium mb-4-5 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">Surprisingly great rates, get started right now. </p>
-                    <a href="#" class="btn btn-primary btn-rounded border-0 font-weight-bold text-3 px-5 btn-py-3 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">GET STARTED</a>
+                    <h2 class="text-color-dark font-weight-bold text-12 line-height-3 mb-2 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">AMERICAN SOCIETY <br />FOR CIVIL ENGINEERS</h2>
+                    <p class="text-color-dark text-4 font-weight-medium mb-4-5 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">SECOND INTERNATIONAL CONFERENCE IN CIVIL ENGINEERING <br />FOR SUSTAINABLE PLANET (ICCESP 2024)</p>
+                    <p class="text-dark">6,7,8 DECEMBER 2024</p>
+                    <a href="#" class="btn btn-primary btn-rounded border-0 font-weight-bold text-3 px-5 btn-py-3 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">REGISTER NOW</a>
                 </div>
-                <div class="col-lg-3 ms-lg-auto mb-lg-5 d-none d-lg-block">
+                <!--<div class="col-lg-3 ms-lg-auto mb-lg-5 d-none d-lg-block">
                     <ul class="list list-unstyled">
                         <li class="font-weight-bold text-color-light line-height-1 text-20 ws-nowrap ps-5-5 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">HOME</li>
                         <li class="font-weight-bold text-color-light line-height-1 text-20 ws-nowrap ps-5 ms-5 position-relative left-8 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="800">TRAVEL</li>
                         <li class="font-weight-bold text-color-light line-height-1 text-20 ws-nowrap ps-5 ms-5 position-relative left-12 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1000">&nbsp;LIFE</li>
                         <li class="font-weight-bold text-color-light line-height-1 text-20 ws-nowrap ps-5 ms-5 position-relative left-15 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1200">CAR</li>
                     </ul>
-                </div>
+                </div>-->
             </div>
         </div>
     </section>
@@ -99,7 +100,7 @@
         <div class="container custom-container-background z-index-1 py-5">
             <div class="row position-relative z-index-1 pt-5-5">
                 <div class="col text-center">
-                    <h2 class="text-color-dark font-weight-medium text-8 mb-5-5">Why Do People Choose <strong>Porto Insurance?</strong></h2>
+                    <h2 class="text-color-dark font-weight-medium text-8 mb-5-5">Chief Convener's <strong>Message</strong></h2>
                 </div>
             </div>
             <div class="row justify-content-center position-relative gy-5 z-index-1">
