@@ -67,7 +67,7 @@
                         </div>
                         <div class="header-column justify-content-end align-items-center flex-row">
                             <div class="header-nav-features">
-                                <a href="tel:0123456789" class="d-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold ms-1 me-3">
+                                <a href="tel:+919562417322" class="d-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold ms-1 me-3">
                                     <i class="icon icon-phone text-4-5 me-2"></i>
                                     +91 9562417322, +91 9048550123
                                 </a>
