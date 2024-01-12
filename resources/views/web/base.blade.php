@@ -136,7 +136,7 @@
                                             </nav>
                                         </div>
                                     </div>
-                                    <a href="#" class="position-relative top-5 btn btn-outline btn-rounded btn-secondary text-2 font-weight-bold text-uppercase px-5 btn-py-2 mb-3">REGISTER NOW</a>
+                                    <a href="{{ route('register') }}" class="position-relative top-5 btn btn-outline btn-rounded btn-secondary text-2 font-weight-bold text-uppercase px-5 btn-py-2 mb-3">SubmitAbstract</a>
                                     <button class="btn header-btn-collapse-nav" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav">
                                         <i class="fas fa-bars"></i>
                                     </button>
@@ -168,7 +168,7 @@
                                 </div>
                             </div>
                             <div class="custom-divider px-3 me-3 ms-5-5 d-none d-sm-block"></div>
-                            <a href="#" class="btn btn-light btn-rounded font-weight-bold border-0 text-color-dark text-3 px-5 btn-py-3">REGISTER NOW!</a>
+                            <a href="{{ route('register') }}" class="btn btn-light btn-rounded font-weight-bold border-0 text-color-dark text-3 px-5 btn-py-3">Submit Abstract</a>
                         </div>
                     </div>
                 </div>
