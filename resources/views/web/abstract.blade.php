@@ -28,6 +28,14 @@
                         <dd>IFSC: FDRL0001019</dd>
                     </dl>
                 </div>
+                <div class="col-12 text-center mt-5">
+                    <h2 class="text-color-dark font-weight-medium text-8 mb-5-5">Important Dates</h2>
+                    <dl class="text-start">
+                        <dd>Last date for Abstract Submission : April 1, 2024</dd>
+                        <dd>Intimation and Acceptance of Abstract :May 1, 2024</dd>
+                        <dd>Last date for full paper submission:</dd>
+                    </dl>
+                </div>
             </div>
         </div>
     </section>
