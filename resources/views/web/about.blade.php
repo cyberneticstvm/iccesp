@@ -5,7 +5,7 @@
         <div class="container custom-container-background z-index-1 py-5">
             <div class="row position-relative z-index-1 pt-5-5">
                 <div class="col text-center">
-                    <h2 class="text-color-dark font-weight-medium text-8 mb-5-5">ABOUT ICCESP 2024</h2>
+                    <h2 class="text-color-dark font-weight-medium text-8 mb-5-5">About ICCESP 2024</h2>
                     <p class="text-justify">This is second conference being organised in this theme. The main aim of the conference is to bring together leading academicians, researchers, technocrats, practitioners, and students and share their experience and research output on all aspects of Civil Engineering. It will also provide a premier interdisciplinary platform to present and discuss the most recent innovations, trends as well as practical challenges encountered and solutions adopted in the field of civil engineering</p>
                 </div>
             </div>

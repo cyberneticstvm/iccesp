@@ -19,3 +19,15 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('web.about');
 })->name('about');
+Route::get('/abstract', function () {
+    return view('web.abstract');
+})->name('abstract');
+Route::get('/register', function () {
+    return view('web.register');
+})->name('register');
+Route::get('/committee', function () {
+    return view('web.committee');
+})->name('committee');
+Route::get('/contact', function () {
+    return view('web.contact');
+})->name('contact');

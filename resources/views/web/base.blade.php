@@ -113,22 +113,22 @@
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a class="nav-link" href="demo-insurance-agents.html">
+                                                        <a class="nav-link {{ (request()->segment(1) == 'abstract') ? 'active' : '' }}" href="{{ route('abstract') }}">
                                                             Abstract Guidelines
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a class="nav-link" href="demo-insurance-agents.html">
-                                                            Registration
+                                                        <a class="nav-link {{ (request()->segment(1) == 'register') ? 'active' : '' }}" href="{{ route('register') }}">
+                                                            Submit Abstract
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a class="nav-link" href="demo-insurance-blog.html">
+                                                        <a class="nav-link {{ (request()->segment(1) == 'committee') ? 'active' : '' }}" href="{{ route('committee') }}">
                                                             Advisory Committee
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a class="nav-link" href="demo-insurance-contact.html">
+                                                        <a class="nav-link {{ (request()->segment(1) == 'contact') ? 'active' : '' }}" href="{{ route('contact') }}">
                                                             Contact Us
                                                         </a>
                                                     </li>
@@ -221,18 +221,18 @@
                             <div class="col-lg-6 mb-4 mb-lg-0">
                                 <h4 class="text-color-dark font-weight-bold mb-3">Important Links</h4>
                                 <ul class="list list-unstyled columns-lg-2">
-                                    <li><a href="#" class="text-color-grey text-color-hover-primary">Registration Details</a></li>
-                                    <li><a href="#" class="text-color-grey text-color-hover-primary">Abstract Guidelines</a></li>
-                                    <li><a href="#" class="text-color-grey text-color-hover-primary">Important Dates</a></li>
+                                    <li><a href="{{ route('register') }}" class="text-color-grey text-color-hover-primary">Submit Abstract</a></li>
+                                    <li><a href="{{ route('abstract') }}" class="text-color-grey text-color-hover-primary">Abstract Guidelines</a></li>
+                                    <li><a href="/" class="text-color-grey text-color-hover-primary">Important Dates</a></li>
                                     <li><a href="{{ route('about') }}" class="text-color-grey text-color-hover-primary">About the Conference</a></li>
                                 </ul>
                             </div>
                             <div class="col-lg-6">
                                 <h4 class="text-color-dark font-weight-bold mb-3">Quick Links</h4>
                                 <ul class="list list-unstyled columns-lg-2">
-                                    <li><a href="#" class="text-color-grey text-color-hover-primary">Advisory Committee</a></li>
-                                    <li><a href="#" class="text-color-grey text-color-hover-primary">Objectives</a></li>
-                                    <li><a href="#" class="text-color-grey text-color-hover-primary">Contact Us</a></li>
+                                    <li><a href="{{ route('committee') }}" class="text-color-grey text-color-hover-primary">Advisory Committee</a></li>
+                                    <li><a href="/" class="text-color-grey text-color-hover-primary">Objectives</a></li>
+                                    <li><a href="{{ route('contact') }}" class="text-color-grey text-color-hover-primary">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
