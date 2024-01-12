@@ -59,7 +59,7 @@
                         <div class="header-column">
                             <div class="header-row">
                                 <div class="header-logo mb-0">
-                                    <a href="index.html">
+                                    <a href="/">
                                         <img alt="Porto" width="123" height="46" src="{{ asset('/web/img/demos/insurance/iccesp-logo.png') }}">
                                     </a>
                                 </div>
@@ -211,7 +211,7 @@
             <div class="container pt-5-5 pb-3">
                 <div class="row gy-5">
                     <div class="col-lg-4">
-                        <a href="demo-insurance.html" class="text-decoration-none">
+                        <a href="/" class="text-decoration-none">
                             <img src="{{ asset('/web/img/demos/insurance/iccesp-logo.png') }}" class="img-fluid mb-4" alt="Iccesp 2024" />
                         </a>
                         <p class="text-3-5 pe-lg-2 text-justify">This is second conference being organised in this theme. The main aim of the conference is to bring together leading academicians, researchers, technocrats, practitioners, and students and share their experience and research output on all aspects of Civil Engineering.</p>
