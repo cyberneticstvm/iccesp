@@ -136,7 +136,7 @@
                                             </nav>
                                         </div>
                                     </div>
-                                    <a href="{{ route('register') }}" class="position-relative top-5 btn btn-outline btn-rounded btn-secondary text-2 font-weight-bold text-uppercase px-5 btn-py-2 mb-3">SubmitAbstract</a>
+                                    <a href="{{ route('register') }}" class="position-relative top-5 btn btn-outline btn-rounded btn-secondary text-2 font-weight-bold text-uppercase px-5 btn-py-2 mb-3">Submit</a>
                                     <button class="btn header-btn-collapse-nav" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav">
                                         <i class="fas fa-bars"></i>
                                     </button>
