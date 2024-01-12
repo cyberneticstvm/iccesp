@@ -95,7 +95,6 @@
             </div>
         </div>
     </section>
-
     <section class="section bg-transparent position-relative border-0 m-0 p-0">
         <div class="container custom-container-background z-index-1 py-5">
             <div class="row position-relative z-index-1 pt-5-5">
@@ -105,19 +104,18 @@
             </div>
             <div class="row justify-content-center position-relative gy-5 z-index-1">
                 <div class="col-md-9 col-lg-4 text-center appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="100">
-                    <img width="90" height="90" src="{{ asset('/web/img/demos/insurance/icons/rounded-dollar.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-secondary mb-4-5'}" />
-                    <h3 class="text-color-dark text-transform-none text-5-6 font-weight-semibold mb-3">Low Rates</h3>
-                    <p class="text-3-5 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctorl tincidunt ut... </p>
+                    <span class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten thumb-info-bottom-info thumb-info-bottom-info-dark thumb-info-bottom-info-show-more thumb-info-no-zoom">
+                        <span class="thumb-info-wrapper">
+                            <img src="{{ asset('/web/img/iccesp/kishorep.jpg') }}" class="img-fluid" alt="" style="width:50%">
+                            <span class="thumb-info-title">
+                                <span class="thumb-info-inner line-height-1">Dr. Kishore P</span>
+                            </span>
+                        </span>
+                    </span>
                 </div>
-                <div class="col-md-9 col-lg-4 text-center appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="100">
-                    <img width="90" height="90" src="{{ asset('/web/img/demos/insurance/icons/mouse-dollar.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-stroke-color-primary mb-4-5'}" />
-                    <h3 class="text-color-dark text-transform-none text-5-6 font-weight-semibold mb-3">Prices Research</h3>
-                    <p class="text-3-5 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctorl tincidunt ut... </p>
-                </div>
-                <div class="col-md-9 col-lg-4 text-center appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="100">
-                    <img width="90" height="90" src="{{ asset('/web/img/demos/insurance/icons/money-suitcase.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-stroke-color-secondary mb-4-5'}" />
-                    <h3 class="text-color-dark text-transform-none text-5-6 font-weight-semibold mb-3">Hundred of Agents</h3>
-                    <p class="text-3-5 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctorl tincidunt ut... </p>
+                <div class="col-md-9 col-lg-8 text-center appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="100">
+                    <p class="text-3-5 mb-0 text-justify">On Behalf of <a href="https://habilete.co.in" target="_blank">Habilete</a> it gives me great pleasure to extend to you a hearty welcome to the second International Conference in Civil Engineering for a Sustainable Planet 2024 (ICCESP-2024). Building on the well-established track of successful academic and research events in Engineering and Management issues. Habilete is privileged to partner with ASCE and Marian College of Engineering in bringing to you an impressive and leading academic, scholars, researchers and practitioners of civil engineering from around the world.</p>
+                    <p class="text-end">Dr. Kishor P, PhD, PMP, MBA, Prince2, A.M.ASCE<br />Organizer, ICCESP 2024</p>
                 </div>
             </div>
             <div class="row py-5">
@@ -125,467 +123,49 @@
                     <hr>
                 </div>
             </div>
-            <div class="row align-items-center pb-5 pb-lg-0 mb-5 mb-lg-0">
-                <div class="col-lg-5 text-center text-lg-start appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="100">
-                    <img src="{{ asset('/web/img/demos/insurance/generic/generic-1.jpg') }}" class="img-fluid rounded-circle mb-4 mb-lg-0" alt="" />
-                </div>
-                <div class="col-lg-6 text-center text-lg-start appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="100">
-                    <h2 class="text-color-dark font-weight-medium text-8 mb-4-5">Life Insurance With <strong>Incredible Rates</strong></h2>
-                    <p class="text-3-5 line-height-8 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula porta enim, consectetur convallis enim tincidunt ac. Suspendisse condimentum mattis libero, eu consectetur lectus dapibus varius. </p>
-                    <a href="#" class="btn btn-secondary btn-outline btn-rounded font-weight-bold btn-px-5 py-3">VIEW INSURANCES</a>
-                </div>
-            </div>
-            <div class="row align-items-center pt-1 my-5">
-                <div class="col-lg-6 text-center text-lg-start order-2 order-lg-1 appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="100">
-                    <h2 class="text-color-dark font-weight-medium text-8 mb-4-5">Get Affordable <strong>Insurance Online</strong></h2>
-                    <p class="text-3-5 line-height-8 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula porta enim, consectetur convallis enim tincidunt ac. Suspendisse condimentum mattis libero, eu consectetur lectus dapibus varius. </p>
-                    <a href="#" class="btn btn-secondary btn-outline btn-rounded font-weight-bold btn-px-5 py-3">GEAT A QUOTE</a>
-                </div>
-                <div class="col-lg-5 text-center text-lg-end order-1 order-lg-2">
-                    <img src="{{ asset('/web/img/demos/insurance/generic/generic-2.jpg') }}" class="img-fluid rounded-circle mb-4 mb-lg-0 appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="100" alt="" />
-                </div>
-            </div>
-        </div>
-        <svg class="position-absolute bottom-0 right-0" width="440" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 434.95 228.97" data-appear-animation-svg="true">
-            <path class="appear-animation" data-appear-animation="customLines1anim" data-appear-animation-delay="100" data-appear-animation-duration="7s" fill="none" stroke="#d8d8d8" stroke-width="2px" stroke-miterlimit="10" d="M0,228.97c0.37-4.22,1.28-10.15,3.69-16.85c5.72-15.86,16-25.23,22.47-30.98
-							c21.47-19.1,45.53-24.02,55.15-25.87c12.32-2.37,22.4-2.03,42.55-1.36c30.99,1.03,35.79,4.41,65.02,5.79
-							c25.3,1.19,38.83,1.83,57.19-2.38c12.11-2.77,32.93-7.79,52.09-24.17c9.08-7.76,15.13-16.75,27.23-34.72
-							c18.15-26.95,15.6-29.8,28.26-46.3c8.43-10.99,21.89-28.15,45.28-39.83c14.25-7.11,27.33-9.77,36.02-10.89" />
-            <path class="appear-animation" data-appear-animation="customLines1anim" data-appear-animation-delay="100" data-appear-animation-duration="7s" fill="none" stroke="#d8d8d8" stroke-width="2px" stroke-miterlimit="10" d="M27.74,228.97c0.41-3.95,1.34-9.32,3.57-15.36c0.63-1.71,3.32-8.75,9.06-16.47c9.23-12.4,20.66-18.9,27.32-22.6
-							c19.6-10.89,37.73-12.84,47.49-13.79c7.46-0.73,13.19-0.57,24.64-0.26c20.87,0.57,30.2,2.44,51.06,4.34
-							c24.68,2.25,37.03,3.38,49.79,2.3c13.83-1.17,31.1-2.64,49.28-12.89c14.68-8.28,22.96-18.36,32.43-29.87
-							c16.91-20.57,14.83-26.82,36.13-55.91c13.41-18.32,21.15-25.28,27.32-30c13.01-9.95,25.17-14.6,29.74-16.21
-							c7.6-2.68,14.32-4.08,19.38-4.85" />
-            <path class="appear-animation" data-appear-animation="customLines1anim" data-appear-animation-delay="100" data-appear-animation-duration="7s" fill="none" stroke="#d8d8d8" stroke-width="2px" stroke-miterlimit="10" d="M434.95,33.23c-3.76,0.62-8.89,1.71-14.78,3.7c-4.78,1.62-15.65,5.72-27.32,14.55
-							c-9.96,7.54-15.92,15.05-20.43,20.81c-4.46,5.7-5.3,7.71-16.47,25.66c-8.17,13.13-12.25,19.69-15.06,23.74
-							c-10.15,14.61-15.76,22.7-26.04,30.77c-11.36,8.91-22.19,12.91-27.83,14.94c-12.97,4.67-23.62,5.67-31.79,6.38
-							c-5.3,0.46-12.57,0.82-28.72-0.13c-21.65-1.27-25.84-2.93-44.3-4.47c-18.49-1.54-32.11-2.68-50.04-0.38
-							c-11.6,1.48-23.82,3.16-38.04,10.34c-15.41,7.78-23.95,17.38-26.81,20.81c-8.59,10.28-11.03,18.84-11.62,21.06
-							c-0.85,3.22-1.23,5.99-1.4,7.95" />
-            <path class="appear-animation" data-appear-animation="customLines1anim" data-appear-animation-delay="100" data-appear-animation-duration="7s" fill="none" stroke="#d8d8d8" stroke-width="2px" stroke-miterlimit="10" d="M81.23,228.97c0.33-1.82,0.89-4.38,1.91-7.32c0.69-1.99,3.53-9.75,11.49-18.51
-							c10.15-11.17,22.07-16.76,27.83-19.4c3.41-1.56,17.97-8,38.43-9.19c4.78-0.28,10.29,0.03,21.32,0.64
-							c15.67,0.87,22.56,1.84,39.57,3.32c20.62,1.8,30.93,2.7,38.68,2.43c12.05-0.42,23.29-0.81,37.15-5.74
-							c8.39-2.99,22.75-9.42,35.87-22.6c4.96-4.98,9.47-11.79,18.51-25.4c13.63-20.55,13.63-23.26,23.11-36.13
-							c9.58-13.02,15.08-20.34,25.15-27.19c11.13-7.57,23.32-11.47,25.4-12.13c3.74-1.17,6.95-1.93,9.29-2.43" />
-            <path class="appear-animation" data-appear-animation="customLines1anim" data-appear-animation-delay="100" data-appear-animation-duration="7s" fill="none" stroke="#d8d8d8" stroke-width="2px" stroke-miterlimit="10" d="M434.95,65.65c-2.69,0.4-6.36,1.13-10.57,2.55c-8.82,2.99-14.68,7.25-19.02,10.47
-							c-2.74,2.03-10.19,7.78-18.38,18c-4.1,5.12-4.47,6.46-13.79,21.45c-8.32,13.38-12.48,20.07-18.13,27.83
-							c-7.95,10.93-11.92,16.39-17.36,21.06c-13.02,11.18-27.01,14.91-35.11,16.98c-10.65,2.72-18.65,2.94-30.26,3.19
-							c-10.74,0.23-15.84-0.44-47.87-3.32c-27.06-2.44-30.83-2.62-36.89-2.43c-12.79,0.42-23.32,0.86-36.13,5.74
-							c-6.61,2.52-19.65,7.67-30.77,20.68c-6.72,7.86-10.31,15.76-12.26,21.1" />
-        </svg>
-
-    </section>
-
-    <section class="section section-height-3 border-0 m-0">
-        <div class="container pb-3">
-            <div class="row">
-                <div class="col text-center">
-                    <h2 class="text-color-dark font-weight-medium text-8 mb-5 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">Insurance <strong>Products</strong></h2>
-                </div>
-            </div>
-            <div class="row justify-content-center gy-5 mb-5">
-                <div class="col-9 col-sm-10 col-md-7 col-lg-6 col-xl-3 text-center appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="100">
-                    <img width="90" height="90" src="{{ asset('/web/img/demos/insurance/icons/casa.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary mb-3'}" />
-                    <h3 class="text-color-dark font-weight-bold text-transform-none text-5 mb-4-5">Home Insurance</h3>
-                    <p class="text-3-5">Lorem ipsum dolor sit amet, consectetur adipiscing anc viverra erat orci... </p>
-                    <a href="demo-insurance-insurances-detail.html" class="text-decoration-none custom-link-hover-effects">
-                        <span class="custom-view-more d-inline-flex font-weight-semibold text-color-primary">
-                            View More
-                            <img width="27" height="27" src="{{ asset('/web/img/demos/insurance/icons/arrow-right.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary ms-2'}" style="width: 27px;" />
-                        </span>
-                    </a>
-                </div>
-                <div class="col-9 col-sm-10 col-md-7 col-lg-6 col-xl-3 text-center appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="100">
-                    <img width="90" height="90" src="{{ asset('/web/img/demos/insurance/icons/travel-case.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary mb-3'}" />
-                    <h3 class="text-color-dark font-weight-bold text-transform-none text-5 mb-4-5">Travel Insurance</h3>
-                    <p class="text-3-5">Lorem ipsum dolor sit amet, consectetur adipiscing anc viverra erat orci... </p>
-                    <a href="demo-insurance-insurances-detail.html" class="text-decoration-none custom-link-hover-effects">
-                        <span class="custom-view-more d-inline-flex font-weight-semibold text-color-primary">
-                            View More
-                            <img width="27" height="27" src="{{ asset('/web/img/demos/insurance/icons/arrow-right.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary ms-2'}" style="width: 27px;" />
-                        </span>
-                    </a>
-                </div>
-                <div class="col-9 col-sm-10 col-md-7 col-lg-6 col-xl-3 text-center appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="100">
-                    <img width="90" height="90" src="{{ asset('/web/img/demos/insurance/icons/hearts.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary mb-3'}" />
-                    <h3 class="text-color-dark font-weight-bold text-transform-none text-5 mb-4-5">Life Insurance</h3>
-                    <p class="text-3-5">Lorem ipsum dolor sit amet, consectetur adipiscing anc viverra erat orci... </p>
-                    <a href="demo-insurance-insurances-detail.html" class="text-decoration-none custom-link-hover-effects">
-                        <span class="custom-view-more d-inline-flex font-weight-semibold text-color-primary">
-                            View More
-                            <img width="27" height="27" src="{{ asset('/web/img/demos/insurance/icons/arrow-right.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary ms-2'}" style="width: 27px;" />
-                        </span>
-                    </a>
-                </div>
-                <div class="col-9 col-sm-10 col-md-7 col-lg-6 col-xl-3 text-center appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="100">
-                    <img width="90" height="90" src="{{ asset('/web/img/demos/insurance/icons/alloy-wheel.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary mb-3'}" />
-                    <h3 class="text-color-dark font-weight-bold text-transform-none text-5 mb-4-5">Car Insurance</h3>
-                    <p class="text-3-5">Lorem ipsum dolor sit amet, consectetur adipiscing anc viverra erat orci... </p>
-                    <a href="demo-insurance-insurances-detail.html" class="text-decoration-none custom-link-hover-effects">
-                        <span class="custom-view-more d-inline-flex font-weight-semibold text-color-primary">
-                            View More
-                            <img width="27" height="27" src="{{ asset('/web/img/demos/insurance/icons/arrow-right.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary ms-2'}" style="width: 27px;" />
-                        </span>
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col text-center">
-                    <a href="#" class="btn btn-secondary btn-rounded border-0 font-weight-bold text-3 btn-px-5 py-3 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="100">VIEW INSURANCES</a>
-                </div>
-            </div>
         </div>
     </section>
-
-    <section class="section position-relative overflow-hidden section-height-3 border-0 m-0" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'parallaxHeight': '120%', 'fadeIn': true}" data-image-src="{{ asset('/web/img/demos/insurance/backgrounds/background-2.jpg') }}">
-        <svg width="390" class="custom-svg-position-3 opacity-6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 393.91 241.97" data-appear-animation-svg="true">
-            <path class="appear-animation" data-appear-animation="customLines1anim" data-appear-animation-delay="100" data-appear-animation-duration="7s" fill="none" stroke="#d8d8d8" stroke-width="2px" stroke-miterlimit="10" d="M319.44,0c0.95,3.34,2,7.87,2.55,13.31c0.3,2.94,1.03,10.65-0.51,19.4c-3.52,20.06-16.69,32.75-19.66,35.49
-							c-5.75,5.3-10.67,7.86-19.15,12.26c-16.63,8.63-31.03,11.66-37.28,12.77c-10.68,1.89-18.28,1.79-28.09,1.79
-							c-21.27-0.01-46.27-0.02-63.83,1.28c-25.63,1.89-43.02,3.18-63.06,13.53c-23.42,12.1-38.73,30.52-45.7,39.06
-							c-6.79,8.32-11.7,15.96-15.06,21.7" />
-            <path class="appear-animation" data-appear-animation="customLines1anim" data-appear-animation-delay="100" data-appear-animation-duration="7s" fill="none" stroke="#d8d8d8" stroke-width="2px" stroke-miterlimit="10" d="M22.5,188.21c3.2-5.98,7.74-13.55,14.04-21.7c12.03-15.56,24.27-25.22,29.87-29.36
-							c23.84-17.6,46.96-23.36,58.21-26.04c17.96-4.28,32.22-4.67,48.51-5.11c24.18-0.65,26.9,1.97,50.3,1.02
-							c16.52-0.67,30.38-1.23,47.74-6.38c13.04-3.87,30.45-9.04,46.21-24.51c5.88-5.78,17.41-17.38,21.19-35.23
-							c2.35-11.12,1.15-22.04,0.77-25.28c-0.76-6.46-2.13-11.79-3.32-15.61" />
-            <path class="appear-animation" data-appear-animation="customLines1anim" data-appear-animation-delay="100" data-appear-animation-duration="7s" fill="none" stroke="#d8d8d8" stroke-width="2px" stroke-miterlimit="10" d="M352.37,0c1.24,3.21,2.7,7.55,3.83,12.8c0.7,3.25,2.36,11.94,1.79,21.7c-1.06,18.12-9.35,31.68-11.74,35.49
-							c-12.13,19.34-29.52,27.67-42.64,33.96c-21.37,10.24-40.68,12.11-51.06,13.02c-2.84,0.25-9.93,0.34-24,0.51
-							c-36.73,0.45-40.07,0.2-51.57,0.51c-28.23,0.75-42.35,1.13-55.15,4.34c-23.5,5.9-39.82,16.37-49.53,22.72
-							c-26.76,17.49-41.55,37.15-45.19,42.13c-5.31,7.27-9.15,13.81-11.74,18.64" />
-            <path class="appear-animation" data-appear-animation="customLines1anim" data-appear-animation-delay="100" data-appear-animation-duration="7s" fill="none" stroke="#d8d8d8" stroke-width="2px" stroke-miterlimit="10" d="M8.2,222.93c3.14-5.55,7.49-12.63,13.28-20.43c11.99-16.16,23.54-26.53,27.06-29.62
-							c20.8-18.21,41.61-27.43,51.83-31.4c25.63-9.96,46.86-11.12,72.51-12.51c21.02-1.14,19.99,0.76,52.6,0
-							c30.76-0.71,46.14-1.07,62.81-5.11c15.54-3.76,35.26-8.54,54.38-24.77c7.61-6.46,23.87-20.64,30.13-44.43
-							c3.83-14.58,2.61-27.82,1.53-34.72c-1.31-8.35-3.62-15.13-5.62-19.95" />
-            <path class="appear-animation" data-appear-animation="customLines1anim" data-appear-animation-delay="100" data-appear-animation-duration="7s" fill="none" stroke="#d8d8d8" stroke-width="2px" stroke-miterlimit="10" d="M385.31,1.06c1.82,3.73,4.22,9.49,5.62,16.85c0.54,2.85,1.02,6.39,1.28,16.6c0.13,5.3,0.39,15.38,0,20.68
-							c-1.74,23.68-23.11,43.56-27.06,47.23c-12.21,11.35-23.97,16.37-36.77,21.7c-30.51,12.7-57.92,14.15-78.64,15.06
-							c-14.15,0.63-11.1-0.45-42.64-0.26c-30.2,0.19-45.31,0.28-56.68,1.79c-35.47,4.69-61.45,17.73-70.72,22.72
-							c-26.73,14.38-43.36,31.12-48.51,36.51c-14.02,14.66-23.24,29.09-29.11,39.83" />
-        </svg>
-
-        <div class="container py-3">
-            <div class="row">
-                <div class="col-lg-8 col-xl-7 ms-lg-auto">
-                    <div class="bg-light text-center p-5">
-                        <div class="py-2 px-md-5">
-                            <h2 class="font-weight-bold text-7 mb-1">Ready To Get a Quick Quote?</h2>
-                            <p class="text-3-5 mb-5-5">Lorem ipsum dolor sit amet, consectetur aipiscing. </p>
-                            <form action="">
-                                <div class="d-flex custom-form-control-group-style-1 mb-3">
-                                    <select class="form-control" name="insurance_type">
-                                        <option value="" selected>INSURANCE</option>
-                                        <option value="insurance-opt-1">INSURANCE OPT 01</option>
-                                        <option value="insurance-opt-2">INSURANCE OPT 02</option>
-                                        <option value="insurance-opt-3">INSURANCE OPT 03</option>
-                                    </select>
-                                    <input type="text" class="form-control" name="zip" placeholder="ZIP CODE" />
-                                </div>
-                                <input type="submit" class="btn btn-secondary btn-rounded border-0 w-100 text-center font-weight-bold text-3-5 btn-py-3" value="GET QUOTE" />
-                            </form>
-                        </div>
-                    </div>
-                    <div class="bg-primary d-flex flex-column flex-sm-row align-items-center justify-content-center p-5">
-                        <a href="mailto:porto@insurance.com" class="d-inline-flex align-items-center text-color-light text-decoration-none opacity-hover-8 font-weight-medium text-4 mb-3 mb-sm-0">
-                            <i class="icon icon-envelope me-2 text-5 position-relative top-1"></i>
-                            porto@insurance.com
-                        </a>
-                        <a href="tel:0123456789" class="d-inline-flex align-items-center text-color-light text-decoration-none opacity-hover-8 font-weight-medium text-4 ms-sm-5-5">
-                            <i class="icon icon-phone me-2 text-5 position-relative top-1"></i>
-                            800-123-4567
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="section bg-transparent position-relative border-0 m-0 p-0">
-        <div class="container pt-5 pb-5-5 mt-4">
-            <div class="row">
+        <div class="container custom-container-background z-index-1 py-5">
+            <div class="row position-relative z-index-1 pt-5-5">
                 <div class="col text-center">
-                    <h2 class="text-color-dark font-weight-medium text-8 mb-5 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="100">Knowledge and <strong>Numbers</strong></h2>
+                    <h2 class="text-color-dark font-weight-medium text-8 mb-5-5">SECOND INTERNATIONAL CONFERENCE IN CIVIL ENGINEERING FOR SUSTAINABLE PLANET <strong>(ICCESP 2024)</strong></h2>
                 </div>
             </div>
-            <div class="row gy-5 mb-5">
-                <div class="col-lg-6">
-                    <div class="accordion custom-accordion-style-1 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100" id="accordion1">
-                        <div class="card card-default">
-                            <div class="card-header" id="collapse1HeadingOne">
-                                <h4 class="card-title m-0">
-                                    <a class="accordion-toggle text-color-dark font-weight-semibold collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1One" aria-expanded="false" aria-controls="collapse1One">
-                                        1 - Why Choose Porto ?
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse1One" class="collapse" aria-labelledby="collapse1HeadingOne" data-bs-parent="#accordion1">
-                                <div class="card-body">
-                                    <p class="mb-0">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card card-default">
-                            <div class="card-header" id="collapse1HeadingTwo">
-                                <h4 class="card-title m-0">
-                                    <a class="accordion-toggle text-color-dark font-weight-semibold collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1Two" aria-expanded="false" aria-controls="collapse1Two">
-                                        2 - Cras a elit sit amet leo accumsan?
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse1Two" class="collapse" aria-labelledby="collapse1HeadingTwo" data-bs-parent="#accordion1">
-                                <div class="card-body">
-                                    <p class="mb-0">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card card-default">
-                            <div class="card-header" id="collapse1HeadingThree">
-                                <h4 class="card-title m-0">
-                                    <a class="accordion-toggle text-color-dark font-weight-semibold collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1Three" aria-expanded="false" aria-controls="collapse1Three">
-                                        3 - Hel officitur felis ultricis nan?
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse1Three" class="collapse" aria-labelledby="collapse1HeadingThree" data-bs-parent="#accordion1">
-                                <div class="card-body">
-                                    <p class="mb-0">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card card-default">
-                            <div class="card-header" id="collapse1HeadingFour">
-                                <h4 class="card-title m-0">
-                                    <a class="accordion-toggle text-color-dark font-weight-semibold collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1Four" aria-expanded="false" aria-controls="collapse1Four">
-                                        4 - Wuspaisse hendreirit vehicula leo?
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse1Four" class="collapse" aria-labelledby="collapse1HeadingFour" data-bs-parent="#accordion1">
-                                <div class="card-body">
-                                    <p class="mb-0">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card card-default">
-                            <div class="card-header" id="collapse1HeadingFive">
-                                <h4 class="card-title m-0">
-                                    <a class="accordion-toggle text-color-dark font-weight-semibold collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1Five" aria-expanded="false" aria-controls="collapse1Five">
-                                        5 - Lintegers aliquet ullamcorper dollor, quis sollic tudin?
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapse1Five" class="collapse" aria-labelledby="collapse1HeadingFive" data-bs-parent="#accordion1">
-                                <div class="card-body">
-                                    <p class="mb-0">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#" class="btn btn-secondary btn-rounded border-0 font-weight-bold text-3 btn-px-5 py-3 mt-5-5">CONTACT US</a>
-                    </div>
-                </div>
-                <div class="col-lg-6 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">
-                    <figure class="custom-testimonial-style-1 mb-5-5">
-                        <blockquote class="ps-5-5 mb-0">
-                            <p class="text-4-5 line-height-7 mb-3">Pellentesque ultricies nibh gravida, accumsan libero luctus, molestie nunc. In nibh ipsum, blandit id faucibus. </p>
-                        </blockquote>
-                        <figcaption class="font-weight-bold text-color-dark positive-ls-2 ps-5-5 mb-3">JOHN DOE - CEO & FOUNDER</figcaption>
-                        <img src="{{ asset('/web/img/signature.png') }}" class="img-fluid ps-5-5" alt="John Doe Ceo and Founder" />
-                    </figure>
-
-                    <div class="row counters text-dark ps-lg-4">
-                        <div class="col-sm-6 mb-5-5">
-                            <div class="counter text-center text-sm-start">
-                                <strong class="text-color-primary text-13 line-height-5" data-to="35" data-append="+" data-plugin-options="{'speed': 5000}">0</strong>
-                                <label class="font-weight-semibold text-5">Business Year</label>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 mb-5-5">
-                            <div class="counter text-center text-sm-start">
-                                <strong class="text-color-primary text-13 line-height-5" data-to="4000" data-append="+" data-plugin-options="{'speed': 5000}">0</strong>
-                                <label class="font-weight-semibold text-5">Happy Customers</label>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 mb-4 mb-sm-0">
-                            <div class="counter text-center text-sm-start">
-                                <strong class="text-color-primary text-13 line-height-5" data-to="100" data-append="+" data-plugin-options="{'speed': 5000}">0</strong>
-                                <label class="font-weight-semibold text-5">Insurance Agencies</label>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="counter text-center text-sm-start">
-                                <strong class="text-color-primary text-13 line-height-5" data-to="50" data-append="+" data-plugin-options="{'speed': 5000}">0</strong>
-                                <label class="font-weight-semibold text-5">Insurance Offices</label>
-                            </div>
-                        </div>
-                    </div>
+            <div class="row justify-content-center position-relative gy-5 z-index-1">
+                <div class="col-md-12 col-lg-12 text-center appear-animation animated fadeInRightShorterPlus appear-animation-visible" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="100" style="animation-delay: 100ms;">
+                    <h3 class="text-color-dark text-transform-none text-5-6 font-weight-semibold mb-3">6, 7, 8 DECEMBER 2024</h3>
+                    <h4 class="mb-0 text-success">MARIAN ENGINEERING COLLEGE IN COLLABORATION WITH AMERICAN SOCIETY FOR CIVIL ENGINEERS (ASCE) <br />&<br /> HABILETTE LEARNING SOLUTIONS PVT, LTD</h4>
                 </div>
             </div>
-
-            <div class="row">
+            <div class="row py-5">
                 <div class="col">
                     <hr>
                 </div>
             </div>
-
-            <div class="row align-items-center text-center py-5 my-2">
-                <div class="col-sm-4 col-xl-2 mb-5 mb-xl-0">
-                    <img src="{{ asset('/web/img/logos/logo-8.png') }}" alt class="img-fluid" style="max-width: 90px;" />
-                </div>
-                <div class="col-sm-4 col-xl-2 mb-5 mb-xl-0">
-                    <img src="{{ asset('/web/img/logos/logo-9.png') }}" alt class="img-fluid" style="max-width: 140px;" />
-                </div>
-                <div class="col-sm-4 col-xl-2 mb-5 mb-xl-0">
-                    <img src="{{ asset('/web/img/logos/logo-10.png') }}" alt class="img-fluid" style="max-width: 140px;" />
-                </div>
-                <div class="col-sm-4 col-xl-2 mb-5 mb-lg-0">
-                    <img src="{{ asset('/web/img/logos/logo-11.png') }}" alt class="img-fluid" style="max-width: 140px;" />
-                </div>
-                <div class="col-sm-4 col-xl-2 mb-5 mb-lg-0">
-                    <img src="{{ asset('/web/img/logos/logo-12.png') }}" alt class="img-fluid" style="max-width: 100px;" />
-                </div>
-                <div class="col-sm-4 col-xl-2">
-                    <img src="{{ asset('/web/img/logos/logo-13.png') }}" alt class="img-fluid" style="max-width: 100px;" />
-                </div>
-            </div>
-        </div>
-        <svg version="1.1" width="300" class="d-none d-sm-block position-absolute bottom-0 left-0 opacity-6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 301.96 180.98" data-appear-animation-svg="true">
-            <path class="appear-animation" data-appear-animation="customLines1anim" data-appear-animation-delay="100" data-appear-animation-duration="7s" fill="none" stroke="#d8d8d8" stroke-width="2px" stroke-miterlimit="10" d="M295.95,180.98c1.45-3.75,2.88-8.35,3.83-13.71c1.63-9.2,1.14-16.61,0.77-20.17
-							c-0.56-5.36-1.19-11.4-4.34-18.13c-6.88-14.68-20.42-21.26-25.02-23.49c-6.22-3.02-11.07-4.04-17.94-5.49
-							c-4.28-0.9-19.56-3.88-44.04-1.66c-12.21,1.11-10.62,2.05-22.02,3.15c-16.33,1.57-28.79,2.77-43.4-1.19
-							c-4.11-1.11-29.81-8.43-43.57-29.79c-1.87-2.9-1.5-2.93-6.3-11.06C87.53,48.62,82.5,40.09,75.69,31.53
-							C67.37,21.05,61.29,13.39,50.16,7.7C39.76,2.38,30.2,1.45,25.65,1.06C14.62,0.1,5.62,1.88,0,3.44" />
-            <path class="appear-animation" data-appear-animation="customLines1anim" data-appear-animation-delay="100" data-appear-animation-duration="7s" fill="none" stroke="#d8d8d8" stroke-width="2px" stroke-miterlimit="10" d="M0,12.63c2.19-0.54,5.13-1.15,8.63-1.53c0,0,6.95-0.76,14.3,0c21.11,2.18,36.09,13.96,36.09,13.96
-							c5.32,4.18,10.24,11.47,20.09,26.04c13.27,19.65,12.63,21.86,20.09,29.96c4.86,5.28,13.21,14.17,26.72,19.91
-							c12.72,5.41,23.74,5.35,37.28,5.28c13.72-0.07,14.67-1.87,36.26-3.4c17.12-1.21,25.69-1.82,35.23-0.17
-							c9.22,1.59,22.97,3.97,34.72,15.15c3.2,3.05,11.14,10.79,13.96,22.98c1.86,8.06,0.86,15.36-0.68,26.55
-							c-0.79,5.74-1.79,10.44-2.55,13.62" />
-            <path class="appear-animation" data-appear-animation="customLines1anim" data-appear-animation-delay="100" data-appear-animation-duration="7s" fill="none" stroke="#d8d8d8" stroke-width="2px" stroke-miterlimit="10" d="M0,22.85c1.44-0.56,3.59-1.31,6.25-1.87c1.54-0.33,7.36-1.47,16.17-0.17C39.62,23.35,51.69,31.7,51.69,31.7
-							C60.34,37.68,65,44.48,74.33,58.08c8.02,11.69,7.57,13.67,14.98,23.32c6.51,8.49,11.01,14.35,18.72,19.4
-							c10.64,6.98,21.11,8.3,30.3,9.36c2.87,0.33,8.01,0.79,37.96-1.7c20.15-1.68,22.25-2.26,30.13-2.04c10.49,0.29,18.94,0.59,29.11,4.43
-							c6.81,2.57,17.42,6.58,24.68,17.19c5.75,8.4,6.6,16.83,7.32,24c1.26,12.49-1.09,22.72-3.06,28.94" />
-            <path class="appear-animation" data-appear-animation="customLines1anim" data-appear-animation-delay="100" data-appear-animation-duration="7s" fill="none" stroke="#d8d8d8" stroke-width="2px" stroke-miterlimit="10" d="M247.61,180.98c1.16-3.93,2.51-9.45,3.23-16.17c0.78-7.28,1.39-12.88-0.17-19.23
-							c-2.97-12.12-11.91-19.34-15.15-21.96c-9.29-7.5-18.82-9.45-27.23-11.06c-3.36-0.65-10.36-1.79-31.15-0.68
-							c-25.13,1.34-25.32,3.56-39.15,3.06c-12.15-0.44-23.83-0.99-35.74-8.17c-8.58-5.16-13.73-11.62-17.36-16.17
-							C75.94,79.38,77.6,75.56,68.2,62c-4.86-7.02-9.92-14.17-19.06-20.6c-10.45-7.34-20.46-9.65-24.17-10.38
-							C14.19,28.9,5.23,30.09,0,31.19" />
-            <path class="appear-animation" data-appear-animation="customLines1anim" data-appear-animation-delay="100" data-appear-animation-duration="7s" fill="none" stroke="#d8d8d8" stroke-width="2px" stroke-miterlimit="10" d="M0,41.74c4.06-1.09,10.29-2.26,17.82-1.7c2.7,0.2,16.24,1.42,29.11,11.23c5.96,4.54,11.14,12.28,21.28,27.57
-							c10.47,15.81,9.59,16.58,14.3,21.45c12,12.4,26.47,16.43,30.13,17.36c12.44,3.15,23.68,1.81,37.45,0.17
-							c5.39-0.64,4.9-0.87,10.72-1.53c11.66-1.33,21.16-2.41,32-0.51c5.89,1.03,16.06,2.93,26.04,10.55c4.54,3.47,11.89,9.08,14.98,18.89
-						c2.45,7.77,1.29,15.21-0.17,24.68c-0.72,4.65-1.66,8.46-2.38,11.07" />
-        </svg>
-
-    </section>
-
-    <section class="section section-height-3 border-0 m-0">
-        <div class="container">
-            <div class="row">
+            <div class="row position-relative z-index-1 pt-5-5">
                 <div class="col text-center">
-                    <h2 class="text-color-dark font-weight-medium text-8 mb-4">Our <strong>Blog</strong></h2>
+                    <h2 class="text-color-dark font-weight-medium text-8 mb-5-5">OBJECTIVES OF <strong>ICCESP 2024</strong></h2>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
-                    <a href="demo-insurance-blog-post.html" class="custom-link-hover-effects text-decoration-none">
-                        <div class="card border-0 bg-transparent">
-                            <div class="card-img-top position-relative overlay">
-                                <div class="position-absolute bottom-10 right-0 d-flex justify-content-end w-100 py-3 px-4 z-index-3">
-                                    <span class="custom-date-style-1 text-center bg-primary text-color-light font-weight-semibold line-height-2 px-3 py-2">
-                                        <span class="position-relative text-6 z-index-2">
-                                            18
-                                            <span class="d-block text-0 positive-ls-2 px-1">FEB</span>
-                                        </span>
-                                    </span>
-                                </div>
-                                <img src="{{ asset('/web/img/demos/insurance/blog/post-thumb-1.jpg') }}" class="img-fluid" alt="Lorem Ipsum Dolor" />
-                            </div>
-                            <div class="card-body py-4 px-0">
-                                <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
-                                <h4 class="font-weight-bold text-5 text-color-hover-primary mb-2">Lorem ipsum dolor sit a met, consectetur</h4>
-                                <p class="text-3-5 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque rutrum pellentesqu... </p>
-                                <span class="custom-view-more d-inline-flex font-weight-semibold text-color-primary">
-                                    View More
-                                    <img width="27" height="27" src="{{ asset('/web/img/demos/insurance/icons/arrow-right.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary ms-2'}" style="width: 27px;" />
-                                </span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-9 col-md-6 col-lg-4 mb-4 mb-lg-0">
-                    <a href="demo-insurance-blog-post.html" class="custom-link-hover-effects text-decoration-none">
-                        <div class="card border-0 bg-transparent">
-                            <div class="card-img-top position-relative overlay">
-                                <div class="position-absolute bottom-10 right-0 d-flex justify-content-end w-100 py-3 px-4 z-index-3">
-                                    <span class="custom-date-style-1 text-center bg-primary text-color-light font-weight-semibold line-height-2 px-3 py-2">
-                                        <span class="position-relative text-6 z-index-2">
-                                            15
-                                            <span class="d-block text-0 positive-ls-2 px-1">FEB</span>
-                                        </span>
-                                    </span>
-                                </div>
-                                <img src="{{ asset('/web/img/demos/insurance/blog/post-thumb-2.jpg') }}" class="img-fluid" alt="Lorem Ipsum Dolor" />
-                            </div>
-                            <div class="card-body py-4 px-0">
-                                <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
-                                <h4 class="font-weight-bold text-5 text-color-hover-primary mb-2">Lorem ipsum dolor sit a met, consectetur</h4>
-                                <p class="text-3-5 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque rutrum pellentesqu... </p>
-                                <span class="custom-view-more d-inline-flex font-weight-semibold text-color-primary">
-                                    View More
-                                    <img width="27" height="27" src="{{ asset('/web/img/demos/insurance/icons/arrow-right.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary ms-2'}" style="width: 27px;" />
-                                </span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-9 col-md-6 col-lg-4">
-                    <a href="demo-insurance-blog-post.html" class="custom-link-hover-effects text-decoration-none">
-                        <div class="card border-0 bg-transparent">
-                            <div class="card-img-top position-relative overlay">
-                                <div class="position-absolute bottom-10 right-0 d-flex justify-content-end w-100 py-3 px-4 z-index-3">
-                                    <span class="custom-date-style-1 text-center bg-primary text-color-light font-weight-semibold line-height-2 px-3 py-2">
-                                        <span class="position-relative text-6 z-index-2">
-                                            12
-                                            <span class="d-block text-0 positive-ls-2 px-1">FEB</span>
-                                        </span>
-                                    </span>
-                                </div>
-                                <img src="{{ asset('/web/img/demos/insurance/blog/post-thumb-3.jpg') }}" class="img-fluid" alt="Lorem Ipsum Dolor" />
-                            </div>
-                            <div class="card-body py-4 px-0">
-                                <span class="d-block text-color-grey font-weight-semibold positive-ls-2 text-2">BY ADMIN</span>
-                                <h4 class="font-weight-bold text-5 text-color-hover-primary mb-2">Lorem ipsum dolor sit a met, consectetur</h4>
-                                <p class="text-3-5 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque rutrum pellentesqu... </p>
-                                <span class="custom-view-more d-inline-flex font-weight-semibold text-color-primary">
-                                    View More
-                                    <img width="27" height="27" src="{{ asset('/web/img/demos/insurance/icons/arrow-right.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary ms-2'}" style="width: 27px;" />
-                                </span>
-                            </div>
-                        </div>
-                    </a>
+            <div class="row justify-content-center position-relative gy-5 z-index-1">
+                <div class="col-md-12 col-lg-12 appear-animation animated fadeInRightShorterPlus appear-animation-visible" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="100" style="animation-delay: 100ms;">
+                    <p class="text-color-dark text-transform-none mb-3 text-justify">To make the participants aware of recenet advancement in the field of Civil Engineering practice and research. Scope of further technological advancement in variuos fields will also be discussed in the Conference. Participants will be introduced to variuos new techniques nd fieeld problems which may be useful in enriching knowledge and innovative ideas.</p>
+                    <h3 class="text-transform-none text-5-6 font-weight-semibold mb-3 text-success">Target Audience</h3>
+                    <p class="text-justify">Academicians, researchers, technocrats, practitioners, and students of Architecture and Civil Engineering.</p>
+                    <h4 class="text-transform-none">The conference invites papers in the following themes but will also accommodate other themes in civil engineering. The topics are not limited to the sub-themes mentioned.</h4>
+                    <ul class="list list-icons list-icons-style-2">
+                        <li><i class="fas fa-check"></i><strong>Building Technology and Construction Management:</strong> Sustainable planning, designing, and construction, Resoruces Management, Lean Construction Techniques, Risk Management, Construction Supply Chain Management, Information and Communication Technology (ICT) in Construction and Engineering Management, Alternate Builiding Technology, Green Buildings, Climate Responsive Architecture, Quality and Safety Construction</li>
+                        <li><i class="fas fa-check"></i><strong>Sustainable Materials and Structural system</strong></li>
+                        <li><i class="fas fa-check"></i><strong>Transportation Engineering</strong></li>
+                        <li><i class="fas fa-check"></i><strong>Geotechnical Engineering</strong></li>
+                        <li><i class="fas fa-check"></i><strong>Hydraulics and Water Resources Engineering</strong></li>
+                        <li><i class="fas fa-check"></i><strong>Environmental Engineering</strong></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section section-height-3 bg-primary position-relative z-index-1 border-0 m-0">
-        <div class="container">
-            <div class="row align-items-center gy-5">
-                <div class="col-xl-7 text-center text-xl-start">
-                    <h3 class="text-color-light font-weight-medium text-4 mb-1">LOOKING FOR AFFORDABLE INSURANCE?</h3>
-                    <h2 class="text-color-light font-weight-bold mb-1">Get Insurance Online and Save Up To 20%!</h2>
-                    <p class="text-color-light font-weight-semibold opacity-8 text-4 mb-0">Surprisigly great rates, get started right now. </p>
-                </div>
-                <div class="col-xl-5">
-                    <div class="d-flex flex-column flex-sm-row align-items-center justify-content-center justify-content-xl-end">
-                        <div class="d-inline-flex align-items-center mb-4 mb-sm-0">
-                            <i class="icons icon-phone text-7 text-color-light position-relative bottom-2"></i>
-                            <div class="ps-2">
-                                <span class="d-block text-2 font-weight-medium text-color-light line-height-1">CALL US NOW</span>
-                                <strong class="text-4"><a href="tel:+1234567890" class="text-color-light text-decoration-none">800-123-4567</a></strong>
-                            </div>
-                        </div>
-                        <div class="custom-divider px-3 me-3 ms-5-5 d-none d-sm-block"></div>
-                        <a href="#" class="btn btn-light btn-rounded font-weight-bold border-0 text-color-dark text-3 px-5 btn-py-3">GET STARTED</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 </div>
 @endsection

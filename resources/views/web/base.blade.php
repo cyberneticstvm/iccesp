@@ -103,13 +103,18 @@
                                             <nav class="collapse">
                                                 <ul class="nav nav-pills" id="mainNav">
                                                     <li>
-                                                        <a class="nav-link active" href="demo-insurance.html">
+                                                        <a class="nav-link {{ (request()->segment(1) == '') ? 'active' : '' }}" href="/">
                                                             Home
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a class="nav-link" href="demo-insurance-about-us.html">
+                                                        <a class="nav-link {{ (request()->segment(1) == 'about') ? 'active' : '' }}" href="{{ route('about') }}">
                                                             About the Conference
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="nav-link" href="demo-insurance-agents.html">
+                                                            Abstract Guidelines
                                                         </a>
                                                     </li>
                                                     <li>
@@ -144,7 +149,31 @@
         </header>
 
         @yield("content")
-
+        <section class="section section-height-3 bg-primary position-relative z-index-1 border-0 m-0">
+            <div class="container">
+                <div class="row align-items-center gy-5">
+                    <div class="col-xl-7 text-center text-xl-start">
+                        <h3 class="text-color-light font-weight-medium text-4 mb-1">IMPORTANT DATES</h3>
+                        <p class="text-color-light font-weight-semibold opacity-8 text-4 mb-0">Last date for Abstract Submission : April 1, 2024</p>
+                        <p class="text-color-light font-weight-semibold opacity-8 text-4 mb-0">Intimation and Acceptance of Abstract :May 1, 2024</p>
+                        <p class="text-color-light font-weight-semibold opacity-8 text-4 mb-0">Last date for full paper submission: </p>
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="d-flex flex-column flex-sm-row align-items-center justify-content-center justify-content-xl-end">
+                            <div class="d-inline-flex align-items-center mb-4 mb-sm-0">
+                                <i class="icons icon-phone text-7 text-color-light position-relative bottom-2"></i>
+                                <div class="ps-2">
+                                    <span class="d-block text-2 font-weight-medium text-color-light line-height-1">CALL NOW!</span>
+                                    <strong class="text-4"><a href="tel:+919562417322" class="text-color-light text-decoration-none">9562417322</a></strong>
+                                </div>
+                            </div>
+                            <div class="custom-divider px-3 me-3 ms-5-5 d-none d-sm-block"></div>
+                            <a href="#" class="btn btn-light btn-rounded font-weight-bold border-0 text-color-dark text-3 px-5 btn-py-3">REGISTER NOW!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <footer id="footer" class="position-relative bg-transparent border-top-0">
             <svg version="1.1" class="custom-svg-position-4" width="400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 393.35 539.93" data-appear-animation-svg="true">
                 <path class="appear-animation" data-appear-animation="customLines1anim" data-appear-animation-delay="450" data-appear-animation-duration="7s" fill="none" stroke="#d8d8d8" stroke-width="2px" stroke-miterlimit="10" d="M28.37,469.29c2.49-4.63,6.2-10.92,11.4-17.87c15.63-20.86,33.61-32.82,43.74-38.64
@@ -183,78 +212,42 @@
                 <div class="row gy-5">
                     <div class="col-lg-4">
                         <a href="demo-insurance.html" class="text-decoration-none">
-                            <img src="{{ asset('/web/img/demos/insurance/logo.png') }}" width="123" height="46" class="img-fluid mb-4" alt="Porto Insurance" />
+                            <img src="{{ asset('/web/img/demos/insurance/iccesp-logo.png') }}" class="img-fluid mb-4" alt="Iccesp 2024" />
                         </a>
-                        <p class="text-3-5 pe-lg-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque rutrum pellentesqu. </p>
-                        <ul class="list list-unstyled">
-                            <li class="d-flex align-items-center mb-4">
-                                <i class="icon icon-envelope text-color-dark text-5 font-weight-bold position-relative top-1 me-3-5"></i>
-                                <a href="mailto:porto@insurance.com" class="d-inline-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold text-4-5">porto@insurance.com</a>
-                            </li>
-                            <li class="d-flex align-items-center mb-4">
-                                <i class="icon icon-phone text-color-dark text-5 font-weight-bold position-relative top-1 me-3-5"></i>
-                                <a href="tel:8001234567" class="d-inline-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold text-4-5">800-123-4567</a>
-                            </li>
-                        </ul>
-                        <ul class="social-icons social-icons-clean social-icons-medium">
-                            <li class="social-icons-instagram">
-                                <a href="http://www.instagram.com/" target="_blank" title="Instagram">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                            </li>
-                            <li class="social-icons-twitter">
-                                <a href="http://www.twitter.com/" target="_blank" title="Twitter">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="social-icons-facebook">
-                                <a href="http://www.facebook.com/" target="_blank" title="Facebook">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                            </li>
-                        </ul>
+                        <p class="text-3-5 pe-lg-2 text-justify">This is second conference being organised in this theme. The main aim of the conference is to bring together leading academicians, researchers, technocrats, practitioners, and students and share their experience and research output on all aspects of Civil Engineering.</p>
                     </div>
                     <div class="col-lg-8">
                         <div class="row mb-5-5">
                             <div class="col-lg-6 mb-4 mb-lg-0">
-                                <h4 class="text-color-dark font-weight-bold mb-3">Navigation</h4>
+                                <h4 class="text-color-dark font-weight-bold mb-3">Important Links</h4>
                                 <ul class="list list-unstyled columns-lg-2">
-                                    <li><a href="#" class="text-color-grey text-color-hover-primary">Home</a></li>
-                                    <li><a href="#" class="text-color-grey text-color-hover-primary">About Us</a></li>
-                                    <li><a href="#" class="text-color-grey text-color-hover-primary">Insurance Products</a></li>
-                                    <li><a href="#" class="text-color-grey text-color-hover-primary">Agents</a></li>
-                                    <li><a href="#" class="text-color-grey text-color-hover-primary">Blog</a></li>
-                                    <li><a href="#" class="text-color-grey text-color-hover-primary">Contact Us</a></li>
+                                    <li><a href="#" class="text-color-grey text-color-hover-primary">Registration Details</a></li>
+                                    <li><a href="#" class="text-color-grey text-color-hover-primary">Abstract Guidelines</a></li>
+                                    <li><a href="#" class="text-color-grey text-color-hover-primary">Important Dates</a></li>
+                                    <li><a href="{{ route('about') }}" class="text-color-grey text-color-hover-primary">About the Conference</a></li>
                                 </ul>
                             </div>
                             <div class="col-lg-6">
-                                <h4 class="text-color-dark font-weight-bold mb-3">Insurance Products</h4>
+                                <h4 class="text-color-dark font-weight-bold mb-3">Quick Links</h4>
                                 <ul class="list list-unstyled columns-lg-2">
-                                    <li><a href="#" class="text-color-grey text-color-hover-primary">Home Insurance</a></li>
-                                    <li><a href="#" class="text-color-grey text-color-hover-primary">Travel Insurance</a></li>
-                                    <li><a href="#" class="text-color-grey text-color-hover-primary">Life Insurance</a></li>
-                                    <li><a href="#" class="text-color-grey text-color-hover-primary">Vehicle Insurance</a></li>
-                                    <li><a href="#" class="text-color-grey text-color-hover-primary">Business Insurance</a></li>
+                                    <li><a href="#" class="text-color-grey text-color-hover-primary">Advisory Committee</a></li>
+                                    <li><a href="#" class="text-color-grey text-color-hover-primary">Objectives</a></li>
+                                    <li><a href="#" class="text-color-grey text-color-hover-primary">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col">
-                                <div class="alert alert-success d-none" id="newsletterSuccess">
-                                    <strong>Success!</strong> You've been added to our email list.
-                                </div>
-                                <div class="alert alert-danger d-none" id="newsletterError"></div>
-                                <div class="d-flex flex-column flex-lg-row align-items-start align-items-lg-center">
-                                    <h4 class="text-color-dark ws-nowrap me-3 mb-3 mb-lg-0">Subscribe to Newsletter:</h4>
-                                    <form id="newsletterForm" class="form-style-3 w-100" action="php/newsletter-subscribe.php" method="POST">
-                                        <div class="d-flex">
-                                            <input class="form-control custom-form-control-newsletter-field box-shadow-none" placeholder="Email Address" name="newsletterEmail" id="newsletterEmail" type="text" />
-                                            <button class="btn btn-primary custom-form-control-newsletter-btn btn-px-3 btn-py-2 font-weight-bold" type="submit">
-                                                <img width="27" height="27" src="{{ asset('/web/img/demos/insurance/icons/arrow-right.svg') }}" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" style="width: 27px;" />
-                                            </button>
-                                        </div>
-                                    </form>
-                                </div>
+                                <ul class="list list-unstyled">
+                                    <li class="d-flex align-items-center mb-4">
+                                        <i class="icon icon-envelope text-color-dark text-5 font-weight-bold position-relative top-1 me-3-5"></i>
+                                        <a href="mailto:iccesp2024@gmail.com" class="d-inline-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold text-4-5">iccesp2024@gmail.com</a>
+                                    </li>
+                                    <li class="d-flex align-items-center mb-4">
+                                        <i class="icon icon-phone text-color-dark text-5 font-weight-bold position-relative top-1 me-3-5"></i>
+                                        <a href="tel:+919562417322" class="d-inline-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold text-4-5">+91 9562417322</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -265,7 +258,7 @@
                     <hr>
                     <div class="row">
                         <div class="col mt-4 mb-4">
-                            <p class="text-center text-3 mb-0">Porto Insurance © 2023. All Rights Reserved.</p>
+                            <p class="text-center text-3 mb-0"> © ICCESP 2024. All Rights Reserved.</p>
                         </div>
                     </div>
                 </div>
