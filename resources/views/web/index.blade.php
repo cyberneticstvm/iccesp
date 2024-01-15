@@ -79,8 +79,8 @@
                     <h1 class="font-weight-bold text-color-light custom-big-text-1 ws-nowrap pt-5 pb-5-5 mb-1 my-md-5 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">
                         <span class="d-none d-lg-block">ASCE</span>
                     </h1>
-                    <h2 class="text-color-dark font-weight-bold text-12 line-height-3 mb-2 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">AMERICAN SOCIETY <br />FOR CIVIL ENGINEERS</h2>
-                    <p class="text-color-dark text-4 font-weight-medium mb-4-5 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">SECOND INTERNATIONAL CONFERENCE IN CIVIL ENGINEERING <br />FOR SUSTAINABLE PLANET (ICCESP 2024)</p>
+                    <h2 class="text-color-dark line-height-3 font-weight-bold mb-2 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">SECOND INTERNATIONAL CONFERENCE IN CIVIL ENGINEERING FOR SUSTAINABLE PLANET (ICCESP 2024)</h2>
+                    <p class="text-color-dark text-4 font-weight-medium mb-4-5 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100"></p>
                     <p class="text-dark">6,7,8 DECEMBER 2024</p>
                     <a href="#" class="btn btn-primary btn-rounded border-0 font-weight-bold text-3 px-5 btn-py-3 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">REGISTER NOW</a>
                 </div>
@@ -166,6 +166,28 @@
             </div>
         </div>
     </section>
-
+</div>
+<div class="modal fade" id="defaultModal" tabindex="-1" role="dialog" aria-labelledby="defaultModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="defaultModalLabel">Important Dates</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="">
+                    <img alt="Porto" width="123" height="46" src="{{ asset('/web/img/demos/insurance/iccesp-logo.png') }}">
+                </div>
+                <div class="mt-3">
+                    <p class="text-4 mb-0 text-info">Last date for Abstract Submission : April 1, 2024</p>
+                    <p class="text-4 mb-0 text-info">Intimation and Acceptance of Abstract :May 1, 2024</p>
+                    <p class="text-4 mb-0 text-info">Last date for full paper submission: </p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
 </div>
 @endsection
