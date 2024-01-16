@@ -67,9 +67,9 @@
                         </div>
                         <div class="header-column justify-content-end align-items-center flex-row">
                             <div class="header-nav-features">
-                                <a href="tel:+919562417322" class="d-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold ms-1 me-3">
+                                <a href="tel:+917907743147" class="d-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold ms-1 me-3">
                                     <i class="icon icon-phone text-4-5 me-2"></i>
-                                    +91 9562417322, +91 9048550123
+                                    +91 7907743147, +91 9048550123
                                 </a>
                             </div>
                             <div class="header-nav-features d-none d-md-block">
@@ -163,8 +163,12 @@
                             <div class="d-inline-flex align-items-center mb-4 mb-sm-0">
                                 <i class="icons icon-phone text-7 text-color-light position-relative bottom-2"></i>
                                 <div class="ps-2">
-                                    <span class="d-block text-2 font-weight-medium text-color-light line-height-1">CALL NOW!</span>
-                                    <strong class="text-4"><a href="tel:+919562417322" class="text-color-light text-decoration-none">9562417322</a></strong>
+                                    <span class="d-block text-2 font-weight-medium text-color-light line-height-1">Organiser</span>
+                                    <strong class="text-4"><a href="tel:+917907743147" class="text-color-light text-decoration-none">7907743147</a></strong><br /><br />
+                                    <span class="d-block text-2 font-weight-medium text-color-light line-height-1">Prof. Abhijith R.P</span>
+                                    <strong class="text-4"><a href="tel:+919567687372" class="text-color-light text-decoration-none">9567687372</a></strong><br /><br />
+                                    <span class="d-block text-2 font-weight-medium text-color-light line-height-1">Prof. Renju C.M</span>
+                                    <strong class="text-4"><a href="tel:+919400456728" class="text-color-light text-decoration-none">9400456728</a></strong>
                                 </div>
                             </div>
                             <div class="custom-divider px-3 me-3 ms-5-5 d-none d-sm-block"></div>
@@ -245,7 +249,7 @@
                                     </li>
                                     <li class="d-flex align-items-center mb-4">
                                         <i class="icon icon-phone text-color-dark text-5 font-weight-bold position-relative top-1 me-3-5"></i>
-                                        <a href="tel:+919562417322" class="d-inline-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold text-4-5">+91 9562417322</a>
+                                        <a href="tel:+917907743147" class="d-inline-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold text-4-5">+91 7907743147</a>,&nbsp;&nbsp;&nbsp; <a href="tel:+919567687372" class="d-inline-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold text-4-5">+91 9567687372</a>,&nbsp;&nbsp;&nbsp; <a href="tel:+919400456728" class="d-inline-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold text-4-5">+91 9400456728</a>
                                     </li>
                                 </ul>
                             </div>

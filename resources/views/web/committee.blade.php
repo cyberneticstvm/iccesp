@@ -40,7 +40,7 @@
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
-                                    <span class="thumb-info-caption-text font-weight-bold">Rev. Dr A.R. John</span>
+                                    <span class="thumb-info-caption-text font-weight-bold">Rev. Dr A.R. John, Marian Engineering College</span>
                                 </span>
                             </span>
                         </div>
@@ -52,7 +52,7 @@
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
-                                    <span class="thumb-info-caption-text font-weight-bold">Dr Abdul Nizar</span>
+                                    <span class="thumb-info-caption-text font-weight-bold">Dr Abdul Nizar, Principal, Marian Engineering College</span>
                                 </span>
                             </span>
                         </div>
@@ -64,7 +64,7 @@
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
-                                    <span class="thumb-info-caption-text font-weight-bold">Dr.Samson A</span>
+                                    <span class="thumb-info-caption-text font-weight-bold">Dr.Samson A, Dean, Marian Engineering College</span>
                                 </span>
                             </span>
                         </div>
@@ -76,7 +76,7 @@
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
-                                    <span class="thumb-info-caption-text font-weight-bold">DR Narayanan S</span>
+                                    <span class="thumb-info-caption-text font-weight-bold">DR Narayanan S, HOD CIVIL, Marian Engineering College</span>
                                 </span>
                             </span>
                         </div>
