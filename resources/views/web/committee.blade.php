@@ -5,17 +5,14 @@
         <div class="container custom-container-background z-index-1 py-5">
             <div class="row position-relative z-index-1 pt-5-5">
                 <div class="col text-center">
-                    <h2 class="text-color-dark font-weight-medium text-8 mb-5-5">Advisory Committee</h2>
-                    <h4 class="text-start">PATRONS</h4>
+                    <!--<h2 class="text-color-dark font-weight-medium text-8 mb-5-5">Advisory Committee</h2>-->
+                    <h4 class="text-start font-weight-bold">PATRONS</h4>
                     <div class="row team-list sort-destination" data-sort-id="team">
                         <div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
                             <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
                                 <span class="thumb-info-wrapper">
                                     <a href="#">
                                         <img src="{{ asset('/web/img/committee/archbishop.png') }}" class="img-fluid" alt="">
-                                        <span class="thumb-info-title">
-                                            <span class="thumb-info-type">DEAN</span>
-                                        </span>
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
@@ -28,13 +25,10 @@
                                 <span class="thumb-info-wrapper">
                                     <a href="#">
                                         <img src="{{ asset('/web/img/committee/saji.png') }}" class="img-fluid" alt="">
-                                        <span class="thumb-info-title">
-                                            <span class="thumb-info-type">HOD CIVIL</span>
-                                        </span>
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
-                                    <span class="thumb-info-caption-text font-weight-bold">DR. SAJI GOPINATH VICE CHANCELLOR KTU,Thiruvanan</span>
+                                    <span class="thumb-info-caption-text font-weight-bold">DR. SAJI GOPINATH VICE CHANCELLOR KTU</span>
                                 </span>
                             </span>
                         </div>
@@ -43,9 +37,6 @@
                                 <span class="thumb-info-wrapper">
                                     <a href="#">
                                         <img src="{{ asset('/web/img/committee/john.png') }}" class="img-fluid" alt="">
-                                        <span class="thumb-info-title">
-                                            <span class="thumb-info-type">MANAGER</span>
-                                        </span>
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
@@ -58,9 +49,6 @@
                                 <span class="thumb-info-wrapper">
                                     <a href="#">
                                         <img src="{{ asset('/web/img/committee/abdul.png') }}" class="img-fluid" alt="">
-                                        <span class="thumb-info-title">
-                                            <span class="thumb-info-type">PRINCIPAL</span>
-                                        </span>
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
@@ -73,9 +61,6 @@
                                 <span class="thumb-info-wrapper">
                                     <a href="#">
                                         <img src="{{ asset('/web/img/committee/samson.png') }}" class="img-fluid" alt="">
-                                        <span class="thumb-info-title">
-                                            <span class="thumb-info-type"></span>
-                                        </span>
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
@@ -88,9 +73,6 @@
                                 <span class="thumb-info-wrapper">
                                     <a href="#">
                                         <img src="{{ asset('/web/img/committee/narayanan.png') }}" class="img-fluid" alt="">
-                                        <span class="thumb-info-title">
-                                            <span class="thumb-info-type"></span>
-                                        </span>
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
@@ -99,31 +81,25 @@
                             </span>
                         </div>
                     </div>
-                    <h4 class="text-start">KEYNOTE ADDRESSES</h4>
+                    <h4 class="text-start font-weight-bold">KEYNOTE ADDRESSES</h4>
                     <div class="row team-list sort-destination" data-sort-id="team">
-                        <div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
+                        <!--<div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
                             <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
                                 <span class="thumb-info-wrapper">
                                     <a href="#">
                                         <img src="{{ asset('/web/img/committee/vinu.png') }}" class="img-fluid" alt="">
-                                        <span class="thumb-info-title">
-                                            <span class="thumb-info-type"></span>
-                                        </span>
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
                                     <span class="thumb-info-caption-text font-weight-bold">Dr Vinu Unnikrishnan, WTAM University, USA</span>
                                 </span>
                             </span>
-                        </div>
+                        </div>-->
                         <div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
                             <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
                                 <span class="thumb-info-wrapper">
                                     <a href="#">
                                         <img src="{{ asset('/web/img/committee/neithalath.png') }}" class="img-fluid" alt="">
-                                        <span class="thumb-info-title">
-                                            <span class="thumb-info-type"></span>
-                                        </span>
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
@@ -136,9 +112,6 @@
                                 <span class="thumb-info-wrapper">
                                     <a href="#">
                                         <img src="{{ asset('/web/img/committee/moni.png') }}" class="img-fluid" alt="">
-                                        <span class="thumb-info-title">
-                                            <span class="thumb-info-type"></span>
-                                        </span>
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
@@ -146,14 +119,11 @@
                                 </span>
                             </span>
                         </div>
-                        <div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
+                        <!--<div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
                             <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
                                 <span class="thumb-info-wrapper">
                                     <a href="#">
                                         <img src="{{ asset('/web/img/team/team-2.jpg') }}" class="img-fluid" alt="">
-                                        <span class="thumb-info-title">
-                                            <span class="thumb-info-type"></span>
-                                        </span>
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
@@ -166,16 +136,13 @@
                                 <span class="thumb-info-wrapper">
                                     <a href="#">
                                         <img src="{{ asset('/web/img/team/team-2.jpg') }}" class="img-fluid" alt="">
-                                        <span class="thumb-info-title">
-                                            <span class="thumb-info-type"></span>
-                                        </span>
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
                                     <span class="thumb-info-caption-text font-weight-bold">Dr Mahen Mahendran, QUT, Australia</span>
                                 </span>
                             </span>
-                        </div>
+                        </div>-->
                     </div>
                     <h4 class="text-start">CONFERENCE CHAIRS</h4>
                     <div class="row">

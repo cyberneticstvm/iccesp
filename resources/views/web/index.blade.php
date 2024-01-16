@@ -76,10 +76,13 @@
             <img src="{{ asset('/web/img/demos/insurance/generic/generic-3.png') }}" class="img-fluid position-absolute top-10 right-0 z-index-1 d-none d-lg-block appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="100" alt="Woman Hero" />
             <div class="row align-items-center pb-5 mb-4">
                 <div class="col-lg-6">
-                    <h1 class="font-weight-bold text-color-light custom-big-text-1 ws-nowrap pt-5 pb-5-5 mb-1 my-md-5 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">
+                    <!--<h1 class="font-weight-bold text-color-light custom-big-text-1 ws-nowrap pt-5 pb-5-5 mb-1 my-md-5 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">
                         <span class="d-none d-lg-block">ASCE</span>
-                    </h1>
-                    <h2 class="text-color-dark line-height-3 font-weight-bold mb-2 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">SECOND INTERNATIONAL CONFERENCE IN CIVIL ENGINEERING FOR SUSTAINABLE PLANET (ICCESP 2024)</h2>
+                    </h1>-->
+                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">Marian college of Engineering</h3>
+                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">Habilete learning solutions Pvt Ltd</h3>
+                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">American Society of Civil Engineers (ASCE)</h3>
+                    <h2 class="text-color-dark line-height-3 mb-2 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">SECOND INTERNATIONAL CONFERENCE IN CIVIL ENGINEERING FOR SUSTAINABLE PLANET (ICCESP 2024)</h2>
                     <p class="text-color-dark text-4 font-weight-medium mb-4-5 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100"></p>
                     <p class="text-dark">6,7,8 DECEMBER 2024</p>
                     <a href="#" class="btn btn-primary btn-rounded border-0 font-weight-bold text-3 px-5 btn-py-3 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">REGISTER NOW</a>
@@ -150,14 +153,14 @@
             </div>
             <div class="row justify-content-center position-relative gy-5 z-index-1">
                 <div class="col-md-12 col-lg-12 appear-animation animated fadeInRightShorterPlus appear-animation-visible" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="100" style="animation-delay: 100ms;">
-                    <p class="text-color-dark text-transform-none mb-3 text-justify">To make the participants aware of recenet advancement in the field of Civil Engineering practice and research. Scope of further technological advancement in variuos fields will also be discussed in the Conference. Participants will be introduced to variuos new techniques nd fieeld problems which may be useful in enriching knowledge and innovative ideas.</p>
+                    <p class="text-color-dark text-transform-none mb-3 text-justify">To make the participants aware of recent advancement in the field of Civil Engineering practice and research. Scope of further technological advancement in various fields will also be discussed in the Conference. Participants will be introduced to various new technologies and field problems which may be useful in enriching knowledge and innovative ideas.</p>
                     <h3 class="text-transform-none text-5-6 font-weight-semibold mb-3 text-success">Target Audience</h3>
-                    <p class="text-justify">Academicians, researchers, technocrats, practitioners, and students of Architecture and Civil Engineering.</p>
+                    <p class="text-justify">Academicians, researchers, technocrats, practitioners, and students of Civil Engineering and Architecture.</p>
                     <h4 class="text-transform-none">The conference invites papers in the following themes but will also accommodate other themes in civil engineering. The topics are not limited to the sub-themes mentioned.</h4>
                     <ul class="list list-icons list-icons-style-2">
-                        <li><i class="fas fa-check"></i><strong>Building Technology and Construction Management: </strong> Sustainable planning, designing, and construction, Resoruces Management, Lean Construction Techniques, Risk Management, Construction Supply Chain Management, Information and Communication Technology (ICT) in Construction and Engineering Management, Alternate Builiding Technology, Green Buildings, Climate Responsive Architecture, Quality and Safety Construction</li>
+                        <li><i class="fas fa-check"></i><strong>Building Technology and Resources Management: </strong> Sustainable planning, designing, and construction, Resoruces Management, Lean Construction Techniques, Risk Management, Construction Supply Chain Management, Information and Communication Technology (ICT) in Construction and Engineering Management, Alternate Builiding Technology, Green Buildings, Climate Responsive Architecture, Quality and Safety Construction</li>
                         <li><i class="fas fa-check"></i><strong>Sustainable Materials and Structural system: </strong>Innovative Cementitious Materials and Aggregates, Durability of Concrete, Retrofiting and Rehabilitation of Buildings and Bridges, Structural Health Monitoring, Risk Assessment and Structural Failures, Smart Structures and Prefabricated Buildings, Material Technology, Inductsrial and High-Rise Buildings, Marine and Offshore Structures, Disaster Resistent Structures</li>
-                        <li><i class="fas fa-check"></i><strong>Transportation Engineering: </strong>Intelligent Transporting System, Traffic Engineering and Management, Transportation Planning and System Analysis, Traffic Flow Modeling, Safe Roads, Public Transport NMT (Non-Motorised Modes of ransport), COVID Impacts in the ransportation Sector, Highway and Airfield Pavements, Railway, Waterways, and Airways</li>
+                        <li><i class="fas fa-check"></i><strong>Transportation Engineering: </strong>Intelligent Transporting System, Traffic Engineering and Management, Transportation Planning and System Analysis, Traffic Flow Modeling, Safe Roads, Public Transport NMT (Non-Motorised Modes of ransport), COVID Impacts in the transportation sector, Highway and Airfield Pavements, Railway, Waterways, and Airways</li>
                         <li><i class="fas fa-check"></i><strong>Geotechnical Engineering: </strong>Ground Improvement Techniques, Analysis and Design of Foundation, Pavement Geotechnics, Environmental Geotechnics, Geosynthetics and Reinforced Soil Structures, Soil and Rock Slope Stability, Forensic Geotechnical Engineering</li>
                         <li><i class="fas fa-check"></i><strong>Hydraulics and Water Resources Engineering: </strong>Surface and Ground Water Hydrology, Advances in Fluid Mechanics, Application of Remote Sensing / GIS in Water Resource Engineering, Sediment Transport, Reservoir Sedimentation, Irrigation Technology, Analysis of Flood and Drought, Climate Change, River Modelling and Hydraulics, Sustainable Water Management</li>
                         <li><i class="fas fa-check"></i><strong>Environmental Engineering: </strong>Pollution Control, Management Bioremediation, Waste Water Treatment and Filtration Methods, Environmental Impact Assessment, Microbiological Treatments, Water Quality Assessment and Modelling</li>
@@ -181,7 +184,7 @@
                 <div class="mt-3">
                     <p class="text-4 mb-0 text-info">Last date for Abstract Submission : April 1, 2024</p>
                     <p class="text-4 mb-0 text-info">Intimation and Acceptance of Abstract :May 1, 2024</p>
-                    <p class="text-4 mb-0 text-info">Last date for full paper submission: </p>
+                    <p class="text-4 mb-0 text-info">Last date for full paper submission: Will announce shortly</p>
                 </div>
             </div>
             <div class="modal-footer">

@@ -14,8 +14,8 @@
                     <h2 class="text-color-dark font-weight-medium text-8 mb-5-5">Registration and Publications</h2>
                     <dl class="text-start">
                         <dt>Registration Fee</dt>
-                        <dd>Students / Research Scholar: ₹1200</dd>
-                        <dd>Faculty Members: ₹2000</dd>
+                        <dd>Students / Research Scholar: ₹2000</dd>
+                        <dd>Faculty Members: ₹2500</dd>
                         <dd>Industry / Corporate Delegates: ₹3000</dd>
                         <dd>Student Participants (Attendees): ₹750</dd>
                         <dd>Foreign Delegates: USD 100</dd>
@@ -27,13 +27,14 @@
                         <dd>Account Number: 10190200025184</dd>
                         <dd>IFSC: FDRL0001019</dd>
                     </dl>
+                    <p>The conference registration fee covers the registration and attendance for the main author. An additional fee of Rs. 500 per person applies for co-authors attending and receiving certificates.</p>
                 </div>
                 <div class="col-12 text-center mt-5">
                     <h2 class="text-color-dark font-weight-medium text-8 mb-5-5">Important Dates</h2>
                     <dl class="text-start">
                         <dd>Last date for Abstract Submission : April 1, 2024</dd>
                         <dd>Intimation and Acceptance of Abstract :May 1, 2024</dd>
-                        <dd>Last date for full paper submission:</dd>
+                        <dd>Last date for full paper submission: Will announce shortly</dd>
                     </dl>
                 </div>
             </div>
