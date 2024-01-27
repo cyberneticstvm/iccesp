@@ -30,14 +30,11 @@
             </div>
             <div class="row align-items-center pt-1 my-5">
                 <div class="col-lg-6 text-center text-lg-start order-2 order-lg-1 appear-animation animated fadeInLeftShorterPlus appear-animation-visible" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="100" style="animation-delay: 100ms;">
-                    <h2 class="text-color-dark font-weight-medium text-8 mb-4-5">HABILETTE LEARNING SOLUTIONS</h2>
-                    <p class="text-3-5 line-height-8 mb-4 text-justify">Habelite learning solutions India private Ltd is established by six professionals each having over 20 years of national and international experience in different industries ranging from education, engineering, communication and information technology. The company is established with a key vision of educating professionals to be leaders in a modern community by acting as a creative agent for change and diversity.<br />
+                    <h2 class="text-color-dark font-weight-medium text-8 mb-4-5">ASCE INDIA SECTION, SOUTHERN REGION</h2>
 
-                        To cater the needs of the current Engineering market Habilete acquired CADPOINT Kollam a vibrant, innovative and creative hub of learning that never surrenders to conventions. Habilete delivers flexible education and training options that will help engineering students and organizations to maximize productivity and to achieve significant competitive advantage. Habilete is also specialized in organizing conference, webinars, and seminars to cater to the student commuity.</p>
-                    <a href="https://habilete.co.in/" target="_blank" class="btn btn-secondary btn-outline btn-rounded font-weight-bold btn-px-5 py-3">KNOW MORE</a>
                 </div>
                 <div class="col-lg-5 text-center text-lg-end order-1 order-lg-2">
-                    <img src="https://habilete.co.in/images/habilete/habilete-logo.png" class="img-fluid mb-4 mb-lg-0 appear-animation animated fadeInLeftShorterPlus appear-animation-visible" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="100" alt="" style="animation-delay: 100ms;">
+                    <img src="{{ asset('/web/img/iccesp/asce.jpeg') }}" class="img-fluid mb-4 mb-lg-0 appear-animation animated fadeInLeftShorterPlus appear-animation-visible" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="100" alt="" style="animation-delay: 100ms;">
                 </div>
             </div>
             <div class="row align-items-center pb-5 pb-lg-0 mb-5 mb-lg-0">
@@ -49,6 +46,18 @@
                     <p class="text-3-5 line-height-8 mb-4 text-justify">The American Society of Civil Engineers represents more than 1,50,000 members of the civil engineering profession in 177 countries. Founded in 1852, ASCE is the nation's oldest engineering society. ASCE stands at the forefront of profession that plans, designs, constructs, and operates society's economic and social engine - the built environment - while protecting and restoring the natural environment. Through the expertise of its active membership, ASCE is leading provider of technical and professional conferences and continuing education, the world's largest publisher of civil engineering content, and an authoritative source for codes and standards that protect the public. The Society advances civil engineering technical specialities through nine dynamic institutes and leads with its many professional and public focused programs.
                     </p>
                     <a href="https://www.asce.org/" target="_blank" class="btn btn-secondary btn-outline btn-rounded font-weight-bold btn-px-5 py-3">KNOW MORE</a>
+                </div>
+            </div>
+            <div class="row align-items-center pt-1 my-5">
+                <div class="col-lg-6 text-center text-lg-start order-2 order-lg-1 appear-animation animated fadeInLeftShorterPlus appear-animation-visible" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="100" style="animation-delay: 100ms;">
+                    <h2 class="text-color-dark font-weight-medium text-8 mb-4-5">HABILETTE LEARNING SOLUTIONS</h2>
+                    <p class="text-3-5 line-height-8 mb-4 text-justify">Habelite learning solutions India private Ltd is established by six professionals each having over 20 years of national and international experience in different industries ranging from education, engineering, communication and information technology. The company is established with a key vision of educating professionals to be leaders in a modern community by acting as a creative agent for change and diversity.<br />
+
+                        To cater the needs of the current Engineering market Habilete acquired CADPOINT Kollam a vibrant, innovative and creative hub of learning that never surrenders to conventions. Habilete delivers flexible education and training options that will help engineering students and organizations to maximize productivity and to achieve significant competitive advantage. Habilete is also specialized in organizing conference, webinars, and seminars to cater to the student commuity.</p>
+                    <a href="https://habilete.co.in/" target="_blank" class="btn btn-secondary btn-outline btn-rounded font-weight-bold btn-px-5 py-3">KNOW MORE</a>
+                </div>
+                <div class="col-lg-5 text-center text-lg-end order-1 order-lg-2">
+                    <img src="https://habilete.co.in/images/habilete/habilete-logo.png" class="img-fluid mb-4 mb-lg-0 appear-animation animated fadeInLeftShorterPlus appear-animation-visible" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="100" alt="" style="animation-delay: 100ms;">
                 </div>
             </div>
         </div>

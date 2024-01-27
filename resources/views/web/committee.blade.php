@@ -40,7 +40,7 @@
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
-                                    <span class="thumb-info-caption-text font-weight-bold">Rev. Dr A.R. John, Marian Engineering College</span>
+                                    <span class="thumb-info-caption-text font-weight-bold">Rev. Dr A.R. John, Manager, Marian Engineering College</span>
                                 </span>
                             </span>
                         </div>
@@ -103,7 +103,7 @@
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
-                                    <span class="thumb-info-caption-text font-weight-bold">Dr Narayanan Neithalath, ASU,USA</span>
+                                    <span class="thumb-info-caption-text font-weight-bold">Dr Narayanan Neithalath, Professor, School of Sustainable Eng. & the Built Environmet, Arizona State University</span>
                                 </span>
                             </span>
                         </div>
@@ -115,19 +115,7 @@
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
-                                    <span class="thumb-info-caption-text font-weight-bold">Dr Monto Moni IISc</span>
-                                </span>
-                            </span>
-                        </div>
-                        <!--<div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
-                            <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
-                                <span class="thumb-info-wrapper">
-                                    <a href="#">
-                                        <img src="{{ asset('/web/img/team/team-2.jpg') }}" class="img-fluid" alt="">
-                                    </a>
-                                </span>
-                                <span class="thumb-info-caption">
-                                    <span class="thumb-info-caption-text font-weight-bold">Dr Nithin Sudarsan North Carolina State University</span>
+                                    <span class="thumb-info-caption-text font-weight-bold">Dr Monto Moni, Center for Sustainable Technologies, IISc, Bengaluru</span>
                                 </span>
                             </span>
                         </div>
@@ -139,10 +127,90 @@
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
+                                    <span class="thumb-info-caption-text font-weight-bold">Dr Nithin Sudarsan, Research Associate, Dept. of Civil, construction & Environmental Engineering, North Carolina State University, Raleigh NC-27606</span>
+                                </span>
+                            </span>
+                        </div>
+                        <!--<div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
+                            <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
+                                <span class="thumb-info-wrapper">
+                                    <a href="#">
+                                        <img src="{{ asset('/web/img/team/team-2.jpg') }}" class="img-fluid" alt="">
+                                    </a>
+                                </span>
+                                <span class="thumb-info-caption">
                                     <span class="thumb-info-caption-text font-weight-bold">Dr Mahen Mahendran, QUT, Australia</span>
                                 </span>
                             </span>
                         </div>-->
+                    </div>
+                    <h4 class="text-start font-weight-bold">ADVISORY COMMITTEE</h4>
+                    <div class="row team-list sort-destination" data-sort-id="team">
+
+                        <div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
+                            <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
+                                <span class="thumb-info-wrapper">
+                                    <a href="#">
+                                        <img src="{{ asset('/web/img/committee/harilal.jpeg') }}" class="img-fluid" alt="">
+                                    </a>
+                                </span>
+                                <span class="thumb-info-caption">
+                                    <span class="thumb-info-caption-text font-weight-bold">Harilal VS</span>
+                                </span>
+                            </span>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
+                            <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
+                                <span class="thumb-info-wrapper">
+                                    <a href="#">
+                                        <img src="{{ asset('/web/img/committee/unni.jpeg') }}" class="img-fluid" alt="">
+                                    </a>
+                                </span>
+                                <span class="thumb-info-caption">
+                                    <span class="thumb-info-caption-text font-weight-bold">Unnikrishnan A, Director, Samashti Construction Management & Consultancy, Cochin</span>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <h4 class="text-start font-weight-bold">ASCE IS SR OFFICERS</h4>
+                    <div class="row team-list sort-destination" data-sort-id="team">
+
+                        <div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
+                            <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
+                                <span class="thumb-info-wrapper">
+                                    <a href="#">
+                                        <img src="{{ asset('/web/img/committee/pradeep.jpeg') }}" class="img-fluid" alt="">
+                                    </a>
+                                </span>
+                                <span class="thumb-info-caption">
+                                    <span class="thumb-info-caption-text font-weight-bold">S. Pradeep, M.ASCE, President </span>
+                                </span>
+                            </span>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
+                            <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
+                                <span class="thumb-info-wrapper">
+                                    <a href="#">
+                                        <img src="{{ asset('/web/img/team/team-2.jpg') }}" class="img-fluid" alt="">
+                                    </a>
+                                </span>
+                                <span class="thumb-info-caption">
+                                    <span class="thumb-info-caption-text font-weight-bold">Guda Sridevi Ph.D, Aff.M.ASCE, Secretary</span>
+                                </span>
+                            </span>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
+                            <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
+                                <span class="thumb-info-wrapper">
+                                    <a href="#">
+                                        <img src="{{ asset('/web/img/iccesp/kishorep.jpg') }}" class="img-fluid" alt="">
+                                    </a>
+                                </span>
+                                <span class="thumb-info-caption">
+                                    <span class="thumb-info-caption-text font-weight-bold">Kishore Pankan, MBA, Ph.D, PMP, Prince2, A.M.ASCE, Treasurer</span>
+                                </span>
+                            </span>
+                        </div>
                     </div>
                     <h4 class="text-start">CONFERENCE CHAIRS</h4>
                     <div class="row">
@@ -208,20 +276,20 @@
                                             Elias B Sayah - Director of ASCE Region 10(2019-22)
                                         </td>
                                         <td>
-                                            Prof Gicy M Kovoor, MIT
+                                            Prof Gicy M Kovoor, Rtd. Professor, MIT, Manipal
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            Dr Kuncheria P Isaac
+                                            Dr Kuncheria P Isaac, Former VC, APJ Abdul Kalam Technological University
                                         </td>
                                         <td>
-                                            Dr Jaya K.P, Anna University
+                                            Dr Jaya K.P, Professor, Department of Civil Engineering, Anna University, Chennai
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            Dr Narayanan Neithalath, ASU, USA
+                                            Dr Narayanan Neithalath, Professor, School of Sustainable Eng. & the Built Environmet, Arizona State University
                                         </td>
                                         <td>
                                             Dr Santosh Satyapal, Vizhinjam Seaport Ltd
@@ -229,18 +297,18 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            Prof Beena Sukumaran, Miami University, USA
+                                            Prof Beena Sukumaran, Dean, College of Engineering & computing, Miami University, USA
                                         </td>
                                         <td>
-                                            Dr Jayamohan, LBS Engineering College
+                                            Dr Jayamohan, Professor in Civil Engineering, LBS Institute of Technology for Women, Poojappura, Trivandrum
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            Dr Mahen Mahendran, QUT, Australia
+                                            Dr Mahen Mahendran, Professor of Structural Engineering, School of Civil and Environmental Engg., Queensland, Australia
                                         </td>
                                         <td>
-                                            Dr Samson Mathew, NIT Trichy
+                                            Dr Samson Mathew, Director, KSCSTE NATPAC (On deputation from NIT Trichy)
                                         </td>
                                     </tr>
                                     <tr>
@@ -248,7 +316,7 @@
                                             Prof Vinu Unnikrishnan, Asst Prof, West Texas A&M University, USA
                                         </td>
                                         <td>
-                                            Dr Anand K.B, Prof., Amrita, Coimbatore
+                                            Dr Anand K.B, Prof. in Civil Engineering, Amrita School of Engineering, Coimbatore
                                         </td>
                                     </tr>
                                     <tr>
@@ -256,7 +324,7 @@
                                             Dr Pradeep Sivanthan, Associate Prof, SRM, President, India Section, Southern Region
                                         </td>
                                         <td>
-                                            Dr Divya KK, Assoc.& HOD, Vedavyasa Institute of Technology
+                                            Dr Divya KK, Assoc. Prof. & HOD, Vedavyasa Institute of Technology
                                         </td>
                                     </tr>
                                     <tr>
@@ -264,7 +332,15 @@
                                             Dr T.M.Madhavan Pillai, HOD Civil, NITC
                                         </td>
                                         <td>
-                                            Dr Kasturba A.K, Architecture Dept, NITC
+                                            Dr Kasthurba A.K, Professor & HOD, Architecture Dept, NITC, Calicut
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Unni Bhaskar, MD, UNO Technology Pvt Ltd.
+                                        </td>
+                                        <td>
+
                                         </td>
                                     </tr>
                                 </tbody>

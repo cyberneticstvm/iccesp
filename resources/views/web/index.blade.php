@@ -80,6 +80,7 @@
                         <span class="d-none d-lg-block">ASCE</span>
                     </h1>-->
                     <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">Marian college of Engineering</h3>
+                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">ASCE India Section, Southern Region</h3>
                     <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">Habilete learning solutions Pvt Ltd</h3>
                     <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">American Society of Civil Engineers (ASCE)</h3>
                     <h2 class="text-color-dark line-height-3 mb-2 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">SECOND INTERNATIONAL CONFERENCE IN CIVIL ENGINEERING FOR SUSTAINABLE PLANET (ICCESP 2024)</h2>
@@ -111,7 +112,7 @@
                         <span class="thumb-info-wrapper">
                             <img src="{{ asset('/web/img/iccesp/kishorep.jpg') }}" class="img-fluid" alt="" style="width:50%">
                             <span class="thumb-info-title">
-                                <span class="thumb-info-inner line-height-1">Dr. Kishore P</span>
+                                <span class="thumb-info-inner line-height-1">Dr. Kishore P, MBA, PhD, PMP, Pronce2, A.M.ASCE, Treasurer, India Section, Southern Region</span>
                             </span>
                         </span>
                     </span>
