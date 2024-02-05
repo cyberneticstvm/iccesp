@@ -16,7 +16,11 @@
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
-                                    <span class="thumb-info-caption-text font-weight-bold">ARCHBISHOP His Grace Most Rev.Dr.Thomas J Netto</span>
+                                    <span class="thumb-info-caption-text font-weight-bold">His Grace Most Rev.
+                                        Dr. Thomas J. Netto
+                                        Archbishop
+                                        Archdiocese of Trivandrum
+                                    </span>
                                 </span>
                             </span>
                         </div>
@@ -24,11 +28,15 @@
                             <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
                                 <span class="thumb-info-wrapper">
                                     <a href="#">
-                                        <img src="{{ asset('/web/img/committee/saji.png') }}" class="img-fluid" alt="">
+                                        <img src="{{ asset('/web/img/committee/christudas.jpg') }}" class="img-fluid" alt="">
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
-                                    <span class="thumb-info-caption-text font-weight-bold">DR. SAJI GOPINATH VICE CHANCELLOR KTU</span>
+                                    <span class="thumb-info-caption-text font-weight-bold">His Grace Most Rev.
+                                        Dr. Christudas Rajappan
+                                        Auxiliary Bishop
+                                        Archdiocese of Trivandrum
+                                    </span>
                                 </span>
                             </span>
                         </div>
@@ -40,10 +48,29 @@
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
-                                    <span class="thumb-info-caption-text font-weight-bold">Rev. Dr A.R. John, Manager, Marian Engineering College</span>
+                                    <span class="thumb-info-caption-text font-weight-bold">Rev. Dr. A.R. John
+                                        Manager
+                                        Marian Engineering College
+                                    </span>
                                 </span>
                             </span>
                         </div>
+                        <div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
+                            <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
+                                <span class="thumb-info-wrapper">
+                                    <a href="#">
+                                        <img src="{{ asset('/web/img/committee/saji.png') }}" class="img-fluid" alt="">
+                                    </a>
+                                </span>
+                                <span class="thumb-info-caption">
+                                    <span class="thumb-info-caption-text font-weight-bold">Dr. Saji Gopinath
+                                        Vice Chancellor
+                                        KTU
+                                    </span>
+                                </span>
+                            </span>
+                        </div>
+
                         <div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
                             <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
                                 <span class="thumb-info-wrapper">
@@ -52,7 +79,25 @@
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
-                                    <span class="thumb-info-caption-text font-weight-bold">Dr Abdul Nizar, Principal, Marian Engineering College</span>
+                                    <span class="thumb-info-caption-text font-weight-bold">Dr. Abdul Nizar M.
+                                        Principal
+                                        Marian Engineering College
+                                    </span>
+                                </span>
+                            </span>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
+                            <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
+                                <span class="thumb-info-wrapper">
+                                    <a href="#">
+                                        <img src="{{ asset('/web/img/committee/jim.png') }}" class="img-fluid" alt="">
+                                    </a>
+                                </span>
+                                <span class="thumb-info-caption">
+                                    <span class="thumb-info-caption-text font-weight-bold">Rev. Fr. Jim Carvin Roach
+                                        Bursar
+                                        Marian Engineering College
+                                    </span>
                                 </span>
                             </span>
                         </div>
@@ -64,7 +109,10 @@
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
-                                    <span class="thumb-info-caption-text font-weight-bold">Dr.Samson A, Dean, Marian Engineering College</span>
+                                    <span class="thumb-info-caption-text font-weight-bold">Dr. Samson A.
+                                        Dean
+                                        Marian Engineering College
+                                    </span>
                                 </span>
                             </span>
                         </div>
@@ -76,14 +124,17 @@
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
-                                    <span class="thumb-info-caption-text font-weight-bold">DR Narayanan S, HOD CIVIL, Marian Engineering College</span>
+                                    <span class="thumb-info-caption-text font-weight-bold">Dr. Narayanan S.
+                                        HOD, Civil
+                                        Marian Engineering College
+                                    </span>
                                 </span>
                             </span>
                         </div>
                     </div>
                     <h4 class="text-start font-weight-bold">KEYNOTE ADDRESSES</h4>
                     <div class="row team-list sort-destination" data-sort-id="team">
-                        <!--<div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
+                        <div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
                             <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
                                 <span class="thumb-info-wrapper">
                                     <a href="#">
@@ -94,7 +145,7 @@
                                     <span class="thumb-info-caption-text font-weight-bold">Dr Vinu Unnikrishnan, WTAM University, USA</span>
                                 </span>
                             </span>
-                        </div>-->
+                        </div>
                         <div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
                             <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
                                 <span class="thumb-info-wrapper">
@@ -103,7 +154,47 @@
                                     </a>
                                 </span>
                                 <span class="thumb-info-caption">
-                                    <span class="thumb-info-caption-text font-weight-bold">Dr Narayanan Neithalath, Professor, School of Sustainable Eng. & the Built Environmet, Arizona State University</span>
+                                    <span class="thumb-info-caption-text font-weight-bold">Dr Narayanan Neithalath, ASU,USA</span>
+                                </span>
+                            </span>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
+                            <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
+                                <span class="thumb-info-wrapper">
+                                    <a href="#">
+                                        <img src="{{ asset('/web/img/committee/nithin.jpg') }}" class="img-fluid" alt="">
+                                    </a>
+                                </span>
+                                <span class="thumb-info-caption">
+                                    <span class="thumb-info-caption-text font-weight-bold">Dr Nithin Sudarsan
+                                        North Carolina State University
+                                    </span>
+                                </span>
+                            </span>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
+                            <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
+                                <span class="thumb-info-wrapper">
+                                    <a href="#">
+                                        <img src="{{ asset('/web/img/committee/sathya.jpg') }}" class="img-fluid" alt="">
+                                    </a>
+                                </span>
+                                <span class="thumb-info-caption">
+                                    <span class="thumb-info-caption-text font-weight-bold">Dr. K.S. Satyanarayanan, SRM Institute of Science and Technology
+                                    </span>
+                                </span>
+                            </span>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
+                            <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
+                                <span class="thumb-info-wrapper">
+                                    <a href="#">
+                                        <img src="{{ asset('/web/img/committee/mahin.jpg') }}" class="img-fluid" alt="">
+                                    </a>
+                                </span>
+                                <span class="thumb-info-caption">
+                                    <span class="thumb-info-caption-text font-weight-bold">Dr Mahen Mahendran, QUT, Australia
+                                    </span>
                                 </span>
                             </span>
                         </div>
@@ -119,32 +210,8 @@
                                 </span>
                             </span>
                         </div>
-                        <div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
-                            <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
-                                <span class="thumb-info-wrapper">
-                                    <a href="#">
-                                        <img src="{{ asset('/web/img/team/team-2.jpg') }}" class="img-fluid" alt="">
-                                    </a>
-                                </span>
-                                <span class="thumb-info-caption">
-                                    <span class="thumb-info-caption-text font-weight-bold">Dr Nithin Sudarsan, Research Associate, Dept. of Civil, construction & Environmental Engineering, North Carolina State University, Raleigh NC-27606</span>
-                                </span>
-                            </span>
-                        </div>
-                        <!--<div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
-                            <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
-                                <span class="thumb-info-wrapper">
-                                    <a href="#">
-                                        <img src="{{ asset('/web/img/team/team-2.jpg') }}" class="img-fluid" alt="">
-                                    </a>
-                                </span>
-                                <span class="thumb-info-caption">
-                                    <span class="thumb-info-caption-text font-weight-bold">Dr Mahen Mahendran, QUT, Australia</span>
-                                </span>
-                            </span>
-                        </div>-->
                     </div>
-                    <h4 class="text-start font-weight-bold">ADVISORY COMMITTEE</h4>
+                    <!--<h4 class="text-start font-weight-bold">ADVISORY COMMITTEE</h4>
                     <div class="row team-list sort-destination" data-sort-id="team">
 
                         <div class="col-12 col-sm-6 col-lg-3 isotope-item marketing mt-3">
@@ -211,7 +278,7 @@
                                 </span>
                             </span>
                         </div>
-                    </div>
+                    </div>-->
                     <h4 class="text-start">CONFERENCE CHAIRS</h4>
                     <div class="row">
                         <div class="col table-responsive">
@@ -256,6 +323,128 @@
                             </table>
                         </div>
                     </div>
+                    <h4 class="text-start">EXECUTIVE COMMITTEE</h4>
+                    <div class="row">
+                        <div class="col table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            #
+                                        </th>
+                                        <th>
+                                            Name
+                                        </th>
+                                        <th>
+                                            Department
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-start">
+                                    <tr>
+                                        <td>
+                                            1
+                                        </td>
+                                        <td>
+                                            Dr. Abdul Nizar M.
+                                        </td>
+                                        <td>
+                                            Principal, MEC
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            2
+                                        </td>
+                                        <td>
+                                            Dr. Samson A.
+                                        </td>
+                                        <td>
+                                            Dean, MEC
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            3
+                                        </td>
+                                        <td>
+                                            Dr. Narayanan S.
+                                        </td>
+                                        <td>
+                                            HOD, Department of Civil Engineering, MEC
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            4
+                                        </td>
+                                        <td>
+                                            Dr. Pradeep S.
+                                        </td>
+                                        <td>
+                                            President - ASCE India Section Southern Region
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            5
+                                        </td>
+                                        <td>
+                                            Dr. Sridevi M
+                                        </td>
+                                        <td>
+                                            Secretary - ASCE India Section Southern Region
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            6
+                                        </td>
+                                        <td>
+                                            Dr. Kishor P.
+                                        </td>
+                                        <td>
+                                            Managing Director, Habilete Learning Solutions Pvt. Ltd.
+                                            Treasurer - ASCE India Section Southern Region
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            7
+                                        </td>
+                                        <td>
+                                            Prof. Abhijith R.P.
+                                        </td>
+                                        <td>
+                                            Department of Civil Engineering, MEC
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            8
+                                        </td>
+                                        <td>
+                                            Prof. Renju C.M.
+                                        </td>
+                                        <td>
+                                            Department of Civil Engineering, MEC
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            9
+                                        </td>
+                                        <td>
+                                            Dr. Rani V.
+                                        </td>
+                                        <td>
+                                            PG Coordinator, MEC
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                     <h4 class="text-start mt-3">ADVISORY COMMITTEE</h4>
                     <div class="row">
                         <div class="col table-responsive">
@@ -263,84 +452,137 @@
                                 <thead>
                                     <tr>
                                         <th>
-                                            Name
+                                            #
                                         </th>
                                         <th>
                                             Name
+                                        </th>
+                                        <th>
+                                            Department
                                         </th>
                                     </tr>
                                 </thead>
                                 <tbody class="text-start">
                                     <tr>
                                         <td>
-                                            Elias B Sayah - Director of ASCE Region 10(2019-22)
+                                            1
                                         </td>
                                         <td>
-                                            Prof Gicy M Kovoor, Rtd. Professor, MIT, Manipal
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            Dr Kuncheria P Isaac, Former VC, APJ Abdul Kalam Technological University
+                                            Dr. Elias B. Sayah
                                         </td>
                                         <td>
-                                            Dr Jaya K.P, Professor, Department of Civil Engineering, Anna University, Chennai
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            Dr Narayanan Neithalath, Professor, School of Sustainable Eng. & the Built Environmet, Arizona State University
-                                        </td>
-                                        <td>
-                                            Dr Santosh Satyapal, Vizhinjam Seaport Ltd
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            Prof Beena Sukumaran, Dean, College of Engineering & computing, Miami University, USA
-                                        </td>
-                                        <td>
-                                            Dr Jayamohan, Professor in Civil Engineering, LBS Institute of Technology for Women, Poojappura, Trivandrum
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            Dr Mahen Mahendran, Professor of Structural Engineering, School of Civil and Environmental Engg., Queensland, Australia
-                                        </td>
-                                        <td>
-                                            Dr Samson Mathew, Director, KSCSTE NATPAC (On deputation from NIT Trichy)
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            Prof Vinu Unnikrishnan, Asst Prof, West Texas A&M University, USA
-                                        </td>
-                                        <td>
-                                            Dr Anand K.B, Prof. in Civil Engineering, Amrita School of Engineering, Coimbatore
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            Dr Pradeep Sivanthan, Associate Prof, SRM, President, India Section, Southern Region
-                                        </td>
-                                        <td>
-                                            Dr Divya KK, Assoc. Prof. & HOD, Vedavyasa Institute of Technology
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            Dr T.M.Madhavan Pillai, HOD Civil, NITC
-                                        </td>
-                                        <td>
-                                            Dr Kasthurba A.K, Professor & HOD, Architecture Dept, NITC, Calicut
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            Unni Bhaskar, MD, UNO Technology Pvt Ltd.
-                                        </td>
-                                        <td>
+                                            President & CEO, Sayah Engineering MENA,
+                                            Member Board of Direction,
+                                            American Society of Civil Engineers (ASCE)
+                                            Director of ASCE Region 10 (2019-22)
 
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            2
+                                        </td>
+                                        <td>
+                                            Dr. Gajanan M. Sabnis, P.E.
+                                        </td>
+                                        <td>
+                                            Emeritus Professor, Howard University;
+                                            President, Sabnis, Inc
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            3
+                                        </td>
+                                        <td>
+                                            Dr. Narayanan Neithalath
+                                        </td>
+                                        <td>
+                                            Professor, School of Sustainable Engineering and the Built Environment
+                                            Senior Global Futures Scientist, Global Futures Scientists and Scholars
+                                            Arizona State University,USA
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            4
+                                        </td>
+                                        <td>
+                                            Dr. Beena Sukumaran
+                                        </td>
+                                        <td>
+                                            The Dinesh & Ila Paliwal Dean of the College of Engineering & Computing
+                                            Miami University, USA
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            5
+                                        </td>
+                                        <td>
+                                            Dr. Kuncheria P. Isaac
+                                        </td>
+                                        <td>
+                                            Director General, XIME Group of Institutions
+                                            Founder Vice Chancellor of A.P.J. Abdul Kalam Technological University
+                                            Member Secretary of All India Council for Technical Education, Govt. of India and Director of Technical Education, Government of Kerala
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            6
+                                        </td>
+                                        <td>
+                                            Dr. K.S. Satyanarayanan
+                                        </td>
+                                        <td>
+                                            Professor, Department of Civil Engineering
+                                            SRM Institute of Science and Technology
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            7
+                                        </td>
+                                        <td>
+                                            Dr. Mahen Mahendran
+                                        </td>
+                                        <td>
+                                            Professor of Structural Engineering, School of Civil and Environmental Engineering, Queensland, Australia
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            8
+                                        </td>
+                                        <td>
+                                            Dr. Vinu Unnikrishnan
+                                        </td>
+                                        <td>
+                                            Asst. Professor, West Texas A&M University, USA
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            9
+                                        </td>
+                                        <td>
+                                            Dr. Samson Mathew
+                                        </td>
+                                        <td>
+                                            Director KSCSTE, NATPAC (on deputation from NIT Thrichy)
+                                            Professor of Civil Engineering National Institute of Technology, Tiruchirappalli
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            10
+                                        </td>
+                                        <td>
+                                            Dr. Sudarasan J. S.
+                                        </td>
+                                        <td>
+                                            Program Head SOEE-NICMAR (National Institute of Construction Management & Research) University.
                                         </td>
                                     </tr>
                                 </tbody>
@@ -354,44 +596,162 @@
                                 <thead>
                                     <tr>
                                         <th>
-                                            Name
+                                            #
                                         </th>
                                         <th>
                                             Name
                                         </th>
+                                        <th>
+                                            Department
+                                        </th>
                                     </tr>
                                 </thead>
-                                <tbody class="text-start">
+                                <tbody>
                                     <tr>
                                         <td>
-                                            Dr Unni Kartha, FISAT
+                                            1
                                         </td>
                                         <td>
-                                            Dr Job Thomas, CUSAT
+                                            Dr. Pradeep Sivanthan
+                                        </td>
+                                        <td>
+                                            Associate Professor, SRM, President, ASCE India Section, Southern Region
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            Prof Gouri Mohan, Vice Principal, TKMIT
+                                            2
                                         </td>
                                         <td>
-                                            Dr Vasudev R, Associate Prof, HOD Civil, TOCHInstitute of Science and Technology
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            Dr Sreedevi, HOD Civil, BVRIT Narsapur
+                                            Dr. Sridevi. M.
                                         </td>
                                         <td>
-                                            Dr Sajeeb R, HOD, TKMCE
+                                            Associate Professor, Department of Civil Engineering, CV Raman Global University and Secretary ASCE India Section Southern Region
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            Dr Neethuroy, MBCET
+                                            3
                                         </td>
                                         <td>
-                                            Dr CK Cherian, Saintgits
+                                            Dr. Gicy M. Kovoor
+                                        </td>
+                                        <td>
+                                            Professor and Associate Director (Academics)
+                                            Manipal Institute of Technology, Manipal
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            4
+                                        </td>
+                                        <td>
+                                            Dr. T.M. Madhavan Pillai
+                                        </td>
+                                        <td>
+                                            Professor (HAG), NITC
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            5
+                                        </td>
+                                        <td>
+                                            Dr. Jaya K.P.
+                                        </td>
+                                        <td>
+                                            Professor, Anna University
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            6
+                                        </td>
+                                        <td>
+                                            Dr. Santosh Satyapal
+                                        </td>
+                                        <td>
+                                            Secretary, HO, Vizhinjam Seaport Ltd.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            7
+                                        </td>
+                                        <td>
+                                            Dr. Jayamohan J.
+                                        </td>
+                                        <td>
+                                            Principal, LBS Engineering College
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            8
+                                        </td>
+                                        <td>
+                                            Dr. Divya K.K.
+                                        </td>
+                                        <td>
+                                            Associate Professor& HOD,
+                                            Vedavyasa Institute of Technology
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            9
+                                        </td>
+                                        <td>
+                                            Dr. Kasturba A.K.
+                                        </td>
+                                        <td>
+                                            Professor & Head at Department,
+                                            Architecture and planning Department, NITC
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            10
+                                        </td>
+                                        <td>
+                                            Dr. Anand K.B.
+                                        </td>
+                                        <td>
+                                            Professor, Department of Civil Engineering,
+                                            Amrita School of Engineering, Coimbatore
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            11
+                                        </td>
+                                        <td>
+                                            Mr. Unni Bhaskar
+                                        </td>
+                                        <td>
+                                            Managing Director, Uno Technology Private Ltd
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            12
+                                        </td>
+                                        <td>
+                                            Er. V.S Harilal
+                                        </td>
+                                        <td>
+                                            Managing Director, Samasthi Construction Management and Consultancy
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            13
+                                        </td>
+                                        <td>
+                                            Er. Unikrishnan A
+                                        </td>
+                                        <td>
+                                            Director, Samasthi Construction Management and Consultancy
                                         </td>
                                     </tr>
                                 </tbody>

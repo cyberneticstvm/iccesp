@@ -79,11 +79,12 @@
                     <!--<h1 class="font-weight-bold text-color-light custom-big-text-1 ws-nowrap pt-5 pb-5-5 mb-1 my-md-5 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">
                         <span class="d-none d-lg-block">ASCE</span>
                     </h1>-->
-                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">Marian college of Engineering</h3>
-                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">ASCE India Section, Southern Region</h3>
-                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">Habilete learning solutions Pvt Ltd</h3>
-                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">American Society of Civil Engineers (ASCE)</h3>
                     <h2 class="text-color-dark line-height-3 mb-2 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">SECOND INTERNATIONAL CONFERENCE IN CIVIL ENGINEERING FOR SUSTAINABLE PLANET (ICCESP 2024)</h2>
+                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">Marian college of Engineering</h3>
+                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">IN COLLABORATION WITH</h3>
+                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">American Society of Civil Engineers (ASCE) &</h3>
+                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">Habilete learning solutions Pvt Ltd, </h3>
+                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">ASCE India Section, Southern Region</h3>
                     <p class="text-color-dark text-4 font-weight-medium mb-4-5 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100"></p>
                     <p class="text-dark">6,7,8 DECEMBER 2024</p>
                     <a href="#" class="btn btn-primary btn-rounded border-0 font-weight-bold text-3 px-5 btn-py-3 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">REGISTER NOW</a>
@@ -119,7 +120,7 @@
                 </div>
                 <div class="col-md-9 col-lg-8 text-center appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="100">
                     <p class="text-3-5 mb-0 text-justify">On Behalf of <a href="https://habilete.co.in" target="_blank">Habilete</a> it gives me great pleasure to extend to you a hearty welcome to the second International Conference in Civil Engineering for a Sustainable Planet 2024 (ICCESP-2024). Building on the well-established track of successful academic and research events in Engineering and Management issues. Habilete is privileged to partner with ASCE and Marian College of Engineering in bringing to you an impressive and leading academic, scholars, researchers and practitioners of civil engineering from around the world.</p>
-                    <p class="text-end">Dr. Kishor P, PhD, PMP, MBA, Prince2, A.M.ASCE<br />Organizer, ICCESP 2024</p>
+                    <p class="text-end">Dr. Kishor P, PhD, PMP, MBA, Prince2, A.M.ASCE<br />Organizer, ICCESP 2024<br />Treasurer, ASCE India Section Southern Region</p>
                 </div>
             </div>
             <div class="row py-5">
@@ -157,15 +158,34 @@
                     <p class="text-color-dark text-transform-none mb-3 text-justify">To make the participants aware of recent advancement in the field of Civil Engineering practice and research. Scope of further technological advancement in various fields will also be discussed in the Conference. Participants will be introduced to various new technologies and field problems which may be useful in enriching knowledge and innovative ideas.</p>
                     <h3 class="text-transform-none text-5-6 font-weight-semibold mb-3 text-success">Target Audience</h3>
                     <p class="text-justify">Academicians, researchers, technocrats, practitioners, and students of Civil Engineering and Architecture.</p>
-                    <h4 class="text-transform-none">The conference invites papers in the following themes but will also accommodate other themes in civil engineering. The topics are not limited to the sub-themes mentioned.</h4>
+                    <h4 class="text-transform-none">The conference welcomes papers within the specified themes but is open to considering submissions on other topics in civil engineering as well. The list of themes provided is not exhaustive, and submissions outside of the mentioned sub-themes will also be accommodated.</h4>
                     <ul class="list list-icons list-icons-style-2">
-                        <li><i class="fas fa-check"></i><strong>Building Technology and Resources Management: </strong> Sustainable planning, designing, and construction, Resoruces Management, Lean Construction Techniques, Risk Management, Construction Supply Chain Management, Information and Communication Technology (ICT) in Construction and Engineering Management, Alternate Builiding Technology, Green Buildings, Climate Responsive Architecture, Quality and Safety Construction</li>
+                        <!--<li><i class="fas fa-check"></i><strong>Building Technology and Resources Management: </strong> Sustainable planning, designing, and construction, Resoruces Management, Lean Construction Techniques, Risk Management, Construction Supply Chain Management, Information and Communication Technology (ICT) in Construction and Engineering Management, Alternate Builiding Technology, Green Buildings, Climate Responsive Architecture, Quality and Safety Construction</li>
                         <li><i class="fas fa-check"></i><strong>Sustainable Materials and Structural system: </strong>Innovative Cementitious Materials and Aggregates, Durability of Concrete, Retrofiting and Rehabilitation of Buildings and Bridges, Structural Health Monitoring, Risk Assessment and Structural Failures, Smart Structures and Prefabricated Buildings, Material Technology, Inductsrial and High-Rise Buildings, Marine and Offshore Structures, Disaster Resistent Structures</li>
                         <li><i class="fas fa-check"></i><strong>Transportation Engineering: </strong>Intelligent Transporting System, Traffic Engineering and Management, Transportation Planning and System Analysis, Traffic Flow Modeling, Safe Roads, Public Transport NMT (Non-Motorised Modes of ransport), COVID Impacts in the transportation sector, Highway and Airfield Pavements, Railway, Waterways, and Airways</li>
                         <li><i class="fas fa-check"></i><strong>Geotechnical Engineering: </strong>Ground Improvement Techniques, Analysis and Design of Foundation, Pavement Geotechnics, Environmental Geotechnics, Geosynthetics and Reinforced Soil Structures, Soil and Rock Slope Stability, Forensic Geotechnical Engineering</li>
                         <li><i class="fas fa-check"></i><strong>Hydraulics and Water Resources Engineering: </strong>Surface and Ground Water Hydrology, Advances in Fluid Mechanics, Application of Remote Sensing / GIS in Water Resource Engineering, Sediment Transport, Reservoir Sedimentation, Irrigation Technology, Analysis of Flood and Drought, Climate Change, River Modelling and Hydraulics, Sustainable Water Management</li>
-                        <li><i class="fas fa-check"></i><strong>Environmental Engineering: </strong>Pollution Control, Management Bioremediation, Waste Water Treatment and Filtration Methods, Environmental Impact Assessment, Microbiological Treatments, Water Quality Assessment and Modelling</li>
+                        <li><i class="fas fa-check"></i><strong>Environmental Engineering: </strong>Pollution Control, Management Bioremediation, Waste Water Treatment and Filtration Methods, Environmental Impact Assessment, Microbiological Treatments, Water Quality Assessment and Modelling</li>-->
+                        <li><i class="fas fa-check"></i>Building Technology and Resources Management</li>
+                        <li><i class="fas fa-check"></i>Sustainable Materials and Structural system</li>
+                        <li><i class="fas fa-check"></i>Transportation Engineering</li>
+                        <li><i class="fas fa-check"></i>Geotechnical Engineering</li>
+                        <li><i class="fas fa-check"></i>Remote Sensing and GIS</li>
+                        <li><i class="fas fa-check"></i>Marine Engineering and Offshore Structures</li>
+                        <li><i class="fas fa-check"></i>Environment Engineering</li>
+                        <li><i class="fas fa-check"></i>Construction project management</li>
+                        <li><i class="fas fa-check"></i>Hydraulics and Water Resources Engineering</li>
+                        <li><i class="fas fa-check"></i>Structural Engineering</li>
                     </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <p class="text-success">Local sightseeing can be arranged in the enchanting destination of God's Own Country, Kerala.<br />
+                        For More information Contact<br />
+                        Prof Abhijith R.P : +919567687372<br />
+                        Prof Renju CM : +919400456728
+                    </p>
                 </div>
             </div>
         </div>
@@ -179,14 +199,15 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
             </div>
             <div class="modal-body">
-                <div class="">
+                <!--<div class="">
                     <img alt="Porto" width="123" height="46" src="{{ asset('/web/img/demos/insurance/iccesp-logo.png') }}">
                 </div>
                 <div class="mt-3">
                     <p class="text-4 mb-0 text-info">Last date for Abstract Submission : April 1, 2024</p>
                     <p class="text-4 mb-0 text-info">Intimation and Acceptance of Abstract :May 1, 2024</p>
                     <p class="text-4 mb-0 text-info">Last date for full paper submission: Will announce shortly</p>
-                </div>
+                </div>-->
+                <img src="{{ asset('/web/img/iccesp/brochure.jpeg') }}" class="img-fluid">
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
