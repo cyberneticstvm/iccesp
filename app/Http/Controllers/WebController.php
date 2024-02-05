@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Mail;
 
 class WebController extends Controller
 {
-    protected $email;
+    public $email;
 
     public function __construct()
     {
