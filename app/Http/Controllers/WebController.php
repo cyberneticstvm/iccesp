@@ -19,8 +19,8 @@ class WebController extends Controller
 
     public function __construct()
     {
-        //$this->email = "iccesp2024@gmail.com";
-        $this->email = "cyberneticstvm@gmail.com";
+        $this->email = "iccesp2024@gmail.com";
+        //$this->email = "cyberneticstvm@gmail.com";
     }
 
     public function abstractSubmitPage()
