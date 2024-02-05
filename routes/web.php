@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\WebController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,12 +23,16 @@ Route::get('/about', function () {
 Route::get('/abstract', function () {
     return view('web.abstract');
 })->name('abstract');
-Route::get('/register', function () {
-    return view('web.register');
-})->name('register');
 Route::get('/committee', function () {
     return view('web.committee');
 })->name('committee');
 Route::get('/contact', function () {
     return view('web.contact');
 })->name('contact');
+
+Route::middleware(['web'])->group(function () {
+    Route::controller(WebController::class)->group(function () {
+        Route::get('/register', 'abstractSubmitPage')->name('register');
+        Route::post('/register', 'abstractSubmit')->name('register.abstract');
+    });
+});

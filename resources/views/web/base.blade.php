@@ -288,6 +288,7 @@
     <!-- Theme Initialization Files -->
     <script src="{{ asset('/web/js/theme.init.js') }}"></script>
 
+    @include("web.message")
 </body>
 
 </html>
