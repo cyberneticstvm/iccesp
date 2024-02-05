@@ -17,11 +17,12 @@ class AbstractSubmissionEmail extends Mailable
     /**
      * Create a new message instance.
      */
-    public $abstract;
+    public $abstract, $mime;
 
-    public function __construct($abstract)
+    public function __construct($abstract, $mime)
     {
         $this->abstract = $abstract;
+        $this->mime = $mime;
     }
 
     /**
@@ -53,7 +54,7 @@ class AbstractSubmissionEmail extends Mailable
     public function attachments(): array
     {
         return [
-            Attachment::fromStorage($this->abstract->doc_url)->withMime('application/msword'),
+            Attachment::fromStorage($this->abstract->doc_url)->withMime($this->mime),
         ];
     }
 }

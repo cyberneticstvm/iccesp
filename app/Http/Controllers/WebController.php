@@ -40,8 +40,10 @@ class WebController extends Controller
             'theme_id' => 'required',
         ]);
         $url = null;
+        $mime = "";
         $data = [];
         if ($request->file('doc')) :
+            $mime = $request->file('doc')->getClientMimeType();
             $url = uploadFile($request->file('doc'), $path = 'abstracts');
         endif;
         try {
@@ -72,7 +74,7 @@ class WebController extends Controller
                 Author::insert($data);
             });
             $abstract = Abstracts::latest()->first();
-            Mail::to($request->email)->cc($this->email)->send(new AbstractSubmissionEmail($abstract));
+            Mail::to($request->email)->cc($this->email)->send(new AbstractSubmissionEmail($abstract, $mime));
         } catch (Exception $e) {
             return redirect()->back()->with("error", $e->getMessage())->withInput($request->all());
         }
