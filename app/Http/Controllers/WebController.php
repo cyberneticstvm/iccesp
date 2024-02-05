@@ -72,7 +72,7 @@ class WebController extends Controller
                 Author::insert($data);
             });
             $abstract = Abstracts::latest()->first();
-            Mail::to($this->email)->send(new AbstractSubmissionEmail($abstract));
+            Mail::to($request->email)->cc($this->email)->send(new AbstractSubmissionEmail($abstract));
         } catch (Exception $e) {
             return redirect()->back()->with("error", $e->getMessage())->withInput($request->all());
         }

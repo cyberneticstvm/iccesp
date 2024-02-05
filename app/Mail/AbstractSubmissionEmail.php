@@ -29,7 +29,7 @@ class AbstractSubmissionEmail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Abstract Submission Notification Email',
+            subject: 'Acknowledgment of Abstract Submission for ICCESP-2024',
         );
     }
 
