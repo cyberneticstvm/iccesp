@@ -53,7 +53,7 @@ class AbstractSubmissionEmail extends Mailable
     public function attachments(): array
     {
         return [
-            Attachment::fromPath($this->abstract->doc_url)->withMime('application/pdf'),
+            Attachment::fromPath(asset($this->abstract->doc_url))->withMime('application/pdf'),
         ];
     }
 }
