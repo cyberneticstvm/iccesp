@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\AbstractSubmissionEmail;
 use App\Models\Abstracts;
 use App\Models\Author;
 use App\Models\Designation;
@@ -10,9 +11,18 @@ use Carbon\Carbon;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Mail;
 
 class WebController extends Controller
 {
+    protected $email;
+
+    public function __construct()
+    {
+        //$this->email = "iccesp2024@gmail.com";
+        $this->email = "cyberneticstvm@gmail.com";
+    }
+
     public function abstractSubmitPage()
     {
         $themes = Theme::where('status', 1)->orderBy('name')->get();
@@ -61,6 +71,8 @@ class WebController extends Controller
                 endforeach;
                 Author::insert($data);
             });
+            $abstract = Abstracts::latest()->first();
+            Mail::to($this->email)->send(new AbstractSubmissionEmail($abstract));
         } catch (Exception $e) {
             return redirect()->back()->with("error", $e->getMessage())->withInput($request->all());
         }

@@ -11,4 +11,9 @@ class Abstracts extends Model
     use HasFactory, SoftDeletes;
 
     protected $guarded = [];
+
+    public function authors()
+    {
+        return $this->hasMany(Author::class, 'abstract_id', 'id');
+    }
 }
