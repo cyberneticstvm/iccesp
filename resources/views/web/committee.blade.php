@@ -606,7 +606,7 @@
                                         </th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody class="text-start">
                                     <tr>
                                         <td>
                                             1
