@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\WebController;
 use Illuminate\Support\Facades\Route;
 
@@ -30,9 +31,22 @@ Route::get('/contact', function () {
     return view('web.contact');
 })->name('contact');
 
+Route::get('/login', function () {
+    return view('admin.login');
+})->name('login');
+
 Route::middleware(['web'])->group(function () {
     Route::controller(WebController::class)->group(function () {
         Route::get('/register', 'abstractSubmitPage')->name('register');
         Route::post('/register', 'abstractSubmit')->name('register.abstract');
+    });
+    Route::controller(AdminController::class)->group(function () {
+        Route::post('/login', 'login')->name('signin');
+    });
+});
+Route::middleware(['web', 'auth'])->group(function () {
+    Route::controller(AdminController::class)->group(function () {
+        Route::get('/dashboard', 'dashboard')->name('dashboard');
+        Route::post('/logout', 'logout')->name('logout');
     });
 });

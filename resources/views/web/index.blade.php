@@ -79,12 +79,13 @@
                     <!--<h1 class="font-weight-bold text-color-light custom-big-text-1 ws-nowrap pt-5 pb-5-5 mb-1 my-md-5 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">
                         <span class="d-none d-lg-block">ASCE</span>
                     </h1>-->
-                    <h2 class="text-color-dark line-height-3 mb-2 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">SECOND INTERNATIONAL CONFERENCE IN CIVIL ENGINEERING FOR SUSTAINABLE PLANET (ICCESP 2024)</h2>
+                    <h2 class="text-color-dark line-height-3 mb-2 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">SECOND INTERNATIONAL CONFERENCE IN CIVIL ENGINEERING FOR A SUSTAINABLE PLANET (ICCESP 2024)</h2>
                     <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">Marian college of Engineering</h3>
                     <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">IN COLLABORATION WITH</h3>
-                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">American Society of Civil Engineers (ASCE) &</h3>
+                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">American Society of Civil Engineers (ASCE)</h3>
+                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">ASCE India Section, Southern Region &</h3>
                     <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">Habilete learning solutions Pvt Ltd, </h3>
-                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">ASCE India Section, Southern Region</h3>
+
                     <p class="text-color-dark text-4 font-weight-medium mb-4-5 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100"></p>
                     <p class="text-dark">6,7,8 DECEMBER 2024</p>
                     <a href="#" class="btn btn-primary btn-rounded border-0 font-weight-bold text-3 px-5 btn-py-3 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">REGISTER NOW</a>
@@ -113,7 +114,7 @@
                         <span class="thumb-info-wrapper">
                             <img src="{{ asset('/web/img/iccesp/kishorep.jpg') }}" class="img-fluid" alt="" style="width:50%">
                             <span class="thumb-info-title">
-                                <span class="thumb-info-inner line-height-1">Dr. Kishore P, MBA, PhD, PMP, Pronce2, A.M.ASCE, Treasurer, India Section, Southern Region</span>
+                                <span class="thumb-info-inner line-height-1">Dr. Kishore P, MBA, PhD, PMP, Pronce2, A.M.ASCE, Managing Director, Habilete Learning solution</span>
                             </span>
                         </span>
                     </span>
@@ -134,13 +135,13 @@
         <div class="container custom-container-background z-index-1 py-5">
             <div class="row position-relative z-index-1 pt-5-5">
                 <div class="col text-center">
-                    <h2 class="text-color-dark font-weight-medium text-8 mb-5-5">SECOND INTERNATIONAL CONFERENCE IN CIVIL ENGINEERING FOR SUSTAINABLE PLANET <strong>(ICCESP 2024)</strong></h2>
+                    <h2 class="text-color-dark font-weight-medium text-8 mb-5-5">SECOND INTERNATIONAL CONFERENCE IN CIVIL ENGINEERING FOR A SUSTAINABLE PLANET <strong>(ICCESP 2024)</strong></h2>
                 </div>
             </div>
             <div class="row justify-content-center position-relative gy-5 z-index-1">
                 <div class="col-md-12 col-lg-12 text-center appear-animation animated fadeInRightShorterPlus appear-animation-visible" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="100" style="animation-delay: 100ms;">
                     <h3 class="text-color-dark text-transform-none text-5-6 font-weight-semibold mb-3">6, 7, 8 DECEMBER 2024</h3>
-                    <h4 class="mb-0 text-success">MARIAN ENGINEERING COLLEGE IN COLLABORATION WITH AMERICAN SOCIETY FOR CIVIL ENGINEERS (ASCE) <br />&<br /> HABILETTE LEARNING SOLUTIONS PVT, LTD</h4>
+                    <h4 class="mb-0 text-success">MARIAN ENGINEERING COLLEGE IN COLLABORATION WITH AMERICAN SOCIETY FOR CIVIL ENGINEERS (ASCE) <br />ASCE India Section, Southern Region<br />&<br /> HABILETTE LEARNING SOLUTIONS PVT, LTD</h4>
                 </div>
             </div>
             <div class="row py-5">

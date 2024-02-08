@@ -571,7 +571,7 @@
                                         </td>
                                         <td>
                                             Director KSCSTE, NATPAC (on deputation from NIT Thrichy)
-                                            Professor of Civil Engineering National Institute of Technology, Tiruchirappalli
+                                            Professor of Civil Engineering, National Institute of Technology, Tiruchirappalli
                                         </td>
                                     </tr>
                                     <tr>
@@ -615,7 +615,7 @@
                                             Dr. Pradeep Sivanthan
                                         </td>
                                         <td>
-                                            Associate Professor, SRM, President, ASCE India Section, Southern Region
+                                            Assistant Professor, SRM, President, ASCE India Section, Southern Region
                                         </td>
                                     </tr>
                                     <tr>
@@ -637,7 +637,7 @@
                                             Dr. Gicy M. Kovoor
                                         </td>
                                         <td>
-                                            Professor and Associate Director (Academics)
+                                            Former Professor and Associate Director (Academics)
                                             Manipal Institute of Technology, Manipal
                                         </td>
                                     </tr>
@@ -649,7 +649,7 @@
                                             Dr. T.M. Madhavan Pillai
                                         </td>
                                         <td>
-                                            Professor (HAG), NITC
+                                            Professor (HAG), Dept. of Civil Engineering, NITC
                                         </td>
                                     </tr>
                                     <tr>
@@ -660,7 +660,7 @@
                                             Dr. Jaya K.P.
                                         </td>
                                         <td>
-                                            Professor, Anna University
+                                            Professor, Dept. of Civil Engineering, Anna University
                                         </td>
                                     </tr>
                                     <tr>
@@ -671,7 +671,7 @@
                                             Dr. Santosh Satyapal
                                         </td>
                                         <td>
-                                            Secretary, HO, Vizhinjam Seaport Ltd.
+                                            General Manager (Technical), Vizhinjam International Seaport Ltd (A Government of Kerala Undertaking)
                                         </td>
                                     </tr>
                                     <tr>
@@ -693,7 +693,7 @@
                                             Dr. Divya K.K.
                                         </td>
                                         <td>
-                                            Associate Professor& HOD,
+                                            Associate Professor& HOD, Dept. of Civil Engineering,
                                             Vedavyasa Institute of Technology
                                         </td>
                                     </tr>
