@@ -1,7 +1,7 @@
 @extends("web.base")
 @section("content")
 <div role="main" class="main">
-    <section class="section position-relative border-0 m-0" style="background-image: url('{{ asset('/web/img/demos/insurance/backgrounds/background-1.webp') }}'); background-position: center; background-size: cover;">
+    <section class="section position-relative border-0 m-0" style="background-image: url('{{ asset('/web/img/iccesp/marian.jpeg') }}'); background-position: center; background-size: cover;">
         <div class="container position-relative pb-5 mb-5">
             <svg class="d-none d-lg-block custom-svg-position-1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1686.88 1095.86" data-appear-animation-svg="true">
                 <path class="appear-animation" data-appear-animation="customLines1anim" data-appear-animation-delay="100" data-appear-animation-duration="7s" fill="none" stroke="#d8d8d8" stroke-width="2px" stroke-miterlimit="10" d="M87.95,1.4c6.82,9.14,15.53,21.59,24.68,36.94c6.82,11.45,27.18,46.82,42.55,96.51
@@ -73,21 +73,19 @@
 								c16.75,14.41,43.12,36.7,83.74,51.91c5.94,2.23,33.77,12.38,72.34,15.32c28.74,2.19,53.04-0.43,70.64-3.57" />
             </svg>
 
-            <img src="{{ asset('/web/img/demos/insurance/generic/generic-3.png') }}" class="img-fluid position-absolute top-10 right-0 z-index-1 d-none d-lg-block appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="100" alt="Woman Hero" />
+            <!--<img src="{{ asset('/web/img/demos/insurance/generic/generic-3.png') }}" class="img-fluid position-absolute top-10 right-0 z-index-1 d-none d-lg-block appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="100" alt="Woman Hero" />-->
             <div class="row align-items-center pb-5 mb-4">
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <!--<h1 class="font-weight-bold text-color-light custom-big-text-1 ws-nowrap pt-5 pb-5-5 mb-1 my-md-5 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="600">
                         <span class="d-none d-lg-block">ASCE</span>
                     </h1>-->
                     <h2 class="text-color-dark line-height-3 mb-2 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">SECOND INTERNATIONAL CONFERENCE IN CIVIL ENGINEERING FOR A SUSTAINABLE PLANET (ICCESP 2024)</h2>
-                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">Marian college of Engineering</h3>
-                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">IN COLLABORATION WITH</h3>
-                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">American Society of Civil Engineers (ASCE)</h3>
-                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">ASCE India Section, Southern Region &</h3>
+                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">Marian college of Engineering IN COLLABORATION WITH</h3>
+                    <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">American Society of Civil Engineers (ASCE), ASCE India Section, Southern Region &</h3>
                     <h3 class="text-color-dark line-height-3 mb-2 appear-animation font-weight-bold" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">Habilete learning solutions Pvt Ltd, </h3>
 
                     <p class="text-color-dark text-4 font-weight-medium mb-4-5 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100"></p>
-                    <p class="text-dark">6,7,8 DECEMBER 2024</p>
+                    <p class="text-dark"><strong>6,7,8 DECEMBER 2024</strong></p>
                     <a href="#" class="btn btn-primary btn-rounded border-0 font-weight-bold text-3 px-5 btn-py-3 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">REGISTER NOW</a>
                 </div>
                 <!--<div class="col-lg-3 ms-lg-auto mb-lg-5 d-none d-lg-block">
