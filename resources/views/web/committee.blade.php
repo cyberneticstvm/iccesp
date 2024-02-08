@@ -758,6 +758,59 @@
                             </table>
                         </div>
                     </div>
+                    <!--<h4 class="text-start mt-3">INTERNAL REVIEW COMMITTEE OF ICCESP 2024</h4>
+                    <div class="row">
+                        <div class="col table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            #
+                                        </th>
+                                        <th>
+                                            Topics
+                                        </th>
+                                        <th>
+                                            Name
+                                        </th>
+                                        <th>
+                                            Email Id
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-start">
+                                    <tr>
+                                        <td>
+                                            1
+                                        </td>
+                                        <td>
+                                            Building Technology and Resource Management& Sustainable Material and Structural System
+                                        </td>
+                                        <td>
+                                            Prof. Sanobiya B. S.& Prof. Aswathy Sasikumar
+                                        </td>
+                                        <td>
+                                            sanobiyabs.ce@marian.ac.in
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            2
+                                        </td>
+                                        <td>
+                                            Structural Engineering
+                                        </td>
+                                        <td>
+                                            Prof. Renju C. M.
+                                        </td>
+                                        <td>
+                                            renjucm.ce@marian.ac.in
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>-->
                 </div>
             </div>
         </div>
