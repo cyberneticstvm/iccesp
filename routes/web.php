@@ -47,6 +47,6 @@ Route::middleware(['web'])->group(function () {
 Route::middleware(['web', 'auth'])->group(function () {
     Route::controller(AdminController::class)->group(function () {
         Route::get('/dashboard', 'dashboard')->name('dashboard');
-        Route::post('/logout', 'logout')->name('logout');
+        Route::get('/logout', 'logout')->name('logout');
     });
 });

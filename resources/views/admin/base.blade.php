@@ -22,7 +22,7 @@
     <!-- inject:css -->
     <link rel="stylesheet" href="{{ asset('/admin/assets/css/vertical-layout-light/style.css') }}">
     <!-- endinject -->
-    <link rel="shortcut icon" href="{{ asset('/admin/assets/images/favicon.png') }}" />
+    <link rel="shortcut icon" href="{{ asset('/admin/assets/images/favicon.ico') }}" />
 </head>
 
 <body>
@@ -36,11 +36,11 @@
                     </button>
                 </div>
                 <div>
-                    <a class="navbar-brand brand-logo" href="{% url 'dashboard') }}">
+                    <a class="navbar-brand brand-logo" href="{{ route('dashboard') }}">
                         <img src="{{ asset('/web/img/demos/insurance/iccesp-logo.png') }}" alt="logo" />
                     </a>
-                    <a class="navbar-brand brand-logo-mini" href="{% url 'dashboard') }}">
-                        <img src="{{ asset('/admin/assets/images/favicon.png') }}" alt="logo" />
+                    <a class="navbar-brand brand-logo-mini" href="{{ route('dashboard') }}">
+                        <img src="{{ asset('/admin/assets/images/favicon.ico') }}" alt="logo" />
                     </a>
                 </div>
             </div>
@@ -145,7 +145,7 @@
                 <!-- partial:partials/_footer.html -->
                 <footer class="footer">
                     <div class="d-sm-flex justify-content-center justify-content-sm-between">
-                        <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Customer Portal <a href="" target="_blank"> Super Car Garage</a></span>
+                        <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Admin Portal <a href="{{ route('dashboard') }}"> ICCESP 2024</a></span>
                         <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Copyright © 2024. All
                             rights reserved.</span>
                     </div>

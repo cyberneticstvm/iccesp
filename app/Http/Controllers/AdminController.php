@@ -16,7 +16,7 @@ class AdminController extends Controller
             'password' => 'required',
         ]);
         try {
-            $credentials = $request->only('username', 'password');
+            $credentials = $request->only('email', 'password');
             if (Auth::attempt($credentials)) {
                 return redirect()->route('dashboard')
                     ->withSuccess('User logged in successfully');

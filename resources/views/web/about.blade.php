@@ -32,7 +32,7 @@
 
                 </div>
                 <div class="col-lg-5 text-center text-lg-end order-1 order-lg-2">
-                    <img src="{{ asset('/web/img/iccesp/asce.jpeg') }}" class="img-fluid mb-4 mb-lg-0 appear-animation animated fadeInLeftShorterPlus appear-animation-visible" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="100" alt="" style="animation-delay: 100ms;">
+                    <img src="{{ asset('/web/img/iccesp/asce-10.jpeg') }}" class="img-fluid mb-4 mb-lg-0 appear-animation animated fadeInLeftShorterPlus appear-animation-visible" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="100" alt="" style="animation-delay: 100ms;">
                 </div>
             </div>
             <div class="row align-items-center pb-5 pb-lg-0 mb-5 mb-lg-0">
