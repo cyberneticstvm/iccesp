@@ -390,10 +390,10 @@
                                             5
                                         </td>
                                         <td>
-                                            Dr. Sridevi M
+                                            Dr. Guda Sridevi
                                         </td>
                                         <td>
-                                            Secretary - ASCE India Section Southern Region
+                                            Professor in Civil and Environmental Engineering, CV Raman Global University, Bhubaneswar.
                                         </td>
                                     </tr>
                                     <tr>
