@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Abstracts;
 use App\Models\StaffTheme;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\RedirectResponse;
@@ -38,6 +39,12 @@ class AdminController extends Controller
             $abstracts = Abstracts::whereIN('theme_id', StaffTheme::where('user_id', Auth::id())->pluck('theme_id'))->get();
         endif;
         return view('admin.dashboard', compact('abstracts'));
+    }
+
+    public function staff()
+    {
+        $users = User::all();
+        return view('admin.staff.index', compact('users'));
     }
 
     public function logout(Request $request): RedirectResponse
