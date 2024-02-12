@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('doc_url')->nullable();
             $table->string('email', 50)->nullable();
             $table->string('mobile', 10)->nullable();
+            $table->unsignedBigInteger('status_id')->nullable();
             $table->foreign('theme_id')->references('id')->on('themes')->onDelete('cascade');
             $table->timestamps();
             $table->softDeletes();

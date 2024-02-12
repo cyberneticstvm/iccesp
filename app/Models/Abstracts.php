@@ -16,4 +16,14 @@ class Abstracts extends Model
     {
         return $this->hasMany(Author::class, 'abstract_id', 'id');
     }
+
+    public function status()
+    {
+        return $this->belongsTo(Status::class, 'status_id', 'id');
+    }
+
+    public function theme()
+    {
+        return $this->belongsTo(Theme::class, 'theme_id', 'id');
+    }
 }

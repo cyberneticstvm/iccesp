@@ -54,6 +54,7 @@ class WebController extends Controller
                     'title' => $request->title,
                     'doc_url' => $url,
                     'email' => $request->email,
+                    'status_id' => 1,
                     'created_at' => Carbon::now(),
                     'updated_at' => Carbon::now(),
                 ]);
