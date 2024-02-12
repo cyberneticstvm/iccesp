@@ -623,10 +623,10 @@
                                             2
                                         </td>
                                         <td>
-                                            Dr. Sridevi. M.
+                                            Dr. Guda Sridevi
                                         </td>
                                         <td>
-                                            Associate Professor, Department of Civil Engineering, CV Raman Global University and Secretary ASCE India Section Southern Region
+                                            Professor in Civil and Environmental Engineering, CV Raman Global University, Bhubaneswar.
                                         </td>
                                     </tr>
                                     <tr>
