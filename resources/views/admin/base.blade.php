@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="{{ asset('/admin/assets/vendors/css/vendor.bundle.base.css') }}">
     <!-- endinject -->
     <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="{{ asset('/admin/assets/vendors/select2/select2.min.css') }}">
     <link rel="stylesheet" href="{{ asset('/admin/assets/vendors/datatables.net-bs4/dataTables.bootstrap4.css') }}">
     <link rel="stylesheet" href="{{ asset('/admin/assets/js/select.dataTables.min.css') }}">
     <!-- End plugin css for this page -->
@@ -163,7 +164,7 @@
     <script src="{{ asset('/admin/assets/vendors/chart.js/Chart.min.js') }}"></script>
     <script src="{{ asset('/admin/assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js') }}"></script>
     <script src="{{ asset('/admin/assets/vendors/progressbar.js/progressbar.min.js') }}"></script>
-
+    <script src="{{ asset('/admin/assets/vendors/select2/select2.min.js') }}"></script>
     <!-- End plugin js for this page -->
     <!-- inject:js -->
     <script src="{{ asset('/admin/assets/js/off-canvas.js') }}"></script>
@@ -178,6 +179,7 @@
     <script src="{{ asset('/admin/assets/js/dashboard.js') }}"></script>
     <script src="{{ asset('/admin/assets/js/Chart.roundedBarCharts.js') }}"></script>
     <script src="{{ asset('/admin/assets/js/data-table.js') }}"></script>
+    <script src="{{ asset('/admin/assets/js/select2.js') }}"></script>
     <!-- End custom js for this page-->
     @include("admin.message")
 </body>

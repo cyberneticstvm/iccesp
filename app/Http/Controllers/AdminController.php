@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\Abstracts;
 use App\Models\StaffTheme;
+use App\Models\Theme;
 use App\Models\User;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\RedirectResponse;
@@ -44,7 +46,90 @@ class AdminController extends Controller
     public function staff()
     {
         $users = User::all();
-        return view('admin.staff.index', compact('users'));
+        $themes = Theme::all();
+        return view('admin.staff.index', compact('users', 'themes'));
+    }
+
+    public function staffcreate()
+    {
+        $themes = Theme::all();
+        return view('admin.staff.create', compact('themes'));
+    }
+
+    public function staffstore(Request $request)
+    {
+        $this->validate($request, [
+            'name' => 'required',
+            'email' => 'required|unique:users,email',
+            'password' => 'required|min:6',
+            'role' => 'required',
+            'themes' => 'required',
+        ]);
+        try {
+            $input = $request->except(array('themes'));
+            $input['password'] = bcrypt($request->password);
+            $user = User::create($input);
+            if ($request->themes) :
+                $data = [];
+                foreach ($request->themes as $key => $theme) :
+                    $data[] = [
+                        'user_id' => $user->id,
+                        'theme_id' => $theme,
+                        'created_at' => Carbon::now(),
+                        'updated_at' => Carbon::now(),
+                    ];
+                endforeach;
+                StaffTheme::insert($data);
+            endif;
+        } catch (Exception $e) {
+            return back()->with("error", $e->getMessage())->withInput($request->all());
+        }
+        return redirect()->route('staff')->with("success", "Staff Created Successfully");
+    }
+
+    public function staffedit(string $id)
+    {
+        $user = User::findOrFail(decrypt($id));
+        $themes = Theme::all();
+        return view('admin.staff.edit', compact('themes', 'user'));
+    }
+
+    public function staffupdate(Request $request, string $id)
+    {
+        $this->validate($request, [
+            'name' => 'required',
+            'email' => 'required|unique:users,email,' . $id,
+            'role' => 'required',
+            'themes' => 'required',
+        ]);
+        try {
+            $input = $request->except(array('themes'));
+            $user = User::find($id);
+            $input['password'] = ($request->password) ? bcrypt($request->password) : $user->getOriginal('password');
+            $user->update($input);
+            StaffTheme::where('user_id', $user->id)->delete();
+            if ($request->themes) :
+                $data = [];
+                foreach ($request->themes as $key => $theme) :
+                    $data[] = [
+                        'user_id' => $user->id,
+                        'theme_id' => $theme,
+                        'created_at' => Carbon::now(),
+                        'updated_at' => Carbon::now(),
+                    ];
+                endforeach;
+                StaffTheme::insert($data);
+            endif;
+        } catch (Exception $e) {
+            return back()->with("error", $e->getMessage())->withInput($request->all());
+        }
+        return redirect()->route('staff')->with("success", "Staff Updated Successfully");
+    }
+
+    public function staffdestroy(string $id)
+    {
+        User::findOrFail(decrypt($id))->delete();
+        return redirect()->route('staff')->with("success", "Staff Deleted Successfully");
     }
 
     public function logout(Request $request): RedirectResponse

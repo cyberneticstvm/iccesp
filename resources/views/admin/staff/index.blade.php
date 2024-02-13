@@ -32,7 +32,7 @@
                                 <td>{{ $staff->name }}</td>
                                 <td>{{ $staff->email }}</td>
                                 <td>{{ $staff->role }}</td>
-                                <td></td>
+                                <td>{{ $themes->whereIn('id', $staff->themes->pluck('theme_id'))->pluck('name')->implode(', ') }}</td>
                                 <td class="text-center"><a href="{{ route('staff.edit', encrypt($staff->id)) }}"><i class="mdi mdi-pencil text-warning"></i></a></td>
                                 <td class="text-center"><a href="{{ route('staff.delete', encrypt($staff->id)) }}" class="dlt"><i class="mdi mdi-archive text-danger"></i></a></td>
                             </tr>

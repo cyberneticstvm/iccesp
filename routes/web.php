@@ -56,7 +56,7 @@ Route::middleware(['web', 'auth', 'admin'])->group(function () {
         Route::get('/create', 'staffcreate')->name('staff.create');
         Route::post('/save', 'staffstore')->name('staff.save');
         Route::get('/edit/{id}', 'staffedit')->name('staff.edit');
-        Route::post('/edit/{id}', 'staffupdate')->name('staff.update');
+        Route::post('/update/{id}', 'staffupdate')->name('staff.update');
         Route::get('/delete/{id}', 'staffdestroy')->name('staff.delete');
     });
 });
