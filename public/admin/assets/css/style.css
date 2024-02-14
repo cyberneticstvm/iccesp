@@ -1,3 +1,7 @@
 .auth .brand-logo img {
     width: 50% !important;
 }
+
+.table tbody td {
+    white-space: normal !important;
+}
