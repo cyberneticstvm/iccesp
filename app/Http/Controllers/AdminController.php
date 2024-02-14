@@ -91,7 +91,8 @@ class AdminController extends Controller
     {
         $user = User::findOrFail(decrypt($id));
         $themes = Theme::all();
-        return view('admin.staff.edit', compact('themes', 'user'));
+        $staffthemes = Theme::whereIn('id', $user->themes->pluck('theme_id'))->pluck('id')->toArray();
+        return view('admin.staff.edit', compact('themes', 'user', 'staffthemes'));
     }
 
     public function staffupdate(Request $request, string $id)

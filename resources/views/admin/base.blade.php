@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="{{ asset('/admin/assets/css/vertical-layout-light/style.css') }}">
     <!-- endinject -->
     <link rel="shortcut icon" href="{{ asset('/admin/assets/images/favicon.ico') }}" />
+    <link rel="shortcut icon" href="{{ asset('/admin/assets/css/style.css') }}" />
 </head>
 
 <body>

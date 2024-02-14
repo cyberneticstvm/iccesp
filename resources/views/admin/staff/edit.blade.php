@@ -46,7 +46,7 @@
                                 <select name="themes[]" id="theme" class="form-control form-control-lg js-example-basic-multiple" multiple>
                                     <option value="">Select</option>
                                     @forelse($themes as $key => $theme)
-                                    <option value="{{ $theme->id }}">{{ $theme->name }}</option>
+                                    <option value="{{ $theme->id }}" {{ (in_array($theme->id, $staffthemes)) ? 'selected' : '' }}>{{ $theme->name }}</option>
                                     @empty
                                     @endforelse
                                 </select>
@@ -56,7 +56,7 @@
                             </div>
                         </div>
                         <button type="submit" class="btn btn-primary me-2 btn-submit">Update</button>
-                        <button class="btn btn-light">Cancel</button>
+                        <a class="btn btn-light" onclick="window.history.back();">Cancel</a>
                     </form>
                 </div>
             </div>

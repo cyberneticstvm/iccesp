@@ -38,7 +38,7 @@
                                                     <td>{{ $abstract->abstract_id }}</td>
                                                     <td>{{ $abstract->title }}</td>
                                                     <td>{{ $abstract->theme->name }}</td>
-                                                    <td>{{ asset($abstract->doc_url) }}</td>
+                                                    <td><a href="{{ asset($abstract->doc_url) }}">View / Download</a></td>
                                                     <td>{{ $abstract->created_at->format('d, M Y') }}</td>
                                                     <td>{{ $abstract->status->name }}</td>
                                                     <td></td>

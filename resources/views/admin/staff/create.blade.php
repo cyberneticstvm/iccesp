@@ -56,7 +56,7 @@
                             </div>
                         </div>
                         <button type="submit" class="btn btn-primary me-2 btn-submit">Save</button>
-                        <button class="btn btn-light">Cancel</button>
+                        <a class="btn btn-light" onclick="window.history.back();">Cancel</a>
                     </form>
                 </div>
             </div>
