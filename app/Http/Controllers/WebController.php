@@ -35,7 +35,7 @@ class WebController extends Controller
         $this->validate($request, [
             'mobile' => 'required|numeric|digits:10',
             'email' => 'required|email',
-            'doc' => 'required|mimes:doc,docx',
+            'doc' => 'required|mimes:doc,docx,pdf',
             'title' => 'required',
             'theme_id' => 'required',
         ]);
