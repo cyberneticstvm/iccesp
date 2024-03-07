@@ -585,6 +585,17 @@
                                             Program Head SOEE-NICMAR (National Institute of Construction Management & Research) University.
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>
+                                            11
+                                        </td>
+                                        <td>
+                                            Mr. KGK Moorthy
+                                        </td>
+                                        <td>
+                                            Director - Corporate, Cera-Chem Private Limited, Superior Construction Chemicals, Nungampakkam, Chennai
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
