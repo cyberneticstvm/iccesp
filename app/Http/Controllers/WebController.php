@@ -78,7 +78,7 @@ class WebController extends Controller
             });
             $abstract = Abstracts::latest()->first();
             $staff = User::where('role', 'staff')->where('id', StaffTheme::where('theme_id', $request->theme_id)->latest()->first()->user_id)->first();
-            Mail::to($request->email)->cc($this->email)->cc($staff->email)->send(new AbstractSubmissionEmail($abstract, $mime));
+            Mail::to($request->email)->cc($this->email)->cc($staff?->email ?? $this->email)->send(new AbstractSubmissionEmail($abstract, $mime));
         } catch (Exception $e) {
             return redirect()->back()->with("error", $e->getMessage())->withInput($request->all());
         }
