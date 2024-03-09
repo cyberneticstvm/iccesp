@@ -41,7 +41,7 @@
                                                     <td><a href="{{ asset($abstract->doc_url) }}">View / Download</a></td>
                                                     <td>{{ $abstract->created_at->format('d, M Y') }}</td>
                                                     <td>{{ $abstract->status->name }}</td>
-                                                    <td></td>
+                                                    <td class="text-center"><a href="{{ route('edit.abstract', encrypt($abstract->id)) }}"><i class="mdi mdi-pencil text-warning"></i></a></td>
                                                 </tr>
                                                 @empty
                                                 @endforelse

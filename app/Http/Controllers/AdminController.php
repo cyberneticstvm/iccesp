@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\AbstractStatusUpdateEmail;
 use App\Models\Abstracts;
+use App\Models\Author;
 use App\Models\StaffTheme;
+use App\Models\Status;
 use App\Models\Theme;
 use App\Models\User;
 use Carbon\Carbon;
@@ -11,9 +14,18 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\RedirectResponse;
 use Exception;
+use Illuminate\Support\Facades\Mail;
 
 class AdminController extends Controller
 {
+    public $email;
+
+    public function __construct()
+    {
+        $this->email = "iccesp2024@gmail.com";
+        //$this->email = "cyberneticstvm@gmail.com";
+    }
+
     public function login(Request $request)
     {
         $this->validate($request, [
@@ -131,6 +143,25 @@ class AdminController extends Controller
     {
         User::findOrFail(decrypt($id))->delete();
         return redirect()->route('staff')->with("success", "Staff Deleted Successfully");
+    }
+
+    public function editUbstract(string $id)
+    {
+        $abstract = Abstracts::findOrFail(decrypt($id));
+        $status = Status::all();
+        return view('admin.abstract.edit', compact('abstract', 'status'));
+    }
+
+    public function updateUbstract(Request $request, string $id)
+    {
+        $this->validate($request, [
+            'status' => 'required',
+        ]);
+        $abstract = Abstracts::findOrFail($id);
+        $abstract->update(['status_id' => $request->status]);
+        if (in_array($request->status, [2, 3, 4]))
+            Mail::to($abstract->email)->cc($this->email)->send(new AbstractStatusUpdateEmail($request));
+        return redirect()->route('dashboard')->with("success", "Abstract status updated successfully");
     }
 
     public function logout(Request $request): RedirectResponse

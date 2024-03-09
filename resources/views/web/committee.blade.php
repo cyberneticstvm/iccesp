@@ -593,7 +593,7 @@
                                             Mr. KGK Moorthy
                                         </td>
                                         <td>
-                                            Director - Corporate, Cera-Chem Private Limited, Superior Construction Chemicals, Nungampakkam, Chennai
+                                            Director - Corporate, Cera-Chem Private Limited, Chennai
                                         </td>
                                     </tr>
                                 </tbody>
