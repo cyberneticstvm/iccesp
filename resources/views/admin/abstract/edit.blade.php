@@ -10,7 +10,7 @@
                         @csrf
                         <div class="row">
                             <div class="form-group col-md-3">
-                                <label for="role">Role</label>
+                                <label for="status">Status</label>
                                 <select name="status" class="form-control form-control-lg">
                                     @forelse($status as $key => $st)
                                     <option value="{{ $st->id }}" {{ ($st->id == $abstract->status_id) ? 'selected' : '' }}>{{ $st->name }}</option>
