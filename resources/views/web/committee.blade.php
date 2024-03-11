@@ -376,6 +376,19 @@
                                     </tr>
                                     <tr>
                                         <td>
+                                            3
+                                        </td>
+                                        <td>
+                                            Dr. Kamal Laksiri
+                                        </td>
+                                        <td>
+                                            Governor Region 10, American Society of Civil Engineers<br />
+                                            Immediate Past President, Institution of Engineers Sri Lanka<br />
+                                            Project Director, Moragolla Hydropower Project, Ceylon Electricity Board
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
                                             4
                                         </td>
                                         <td>
