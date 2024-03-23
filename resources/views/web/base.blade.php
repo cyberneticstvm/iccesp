@@ -154,7 +154,7 @@
                 <div class="row align-items-center gy-5">
                     <div class="col-xl-7 text-center text-xl-start">
                         <h3 class="text-color-light font-weight-medium text-4 mb-1">IMPORTANT DATES</h3>
-                        <p class="text-color-light font-weight-semibold opacity-8 text-4 mb-0">Last date for Abstract Submission : April 1, 2024</p>
+                        <p class="text-color-light font-weight-semibold opacity-8 text-4 mb-0">Last date for Abstract Submission : April 15, 2024</p>
                         <p class="text-color-light font-weight-semibold opacity-8 text-4 mb-0">Abstract Acceptance Notification :May 1, 2024</p>
                         <p class="text-color-light font-weight-semibold opacity-8 text-4 mb-0">Registration and Payment: June 1, 2024</p>
                         <p class="text-color-light font-weight-semibold opacity-8 text-4 mb-0">Final Paper Submission: August 1, 2024</p>
