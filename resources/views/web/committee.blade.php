@@ -609,6 +609,17 @@
                                             Director - Corporate, Cera-Chem Private Limited, Chennai
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>
+                                            12
+                                        </td>
+                                        <td>
+                                            Dr. L. Krishnaraj
+                                        </td>
+                                        <td>
+                                            Associate Professor, Department of Civil Engineering, SRMIST, Chennai
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -636,7 +647,7 @@
                                             1
                                         </td>
                                         <td>
-                                            Dr. Pradeep Sivanthan
+                                            Dr. Pradeep Sivanantham
                                         </td>
                                         <td>
                                             Assistant Professor, SRM, President, ASCE India Section, Southern Region
@@ -776,6 +787,17 @@
                                         </td>
                                         <td>
                                             Director, Samasthi Construction Management and Consultancy
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            14
+                                        </td>
+                                        <td>
+                                            Dr. Senthil Selvan
+                                        </td>
+                                        <td>
+                                            Professor, Department of Civil Engineering, SRMIST, Chennai
                                         </td>
                                     </tr>
                                 </tbody>
