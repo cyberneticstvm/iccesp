@@ -13,7 +13,7 @@
         Organizing Team</p><br />
     <p>Your Abstract ID is <strong>{{ $abstract->abstract_id }}</strong> and recommended to keep it in safe place for future reference.</p>
     Regards,<br />
-    IICESP 2024.
+    ICCESP 2024.
 </body>
 
 </html>
