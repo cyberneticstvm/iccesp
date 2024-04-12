@@ -206,7 +206,7 @@
                     <p class="text-4 mb-0 text-info">Intimation and Acceptance of Abstract :May 1, 2024</p>
                     <p class="text-4 mb-0 text-info">Last date for full paper submission: Will announce shortly</p>
                 </div>-->
-                <img src="{{ asset('/web/img/iccesp/brochure2.jpeg') }}" class="img-fluid">
+                <img src="{{ asset('/web/img/iccesp/brochure3.jpeg') }}" class="img-fluid">
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>

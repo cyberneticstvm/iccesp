@@ -42,7 +42,7 @@
                                                     <td>{{ $abstract->title }}</td>
                                                     <td>{{ $abstract->theme->name }}</td>
                                                     <td><a href="{{ asset($abstract->doc_url) }}">View / Download</a></td>
-                                                    <td>{{ $abstract->authors?->first()?->name }}</td>
+                                                    <td>{{ $abstract->authors?stupid->first()?->name }}</td>
                                                     <td>{{ $abstract->email }}</td>
                                                     <td>{{ $abstract->mobile }}</td>
                                                     <td>{{ $abstract->created_at->format('d, M Y') }}</td>
