@@ -26,6 +26,8 @@
                                                     <th>Title</th>
                                                     <th>Theme</th>
                                                     <th>Abstract</th>
+                                                    <th>Email</th>
+                                                    <th>Mobile</th>
                                                     <th>Submitted On</th>
                                                     <th>Status</th>
                                                     <th>Edit</th>
@@ -39,6 +41,8 @@
                                                     <td>{{ $abstract->title }}</td>
                                                     <td>{{ $abstract->theme->name }}</td>
                                                     <td><a href="{{ asset($abstract->doc_url) }}">View / Download</a></td>
+                                                    <td>{{ $abstract->email }}</td>
+                                                    <td>{{ $abstract->mobile }}</td>
                                                     <td>{{ $abstract->created_at->format('d, M Y') }}</td>
                                                     <td>{{ $abstract->status->name }}</td>
                                                     <td class="text-center"><a href="{{ route('edit.abstract', encrypt($abstract->id)) }}"><i class="mdi mdi-pencil text-warning"></i></a></td>
