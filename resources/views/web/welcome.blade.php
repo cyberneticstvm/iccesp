@@ -9,7 +9,7 @@
 
 <body>
     <center>
-        <h4>Website under construction..</h4>
+        <h2>Website under construction..</h2>
     </center>
 </body>
 
