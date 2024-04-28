@@ -22,7 +22,8 @@ class AdminController extends Controller
 
     public function __construct()
     {
-        $this->email = "iccesp2024@gmail.com";
+        $this->email = "iccesp.conference@gmail.com";
+        //$this->email = "iccesp2024@gmail.com";
         //$this->email = "cyberneticstvm@gmail.com";
     }
 
