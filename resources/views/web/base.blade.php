@@ -112,14 +112,24 @@
                                                             About the Conference
                                                         </a>
                                                     </li>
-                                                    <li>
-                                                        <a class="nav-link {{ (request()->segment(1) == 'abstract') ? 'active' : '' }}" href="{{ route('abstract') }}">
+                                                    <!--<li>
+                                                        <a class="nav-link {{ (request()->segment(1) == 'abstract') ? 'active' : '' }}" href="{{ route('guidelines') }}">
                                                             Abstract Guidelines
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a class="nav-link {{ (request()->segment(1) == 'register') ? 'active' : '' }}" href="{{ route('register') }}">
+                                                        <a class="nav-link {{ (request()->segment(1) == 'register') ? 'active' : '' }}" href="{{ route('paper') }}">
                                                             Submit Abstract
+                                                        </a>
+                                                    </li>-->
+                                                    <li>
+                                                        <a class="nav-link {{ (request()->segment(1) == 'guidelines') ? 'active' : '' }}" href="{{ route('guidelines') }}">
+                                                            Paper Submission Guidelines
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="nav-link {{ (request()->segment(1) == 'paper') ? 'active' : '' }}" href="{{ route('paper') }}">
+                                                            Submit Paper
                                                         </a>
                                                     </li>
                                                     <li>
@@ -136,7 +146,7 @@
                                             </nav>
                                         </div>
                                     </div>
-                                    <a href="{{ route('register') }}" class="position-relative top-5 btn btn-outline btn-rounded btn-secondary text-2 font-weight-bold text-uppercase px-5 btn-py-2 mb-3">Submit</a>
+                                    <a href="{{ route('paper') }}" class="position-relative top-5 btn btn-outline btn-rounded btn-secondary text-2 font-weight-bold text-uppercase px-5 btn-py-2 mb-3">Submit</a>
                                     <button class="btn header-btn-collapse-nav" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav">
                                         <i class="fas fa-bars"></i>
                                     </button>
@@ -175,7 +185,7 @@
                                 </div>
                             </div>
                             <div class="custom-divider px-3 me-3 ms-5-5 d-none d-sm-block"></div>
-                            <a href="{{ route('register') }}" class="btn btn-light btn-rounded font-weight-bold border-0 text-color-dark text-3 px-5 btn-py-3">Submit Abstract</a>
+                            <a href="{{ route('paper') }}" class="btn btn-light btn-rounded font-weight-bold border-0 text-color-dark text-3 px-5 btn-py-3">Submit Paper</a>
                         </div>
                     </div>
                 </div>
@@ -228,8 +238,8 @@
                             <div class="col-lg-6 mb-4 mb-lg-0">
                                 <h4 class="text-color-dark font-weight-bold mb-3">Important Links</h4>
                                 <ul class="list list-unstyled columns-lg-2">
-                                    <li><a href="{{ route('register') }}" class="text-color-grey text-color-hover-primary">Submit Abstract</a></li>
-                                    <li><a href="{{ route('abstract') }}" class="text-color-grey text-color-hover-primary">Abstract Guidelines</a></li>
+                                    <li><a href="{{ route('paper') }}" class="text-color-grey text-color-hover-primary">Submit Paper</a></li>
+                                    <li><a href="{{ route('guidelines') }}" class="text-color-grey text-color-hover-primary">Paper Submission Guidelines</a></li>
                                     <li><a href="/" class="text-color-grey text-color-hover-primary">Important Dates</a></li>
                                     <li><a href="{{ route('about') }}" class="text-color-grey text-color-hover-primary">About the Conference</a></li>
                                 </ul>

@@ -22,9 +22,9 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('web.about');
 })->name('about');
-Route::get('/abstract', function () {
+/*Route::get('/abstract', function () {
     return view('web.abstract');
-})->name('abstract');
+})->name('abstract');*/
 Route::get('/committee', function () {
     return view('web.committee');
 })->name('committee');
@@ -38,8 +38,12 @@ Route::get('/login', function () {
 
 Route::middleware(['web'])->group(function () {
     Route::controller(WebController::class)->group(function () {
-        Route::get('/register', 'abstractSubmitPage')->name('register');
-        Route::post('/register', 'abstractSubmit')->name('register.abstract');
+        /*Route::get('/register', 'abstractSubmitPage')->name('register');
+        Route::post('/register', 'abstractSubmit')->name('register.abstract');*/
+
+        Route::get('/guidelines', 'guidelines')->name('guidelines');
+        Route::get('/paper', 'paper')->name('paper');
+        Route::post('/paper', 'submitPaper')->name('paper.submit');
     });
     Route::controller(AdminController::class)->group(function () {
         Route::post('/login', 'login')->name('signin');

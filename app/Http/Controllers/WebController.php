@@ -3,9 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Mail\AbstractSubmissionEmail;
+use App\Mail\PaperSubmissionEmail;
 use App\Models\Abstracts;
 use App\Models\Author;
 use App\Models\Designation;
+use App\Models\Paper;
 use App\Models\StaffTheme;
 use App\Models\Theme;
 use App\Models\User;
@@ -84,5 +86,48 @@ class WebController extends Controller
             return redirect()->back()->with("error", $e->getMessage())->withInput($request->all());
         }
         return redirect()->back()->with("success", "Abstract submitted successfully!");
+    }
+
+    public function guidelines()
+    {
+        return view('web.guidelines');
+    }
+
+    public function paper()
+    {
+        return view('web.paper');
+    }
+
+    public function submitPaper(Request $request)
+    {
+        $this->validate($request, [
+            'doc' => 'required|mimes:doc,docx,pdf',
+            'payment_screenshot' => 'required|mimes:pdf,png,jpeg,jpg',
+            'abstract_id' => 'required',
+        ]);
+        try {
+            $abstract = Abstracts::where('abstract_id', $request->abstract_id)->where('status_id', 3)->firstOrFail();
+            $paper = null;
+            $payment = null;
+            $mime = "";
+            if ($request->file('doc')) :
+                $mime = $request->file('doc')->getClientMimeType();
+                $paper = uploadFile($request->file('doc'), $path = 'papers');
+            endif;
+            if ($request->file('payment_screenshot')) :
+                $payment = uploadFile($request->file('payment_screenshot'), $path = 'payments');
+            endif;
+            $paper = Paper::create([
+                'abstract_id' => $abstract->id,
+                'status_id' => 1,
+                'paper' => $paper,
+                'payment' => $payment,
+            ]);
+            $staff = User::where('role', 'staff')->where('id', StaffTheme::where('theme_id', $abstract->theme_id)->latest()->first()->user_id)->first();
+            Mail::to($abstract->email)->cc($this->email)->cc($staff?->email ?? $this->email)->send(new PaperSubmissionEmail($paper, $mime));
+        } catch (Exception $e) {
+            return redirect()->back()->with("error", $e->getMessage())->withInput($request->all());
+        }
+        return redirect()->back()->with("success", "Paper submitted successfully!");
     }
 }
