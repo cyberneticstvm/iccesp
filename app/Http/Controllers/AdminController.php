@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Mail\AbstractStatusUpdateEmail;
 use App\Models\Abstracts;
 use App\Models\Author;
+use App\Models\Paper;
 use App\Models\StaffTheme;
 use App\Models\Status;
 use App\Models\Theme;
@@ -47,13 +48,25 @@ class AdminController extends Controller
 
     public function dashboard()
     {
+        $papers = [];
+        if (Auth::user()->role == 'admin') :
+            $papers = Paper::latest()->get();
+        else :
+            $abstracts = Abstracts::whereIN('theme_id', StaffTheme::where('user_id', Auth::id())->pluck('theme_id'));
+            $papers = Paper::whereIn('abstract_id', $abstracts->pluck('id'))->get();
+        endif;
+        return view('admin.dashboard', compact('papers'));
+    }
+
+    public function abstracts()
+    {
         $abstracts = [];
         if (Auth::user()->role == 'admin') :
             $abstracts = Abstracts::latest()->get();
         else :
             $abstracts = Abstracts::whereIN('theme_id', StaffTheme::where('user_id', Auth::id())->pluck('theme_id'))->get();
         endif;
-        return view('admin.dashboard', compact('abstracts'));
+        return view('admin.abstract.index', compact('abstracts'));
     }
 
     public function staff()
