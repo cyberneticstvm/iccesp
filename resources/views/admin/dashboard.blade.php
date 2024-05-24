@@ -38,12 +38,12 @@
                                                 <tr>
                                                     <td>{{ $key + 1 }}</td>
                                                     <td>{{ $paper->abstract?->abstract_id }}</td>
-                                                    <td>{{ $paper->abstract->title }}</td>
-                                                    <td>{{ $paper->abstract->theme->name }}</td>
+                                                    <td>{{ $paper->abstract?->title }}</td>
+                                                    <td>{{ $paper->abstract?->theme->name }}</td>
                                                     <td><a href="{{ asset($paper->paper) }}">View / Download</a></td>
-                                                    <td>{{ $paper->abstract->authors?->first()?->name }}</td>
-                                                    <td>{{ $paper->abstract->email }}</td>
-                                                    <td>{{ $paper->abstract->mobile }}</td>
+                                                    <td>{{ $paper->abstract?->authors?->first()?->name }}</td>
+                                                    <td>{{ $paper->abstract?->email }}</td>
+                                                    <td>{{ $paper->abstract?->mobile }}</td>
                                                     <td>{{ $paper->created_at->format('d, M Y') }}</td>
                                                     <td>{{ $paper->status->name }}</td>
                                                 </tr>
