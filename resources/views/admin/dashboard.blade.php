@@ -37,7 +37,7 @@
                                                 @forelse($papers as $key => $paper)
                                                 <tr>
                                                     <td>{{ $key + 1 }}</td>
-                                                    <td>{{ $paper->abstract->abstract_id }}</td>
+                                                    <td>{{ $paper->abstract?->abstract_id }}</td>
                                                     <td>{{ $paper->abstract->title }}</td>
                                                     <td>{{ $paper->abstract->theme->name }}</td>
                                                     <td><a href="{{ asset($paper->paper) }}">View / Download</a></td>
