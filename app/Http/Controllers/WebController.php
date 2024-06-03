@@ -102,6 +102,8 @@ class WebController extends Controller
     {
         $this->validate($request, [
             'doc' => 'required|mimes:doc,docx,pdf',
+            'turnitin' => 'required|mimes:doc,docx,pdf',
+            'mobile' => 'required|numeric|digits:10',
             'payment_screenshot' => 'required|mimes:pdf,png,jpeg,jpg',
             'abstract_id' => 'required',
         ]);
@@ -113,6 +115,10 @@ class WebController extends Controller
             if ($request->file('doc')) :
                 $mime = $request->file('doc')->getClientMimeType();
                 $paper = uploadFile($request->file('doc'), $path = 'papers');
+            endif;
+            if ($request->file('turnitin')) :
+                $mime = $request->file('turnitin')->getClientMimeType();
+                $paper = uploadFile($request->file('turnitin'), $path = 'turnitin');
             endif;
             if ($request->file('payment_screenshot')) :
                 $payment = uploadFile($request->file('payment_screenshot'), $path = 'payments');

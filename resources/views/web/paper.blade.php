@@ -18,6 +18,21 @@
                                 @enderror
                             </div>
                             <div class="form-group col-lg-4 mb-4 text-start">
+                                <label class="text-danger">Contact Number</label>
+                                <input type="text" value="{{ old('mobile') }}" data-msg-required="Please enter Contact Number." maxlength="10" class="form-control" name="mobile" required="" placeholder="Contact Number">
+                                <small>(Preferably Whatsapp Number)</small>
+                                @error('mobile')
+                                <small class="text-danger">{{ $errors->first('mobile') }}</small>
+                                @enderror
+                            </div>
+                            <div class="form-group col-lg-4 mb-4 text-start">
+                                <label class="text-danger">Turnitin (Plagiarism) Report</label>
+                                <input type="file" class="form-control" name="turnitin" required="">
+                                @error('turnitin')
+                                <small class="text-danger">{{ $errors->first('turnitin') }}</small>
+                                @enderror
+                            </div>
+                            <div class="form-group col-lg-4 mb-4 text-start">
                                 <label class="text-danger">Paper</label>
                                 <input type="file" class="form-control" name="doc" required="">
                                 @error('doc')
@@ -25,7 +40,7 @@
                                 @enderror
                             </div>
                             <div class="form-group col-lg-4 mb-4 text-start">
-                                <label class="text-danger">Payment Screenshot</label>
+                                <label class="text-danger">Payment Proof (Screenshot)</label>
                                 <input type="file" class="form-control" name="payment_screenshot" required="">
                                 @error('payment_screenshot')
                                 <small class="text-danger">{{ $errors->first('payment_screenshot') }}</small>

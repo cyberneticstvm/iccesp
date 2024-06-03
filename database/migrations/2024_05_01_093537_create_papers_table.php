@@ -14,7 +14,9 @@ return new class extends Migration
         Schema::create('papers', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('abstract_id');
+            $table->string('mobile', 10)->nullable();
             $table->string('paper')->nullable();
+            $table->string('turnitin')->nullable();
             $table->string('payment')->nullable();
             $table->unsignedBigInteger('status_id')->nullable();
             $table->foreign('abstract_id')->references('id')->on('abstracts');
