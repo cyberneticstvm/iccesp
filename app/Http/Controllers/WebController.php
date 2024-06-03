@@ -110,6 +110,7 @@ class WebController extends Controller
         try {
             $abstract = Abstracts::where('abstract_id', $request->abstract_id)->where('status_id', 3)->firstOrFail();
             $paper = null;
+            $turnitin = null;
             $payment = null;
             $mime = "";
             if ($request->file('doc')) :
@@ -118,7 +119,7 @@ class WebController extends Controller
             endif;
             if ($request->file('turnitin')) :
                 $mime = $request->file('turnitin')->getClientMimeType();
-                $paper = uploadFile($request->file('turnitin'), $path = 'turnitin');
+                $turnitin = uploadFile($request->file('turnitin'), $path = 'turnitin');
             endif;
             if ($request->file('payment_screenshot')) :
                 $payment = uploadFile($request->file('payment_screenshot'), $path = 'payments');
@@ -126,6 +127,8 @@ class WebController extends Controller
             $paper = Paper::create([
                 'abstract_id' => $abstract->id,
                 'status_id' => 1,
+                'mobile' => $request->mobile,
+                'turnitin' => $turnitin,
                 'paper' => $paper,
                 'payment' => $payment,
             ]);
