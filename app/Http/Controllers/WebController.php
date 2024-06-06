@@ -121,9 +121,9 @@ class WebController extends Controller
                 $mime = $request->file('turnitin')->getClientMimeType();
                 $turnitin = uploadFile($request->file('turnitin'), $path = 'turnitin');
             endif;
-            if ($request->file('payment_screenshot')) :
+            /*if ($request->file('payment_screenshot')) :
                 $payment = uploadFile($request->file('payment_screenshot'), $path = 'payments');
-            endif;
+            endif;*/
             $paper = Paper::create([
                 'abstract_id' => $abstract->id,
                 'status_id' => 1,

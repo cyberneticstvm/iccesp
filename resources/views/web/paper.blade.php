@@ -39,13 +39,13 @@
                                 <small class="text-danger">{{ $errors->first('doc') }}</small>
                                 @enderror
                             </div>
-                            <div class="form-group col-lg-4 mb-4 text-start">
+                            <!--<div class="form-group col-lg-4 mb-4 text-start">
                                 <label class="text-danger">Payment Proof (Screenshot)</label>
                                 <input type="file" class="form-control" name="payment_screenshot" required="">
                                 @error('payment_screenshot')
                                 <small class="text-danger">{{ $errors->first('payment_screenshot') }}</small>
                                 @enderror
-                            </div>
+                            </div>-->
                         </div>
                         <div class="row">
                             <div class="form-group col mb-0">

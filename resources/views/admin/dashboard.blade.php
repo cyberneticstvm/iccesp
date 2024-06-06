@@ -41,13 +41,13 @@
                                                     <td>{{ $paper->abstract?->abstract_id }}</td>
                                                     <td>{{ $paper->abstract?->title }}</td>
                                                     <td>{{ $paper->abstract?->theme->name }}</td>
-                                                    <td><a href="{{ asset($paper->paper) }}">View / Download</a></td>
-                                                    <td><a href="{{ asset($paper->turnitin) }}">View / Download</a></td>
+                                                    <td><a href="{{ asset($paper->paper) }}" target="_blank">View / Download</a></td>
+                                                    <td><a href="{{ asset($paper->turnitin) }}" target="_blank">View / Download</a></td>
                                                     <td>{{ $paper->abstract?->authors?->first()?->name }}</td>
                                                     <td>{{ $paper->abstract?->email }}</td>
                                                     <td>{{ $paper->mobile }}</td>
                                                     <td>{{ $paper->created_at->format('d, M Y') }}</td>
-                                                    <td>{{ $paper->status->name }}</td>
+                                                    <td>{{ $paper->status?->name }}</td>
                                                 </tr>
                                                 @empty
                                                 @endforelse
