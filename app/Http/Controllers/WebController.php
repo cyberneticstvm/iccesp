@@ -104,7 +104,6 @@ class WebController extends Controller
             'doc' => 'required|mimes:doc,docx,pdf',
             'turnitin' => 'required|mimes:doc,docx,pdf',
             'mobile' => 'required|numeric|digits:10',
-            'payment_screenshot' => 'required|mimes:pdf,png,jpeg,jpg',
             'abstract_id' => 'required',
         ]);
         try {
