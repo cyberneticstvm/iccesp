@@ -86,7 +86,7 @@
 
                     <p class="text-color-dark text-4 font-weight-medium mb-4-5 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100"></p>
                     <p class="text-dark"><strong>6,7,8 DECEMBER 2024</strong></p>
-                    <a href="#" class="btn btn-primary btn-rounded border-0 font-weight-bold text-3 px-5 btn-py-3 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">REGISTER NOW</a>
+                    <a href="{{ route('conference.registration') }}" class="btn btn-primary btn-rounded border-0 font-weight-bold text-3 px-5 btn-py-3 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100">REGISTER NOW</a>
                 </div>
                 <!--<div class="col-lg-3 ms-lg-auto mb-lg-5 d-none d-lg-block">
                     <ul class="list list-unstyled">
