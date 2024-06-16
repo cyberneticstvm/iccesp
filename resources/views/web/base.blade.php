@@ -109,7 +109,7 @@
                                                     </li>
                                                     <li>
                                                         <a class="nav-link {{ (request()->segment(1) == 'about') ? 'active' : '' }}" href="{{ route('about') }}">
-                                                            About the Conference
+                                                            About
                                                         </a>
                                                     </li>
                                                     <!--<li>
@@ -124,7 +124,7 @@
                                                     </li>-->
                                                     <li>
                                                         <a class="nav-link {{ (request()->segment(1) == 'guidelines') ? 'active' : '' }}" href="{{ route('guidelines') }}">
-                                                            Paper Submission Guidelines
+                                                            Paper Guidelines
                                                         </a>
                                                     </li>
                                                     <li>
@@ -134,7 +134,12 @@
                                                     </li>
                                                     <li>
                                                         <a class="nav-link {{ (request()->segment(1) == 'committee') ? 'active' : '' }}" href="{{ route('committee') }}">
-                                                            Advisory Committee
+                                                            Committee
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="nav-link {{ (request()->segment(1) == 'conference') ? 'active' : '' }}" href="{{ route('conference.registration') }}">
+                                                            Registration
                                                         </a>
                                                     </li>
                                                     <li>

@@ -32,6 +32,10 @@ Route::get('/contact', function () {
     return view('web.contact');
 })->name('contact');
 
+Route::get('/conference/registration', function () {
+    return view('web.conference-registration');
+})->name('conference.registration');
+
 Route::get('/login', function () {
     return view('admin.login');
 })->name('login');
