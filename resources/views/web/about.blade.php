@@ -56,6 +56,17 @@
                     <img src="https://habilete.co.in/images/habilete/habilete-logo.png" class="img-fluid mb-4 mb-lg-0 appear-animation animated fadeInLeftShorterPlus appear-animation-visible" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="100" alt="" style="animation-delay: 100ms;">
                 </div>
             </div>
+            <div class="row align-items-center pb-5 pb-lg-0 mb-5 mb-lg-0">
+                <div class="col-lg-5 text-center text-lg-start appear-animation animated fadeInRightShorterPlus appear-animation-visible" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="100" style="animation-delay: 100ms;">
+                    <img src="https://www.mtsociety.org/assets/site/logonew.png" class="img-fluid mb-4 mb-lg-0" alt="">
+                </div>
+                <div class="col-lg-6 text-center text-lg-start appear-animation animated fadeInRightShorterPlus appear-animation-visible" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="100" style="animation-delay: 100ms;">
+                    <h2 class="text-color-dark font-weight-medium text-8 mb-4-5">Marine Technology Society</h2>
+                    <p class="text-3-5 line-height-8 mb-4 text-justify">
+                    </p>
+                    <a href="https://www.mtsociety.org/" target="_blank" class="btn btn-secondary btn-outline btn-rounded font-weight-bold btn-px-5 py-3">KNOW MORE</a>
+                </div>
+            </div>
         </div>
     </section>
 </div>
