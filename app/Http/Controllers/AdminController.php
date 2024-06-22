@@ -6,6 +6,7 @@ use App\Mail\AbstractStatusUpdateEmail;
 use App\Models\Abstracts;
 use App\Models\Author;
 use App\Models\Paper;
+use App\Models\PaperWithoutAbstract;
 use App\Models\StaffTheme;
 use App\Models\Status;
 use App\Models\Theme;
@@ -184,5 +185,16 @@ class AdminController extends Controller
         $request->session()->invalidate();
         $request->session()->regenerateToken();
         return redirect()->route('login')->with("success", "User logged out successfully");
+    }
+
+    public function abstractswa()
+    {
+        $papers = [];
+        if (Auth::user()->role == 'admin') :
+            $papers = PaperWithoutAbstract::latest()->get();
+        else :
+            $papers = PaperWithoutAbstract::latest()->get();
+        endif;
+        return view('admin.paper.wa', compact('papers'));
     }
 }

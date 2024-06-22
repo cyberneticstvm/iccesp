@@ -7,7 +7,7 @@
                 <div class="d-sm-flex align-items-center justify-content-between border-bottom">
                     <ul class="nav nav-tabs" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active ps-0" id="home-tab" data-bs-toggle="tab" href="#abstracts" role="tab" aria-controls="abstracts" aria-selected="true">Papers With Abstracts</a>
+                            <a class="nav-link active ps-0" id="home-tab" data-bs-toggle="tab" href="#abstracts" role="tab" aria-controls="abstracts" aria-selected="true">Papers Without Abstracts</a>
                         </li>
                     </ul>
                 </div>
@@ -22,15 +22,10 @@
                                             <thead>
                                                 <tr>
                                                     <th>SL No</th>
-                                                    <th>Abstract ID</th>
-                                                    <th>Title</th>
-                                                    <th>Theme</th>
                                                     <th>Paper</th>
                                                     <th>Turnitin</th>
-                                                    <th>Name</th>
-                                                    <th>Email</th>
-                                                    <th>Mobile</th>
                                                     <th>Submitted On</th>
+                                                    <th>Mobile</th>
                                                     <th>Status</th>
                                                 </tr>
                                             </thead>
@@ -38,15 +33,10 @@
                                                 @forelse($papers as $key => $paper)
                                                 <tr>
                                                     <td>{{ $key + 1 }}</td>
-                                                    <td>{{ $paper->abstract?->abstract_id }}</td>
-                                                    <td>{{ $paper->abstract?->title }}</td>
-                                                    <td>{{ $paper->abstract?->theme->name }}</td>
                                                     <td><a href="{{ asset($paper->paper) }}" target="_blank">View / Download</a></td>
                                                     <td><a href="{{ asset($paper->turnitin) }}" target="_blank">View / Download</a></td>
-                                                    <td>{{ $paper->abstract?->authors?->first()?->name }}</td>
-                                                    <td>{{ $paper->abstract?->email }}</td>
-                                                    <td>{{ $paper->mobile }}</td>
                                                     <td>{{ $paper->created_at->format('d, M Y') }}</td>
+                                                    <td>{{ $paper->mobile }}</td>
                                                     <td>{{ $paper->status?->name }}</td>
                                                 </tr>
                                                 @empty

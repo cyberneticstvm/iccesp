@@ -8,6 +8,7 @@ use App\Models\Abstracts;
 use App\Models\Author;
 use App\Models\Designation;
 use App\Models\Paper;
+use App\Models\PaperWithoutAbstract;
 use App\Models\StaffTheme;
 use App\Models\Theme;
 use App\Models\User;
@@ -133,6 +134,49 @@ class WebController extends Controller
             ]);
             $staff = User::where('role', 'staff')->where('id', StaffTheme::where('theme_id', $abstract->theme_id)->latest()->first()->user_id)->first();
             Mail::to($abstract->email)->cc($this->email)->cc($staff?->email ?? $this->email)->send(new PaperSubmissionEmail($paper, $mime));
+        } catch (Exception $e) {
+            return redirect()->back()->with("error", $e->getMessage())->withInput($request->all());
+        }
+        return redirect()->back()->with("success", "Paper submitted successfully!");
+    }
+
+    public function paperWa()
+    {
+        return view('web.paper-without-abstract');
+    }
+
+    public function submitWaPaper(Request $request)
+    {
+        $this->validate($request, [
+            'doc' => 'required|mimes:doc,docx,pdf',
+            'turnitin' => 'required|mimes:doc,docx,pdf',
+            'mobile' => 'required|numeric|digits:10',
+        ]);
+        try {
+            $paper = null;
+            $turnitin = null;
+            $payment = null;
+            $mime = "";
+            if ($request->file('doc')) :
+                $mime = $request->file('doc')->getClientMimeType();
+                $paper = uploadFile($request->file('doc'), $path = 'papers');
+            endif;
+            if ($request->file('turnitin')) :
+                $mime = $request->file('turnitin')->getClientMimeType();
+                $turnitin = uploadFile($request->file('turnitin'), $path = 'turnitin');
+            endif;
+            /*if ($request->file('payment_screenshot')) :
+                $payment = uploadFile($request->file('payment_screenshot'), $path = 'payments');
+            endif;*/
+            $paper = PaperWithoutAbstract::create([
+                'status_id' => 1,
+                'mobile' => $request->mobile,
+                'turnitin' => $turnitin,
+                'paper' => $paper,
+                'payment' => $payment,
+            ]);
+
+            Mail::to($this->email)->send(new PaperSubmissionEmail($paper, $mime));
         } catch (Exception $e) {
             return redirect()->back()->with("error", $e->getMessage())->withInput($request->all());
         }
