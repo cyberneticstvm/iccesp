@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('turnitin')->nullable();
             $table->string('payment')->nullable();
             $table->unsignedBigInteger('status_id')->nullable();
+            $table->enum('type', ['wa', 'asce', 'other']);
             $table->timestamps();
         });
     }

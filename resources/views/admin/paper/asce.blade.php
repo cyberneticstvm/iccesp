@@ -7,7 +7,7 @@
                 <div class="d-sm-flex align-items-center justify-content-between border-bottom">
                     <ul class="nav nav-tabs" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active ps-0" id="home-tab" data-bs-toggle="tab" href="#abstracts" role="tab" aria-controls="abstracts" aria-selected="true">Papers Without Abstracts</a>
+                            <a class="nav-link active ps-0" id="home-tab" data-bs-toggle="tab" href="#abstracts" role="tab" aria-controls="abstracts" aria-selected="true">ASCE Proceeding</a>
                         </li>
                     </ul>
                 </div>
@@ -17,7 +17,7 @@
                             <div class="col-lg-12 grid-margin stretch-card">
                                 <div class="card">
                                     <div class="card-body table-responsive">
-                                        <h4 class="card-title">Papers List (Without Abstracts)</h4>
+                                        <h4 class="card-title">Papers List (ASCE Proceeding)</h4>
                                         <table class="order-listing table table-sm table-striped" id="">
                                             <thead>
                                                 <tr>

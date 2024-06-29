@@ -174,6 +174,51 @@ class WebController extends Controller
                 'turnitin' => $turnitin,
                 'paper' => $paper,
                 'payment' => $payment,
+                'type' => 'wa', // Without Abstract
+            ]);
+
+            Mail::to($this->email)->send(new PaperSubmissionEmail($paper, $mime));
+        } catch (Exception $e) {
+            return redirect()->back()->with("error", $e->getMessage())->withInput($request->all());
+        }
+        return redirect()->back()->with("success", "Paper submitted successfully!");
+    }
+
+    public function paperAsce()
+    {
+        return view('web.paper-asce');
+    }
+
+    public function submitAscePaper(Request $request)
+    {
+        $this->validate($request, [
+            'doc' => 'required|mimes:doc,docx,pdf',
+            'turnitin' => 'required|mimes:doc,docx,pdf',
+            'mobile' => 'required|numeric|digits:10',
+        ]);
+        try {
+            $paper = null;
+            $turnitin = null;
+            $payment = null;
+            $mime = "";
+            if ($request->file('doc')) :
+                $mime = $request->file('doc')->getClientMimeType();
+                $paper = uploadFile($request->file('doc'), $path = 'asce');
+            endif;
+            if ($request->file('turnitin')) :
+                $mime = $request->file('turnitin')->getClientMimeType();
+                $turnitin = uploadFile($request->file('turnitin'), $path = 'turnitin');
+            endif;
+            /*if ($request->file('payment_screenshot')) :
+                $payment = uploadFile($request->file('payment_screenshot'), $path = 'payments');
+            endif;*/
+            $paper = PaperWithoutAbstract::create([
+                'status_id' => 1,
+                'mobile' => $request->mobile,
+                'turnitin' => $turnitin,
+                'paper' => $paper,
+                'payment' => $payment,
+                'type' => 'asce',
             ]);
 
             Mail::to($this->email)->send(new PaperSubmissionEmail($paper, $mime));

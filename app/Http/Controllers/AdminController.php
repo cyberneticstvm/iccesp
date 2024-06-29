@@ -191,10 +191,21 @@ class AdminController extends Controller
     {
         $papers = [];
         if (Auth::user()->role == 'admin') :
-            $papers = PaperWithoutAbstract::latest()->get();
+            $papers = PaperWithoutAbstract::where('type', 'wa')->latest()->get();
         else :
-            $papers = PaperWithoutAbstract::latest()->get();
+            $papers = PaperWithoutAbstract::where('type', 'wa')->latest()->get();
         endif;
         return view('admin.paper.wa', compact('papers'));
+    }
+
+    public function abstractsasce()
+    {
+        $papers = [];
+        if (Auth::user()->role == 'admin') :
+            $papers = PaperWithoutAbstract::where('type', 'asce')->latest()->get();
+        else :
+            $papers = PaperWithoutAbstract::where('type', 'asce')->latest()->get();
+        endif;
+        return view('admin.paper.asce', compact('papers'));
     }
 }

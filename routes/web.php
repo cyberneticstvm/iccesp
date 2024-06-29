@@ -50,6 +50,8 @@ Route::middleware(['web'])->group(function () {
         Route::post('/paper', 'submitPaper')->name('paper.submit');
         Route::get('/paper/without/abstract', 'paperWa')->name('paper.wa');
         Route::post('/paper/without/abstract', 'submitWaPaper')->name('paper.wa.submit');
+        Route::get('/paper/asce', 'paperAsce')->name('paper.asce');
+        Route::post('/paper/asce', 'submitAscePaper')->name('paper.asce.submit');
     });
     Route::controller(AdminController::class)->group(function () {
         Route::post('/login', 'login')->name('signin');
@@ -58,6 +60,7 @@ Route::middleware(['web'])->group(function () {
 Route::middleware(['web', 'auth'])->group(function () {
     Route::controller(AdminController::class)->group(function () {
         Route::get('/abstracts/wa', 'abstractswa')->name('abstracts.wa');
+        Route::get('/abstracts/asce', 'abstractsasce')->name('abstracts.asce');
         Route::get('/abstracts', 'abstracts')->name('abstracts');
         Route::get('/abstract/edit/{id}', 'editUbstract')->name('edit.abstract');
         Route::post('/abstract/update/{id}', 'updateUbstract')->name('update.abstract');

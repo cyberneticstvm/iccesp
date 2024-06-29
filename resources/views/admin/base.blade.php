@@ -149,16 +149,28 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="nav-item nav-category">Papers Without Abstract</li>
+                    <li class="nav-item nav-category">Papers Other</li>
                     <li class="nav-item">
                         <a class="nav-link" data-bs-toggle="collapse" href="#ui-wa-abstract" aria-expanded="false" aria-controls="ui-basic">
                             <i class="menu-icon mdi mdi-floor-plan"></i>
-                            <span class="menu-title">Papers</span>
+                            <span class="menu-title">Papers Without Abstract</span>
                             <i class="menu-arrow"></i>
                         </a>
                         <div class="collapse" id="ui-wa-abstract">
                             <ul class="nav flex-column sub-menu">
                                 <li class="nav-item"> <a class="nav-link" href="{{ route('abstracts.wa') }}">Paper Register</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="collapse" href="#ui-asce-abstract" aria-expanded="false" aria-controls="ui-basic">
+                            <i class="menu-icon mdi mdi-floor-plan"></i>
+                            <span class="menu-title">Papers ASCE Proceeding</span>
+                            <i class="menu-arrow"></i>
+                        </a>
+                        <div class="collapse" id="ui-asce-abstract">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item"> <a class="nav-link" href="{{ route('abstracts.asce') }}">Paper Register</a></li>
                             </ul>
                         </div>
                     </li>
