@@ -133,7 +133,7 @@
         <div class="container custom-container-background z-index-1 py-5">
             <div class="row position-relative z-index-1 pt-5-5">
                 <div class="col text-center">
-                    <h2 class="text-color-dark font-weight-medium text-8 mb-5-5">Technological Partner</strong></h2>
+                    <h2 class="text-color-dark font-weight-medium text-8 mb-5-5">Technology Partner</strong></h2>
                 </div>
             </div>
             <div class="row justify-content-center position-relative gy-5 z-index-1">
