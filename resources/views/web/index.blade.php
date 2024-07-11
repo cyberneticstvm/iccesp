@@ -133,6 +133,34 @@
         <div class="container custom-container-background z-index-1 py-5">
             <div class="row position-relative z-index-1 pt-5-5">
                 <div class="col text-center">
+                    <h2 class="text-color-dark font-weight-medium text-8 mb-5-5">Technological Partner</strong></h2>
+                </div>
+            </div>
+            <div class="row justify-content-center position-relative gy-5 z-index-1">
+                <div class="col-md-9 col-lg-4 text-center appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="100">
+                    <span class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten thumb-info-bottom-info thumb-info-bottom-info-dark thumb-info-bottom-info-show-more thumb-info-no-zoom">
+                        <span class="thumb-info-wrapper">
+                            <img src="{{ asset('/web/img/iccesp/midas.jpeg') }}" class="img-fluid" alt="" style="width:50%">
+                        </span>
+                    </span>
+                </div>
+                <div class="col-md-9 col-lg-8 text-center appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="100">
+                    <h2>MIDAS</h2>
+                    <p class="text-3-5 mb-0 text-start">Midas IT is an engineering software solution provider, providing solutions for bridges, buildings and geotechnical structures.</p>
+                    <p class="text-start">MIDAS Academic Program is committed to bridge the ever-growing gap in the industry by bringing in expertise to meet technological challenges by introducing cutting edge platforms, tools and solutions.</p>
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col">
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section bg-transparent position-relative border-0 m-0 p-0">
+        <div class="container custom-container-background z-index-1 py-5">
+            <div class="row position-relative z-index-1 pt-5-5">
+                <div class="col text-center">
                     <h2 class="text-color-dark font-weight-medium text-8 mb-5-5">SECOND INTERNATIONAL CONFERENCE IN CIVIL ENGINEERING FOR A SUSTAINABLE PLANET <strong>(ICCESP 2024)</strong></h2>
                 </div>
             </div>
