@@ -31,6 +31,18 @@
                                 <small class="text-danger">{{ $errors->first('doc') }}</small>
                                 @enderror
                             </div>
+                            <div class="form-group col-lg-6 mb-4 text-start">
+                                <label class="text-danger">Theme</label>
+                                <select class="form-control" name="theme_id" required="">
+                                    <option value="">Select</option>
+                                    @foreach($themes as $key => $value)
+                                    <option value="{{ $value->id }}" {{ ($value->id == old('theme_id')) ? 'selected' : '' }}>{{ $value->name }}</option>
+                                    @endforeach
+                                </select>
+                                @error('theme_id')
+                                <small class="text-danger">{{ $errors->first('theme_id') }}</small>
+                                @enderror
+                            </div>
                             <!--<div class="form-group col-lg-4 mb-4 text-start">
                                 <label class="text-danger">Payment Proof (Screenshot)</label>
                                 <input type="file" class="form-control" name="payment_screenshot" required="">

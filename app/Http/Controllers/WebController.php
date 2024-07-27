@@ -142,12 +142,14 @@ class WebController extends Controller
 
     public function paperWa()
     {
-        return view('web.paper-without-abstract');
+        $themes = Theme::where('status', 1)->orderBy('name')->get();
+        return view('web.paper-without-abstract', compact('themes'));
     }
 
     public function submitWaPaper(Request $request)
     {
         $this->validate($request, [
+            'theme_id' => 'required',
             'doc' => 'required|mimes:doc,docx,pdf',
             'turnitin' => 'required|mimes:doc,docx,pdf',
             'mobile' => 'required|numeric|digits:10',
@@ -170,13 +172,13 @@ class WebController extends Controller
             endif;*/
             $paper = PaperWithoutAbstract::create([
                 'status_id' => 1,
+                'theme_id' => $request->theme_id,
                 'mobile' => $request->mobile,
                 'turnitin' => $turnitin,
                 'paper' => $paper,
                 'payment' => $payment,
                 'type' => 'wa', // Without Abstract
             ]);
-
             Mail::to($this->email)->send(new PaperSubmissionEmail($paper, $mime));
         } catch (Exception $e) {
             return redirect()->back()->with("error", $e->getMessage())->withInput($request->all());
@@ -186,12 +188,14 @@ class WebController extends Controller
 
     public function paperAsce()
     {
-        return view('web.paper-asce');
+        $themes = Theme::where('status', 1)->orderBy('name')->get();
+        return view('web.paper-asce', compact('themes'));
     }
 
     public function submitAscePaper(Request $request)
     {
         $this->validate($request, [
+            'theme_id' => 'required',
             'doc' => 'required|mimes:doc,docx,pdf',
             'turnitin' => 'required|mimes:doc,docx,pdf',
             'mobile' => 'required|numeric|digits:10',
@@ -214,6 +218,7 @@ class WebController extends Controller
             endif;*/
             $paper = PaperWithoutAbstract::create([
                 'status_id' => 1,
+                'theme_id' => $request->theme_id,
                 'mobile' => $request->mobile,
                 'turnitin' => $turnitin,
                 'paper' => $paper,

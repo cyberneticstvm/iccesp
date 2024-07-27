@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('paper_without_abstracts', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('theme_id')->nullable();
             $table->string('mobile', 10)->nullable();
             $table->string('paper')->nullable();
             $table->string('turnitin')->nullable();
