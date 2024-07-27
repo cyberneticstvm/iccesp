@@ -179,7 +179,8 @@ class WebController extends Controller
                 'payment' => $payment,
                 'type' => 'wa', // Without Abstract
             ]);
-            Mail::to($this->email)->send(new PaperSubmissionEmail($paper, $mime));
+            $staff = User::where('role', 'staff')->where('id', StaffTheme::where('theme_id', $request->theme_id)->latest()->first()->user_id)->first();
+            Mail::to($staff?->email ?? $this->email)->cc($this->email)->send(new PaperSubmissionEmail($paper, $mime));
         } catch (Exception $e) {
             return redirect()->back()->with("error", $e->getMessage())->withInput($request->all());
         }
@@ -225,8 +226,8 @@ class WebController extends Controller
                 'payment' => $payment,
                 'type' => 'asce',
             ]);
-
-            Mail::to($this->email)->send(new PaperSubmissionEmail($paper, $mime));
+            $staff = User::where('role', 'staff')->where('id', StaffTheme::where('theme_id', $request->theme_id)->latest()->first()->user_id)->first();
+            Mail::to($staff?->email ?? $this->email)->cc($this->email)->send(new PaperSubmissionEmail($paper, $mime));
         } catch (Exception $e) {
             return redirect()->back()->with("error", $e->getMessage())->withInput($request->all());
         }
