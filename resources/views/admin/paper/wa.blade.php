@@ -23,6 +23,8 @@
                                                 <tr>
                                                     <th>SL No</th>
                                                     <th>Paper</th>
+                                                    <th>Theme</th>
+                                                    <th>Email</th>
                                                     <th>Turnitin</th>
                                                     <th>Submitted On</th>
                                                     <th>Mobile</th>
@@ -34,6 +36,8 @@
                                                 <tr>
                                                     <td>{{ $key + 1 }}</td>
                                                     <td><a href="{{ asset($paper->paper) }}" target="_blank">View / Download</a></td>
+                                                    <td>{{ $paper->theme->name }}</td>
+                                                    <td>{{ $paper->email }}</td>
                                                     <td><a href="{{ asset($paper->turnitin) }}" target="_blank">View / Download</a></td>
                                                     <td>{{ $paper->created_at->format('d, M Y') }}</td>
                                                     <td>{{ $paper->mobile }}</td>
