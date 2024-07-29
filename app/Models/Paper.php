@@ -13,7 +13,7 @@ class Paper extends Model
 
     public function abstracts()
     {
-        return $this->belongsTo(Abstracts::class, 'abstract_id', 'id');
+        return $this->belongsTo(Abstracts::class, 'id', 'abstract_id');
     }
 
     public function status()
