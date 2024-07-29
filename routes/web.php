@@ -64,6 +64,11 @@ Route::middleware(['web', 'auth'])->group(function () {
         Route::get('/abstracts', 'abstracts')->name('abstracts');
         Route::get('/abstract/edit/{id}', 'editUbstract')->name('edit.abstract');
         Route::post('/abstract/update/{id}', 'updateUbstract')->name('update.abstract');
+
+        Route::get('/paper/edit/{id}/{type}', 'editPaper')->name('edit.paper');
+        Route::post('/paper/update', 'updatePaper')->name('update.paper');
+
+
         Route::get('/dashboard', 'dashboard')->name('dashboard');
         Route::get('/logout', 'logout')->name('logout');
     });

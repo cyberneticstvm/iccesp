@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mail\AbstractStatusUpdateEmail;
+use App\Mail\PaperStatusUpdateEmail;
 use App\Models\Abstracts;
 use App\Models\Author;
 use App\Models\Paper;
@@ -177,6 +178,35 @@ class AdminController extends Controller
         if (in_array($request->status, [2, 3, 4]))
             Mail::to($abstract->email)->cc($this->email)->send(new AbstractStatusUpdateEmail($request));
         return redirect()->route('dashboard')->with("success", "Abstract status updated successfully");
+    }
+
+    public function editPaper($id, $type)
+    {
+        if ($type == 'paper') :
+            $paper = Paper::findOrFail($id);
+        else :
+            $paper = PaperWithoutAbstract::findOrFail($id);
+        endif;
+        $status = Status::all();
+        return view('admin.edit', compact('paper', 'status', 'type'));
+    }
+
+    public function updatePaper(Request $request)
+    {
+        $this->validate($request, [
+            'status' => 'required',
+        ]);
+        if ($request->paper_type == 'paper') :
+            $paper = Paper::findOrFail($request->paper_id);
+            $email = $paper->abstracts?->email;
+        else :
+            $paper = PaperWithoutAbstract::findOrFail($request->paper_id);
+            $email = $paper->email;
+        endif;
+        $paper->update(['status_id' => $request->status]);
+        if (in_array($request->status, [2, 3, 4]))
+            Mail::to($email)->cc($this->email)->send(new PaperStatusUpdateEmail($request));
+        return redirect()->back()->with("success", "Paper status updated successfully");
     }
 
     public function logout(Request $request): RedirectResponse

@@ -47,7 +47,7 @@
                                                     <td>{{ $paper->abstracts?->email }}</td>
                                                     <td>{{ $paper->mobile }}</td>
                                                     <td>{{ $paper->created_at->format('d, M Y') }}</td>
-                                                    <td>{{ $paper->status?->name }}</td>
+                                                    <td><a href="{{ route('edit.abstract', ['id' => $paper->id, 'type' => 'paper') }}">{{ $paper->status?->name }}</a></td>
                                                 </tr>
                                                 @empty
                                                 @endforelse
