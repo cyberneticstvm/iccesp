@@ -41,7 +41,7 @@
                                                     <td><a href="{{ asset($paper->turnitin) }}" target="_blank">View / Download</a></td>
                                                     <td>{{ $paper->created_at->format('d, M Y') }}</td>
                                                     <td>{{ $paper->mobile }}</td>
-                                                    <td><a href="{{ route('edit.abstract', ['id' => $paper->id, 'type' => 'asce']) }}">{{ $paper->status?->name }}</a></td>
+                                                    <td><a href="{{ route('edit.paper', ['id' => $paper->id, 'type' => 'asce']) }}">{{ $paper->status?->name }}</a></td>
                                                 </tr>
                                                 @empty
                                                 @endforelse
