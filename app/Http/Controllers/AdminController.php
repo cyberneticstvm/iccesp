@@ -205,7 +205,7 @@ class AdminController extends Controller
         endif;
         $paper->update(['status_id' => $request->status]);
         if (in_array($request->status, [2, 3, 4]))
-            Mail::to($email)->cc($this->email)->send(new PaperStatusUpdateEmail($request));
+            Mail::to($email ?? $this->email)->cc($this->email)->send(new PaperStatusUpdateEmail($request));
         return redirect()->back()->with("success", "Paper status updated successfully");
     }
 
