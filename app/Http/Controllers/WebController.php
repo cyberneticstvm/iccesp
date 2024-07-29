@@ -153,6 +153,7 @@ class WebController extends Controller
             'doc' => 'required|mimes:doc,docx,pdf',
             'turnitin' => 'required|mimes:doc,docx,pdf',
             'mobile' => 'required|numeric|digits:10',
+            'email' => 'required|email',
         ]);
         try {
             $paper = null;
@@ -174,13 +175,14 @@ class WebController extends Controller
                 'status_id' => 1,
                 'theme_id' => $request->theme_id,
                 'mobile' => $request->mobile,
+                'mobile' => $request->email,
                 'turnitin' => $turnitin,
                 'paper' => $paper,
                 'payment' => $payment,
                 'type' => 'wa', // Without Abstract
             ]);
             $staff = User::where('role', 'staff')->where('id', StaffTheme::where('theme_id', $request->theme_id)->latest()->first()->user_id)->first();
-            Mail::to($staff?->email ?? $this->email)->cc($this->email)->send(new PaperSubmissionEmail($paper, $mime));
+            Mail::to($request->email)->cc($staff?->email ?? $this->email)->cc($this->email)->send(new PaperSubmissionEmail($paper, $mime));
         } catch (Exception $e) {
             return redirect()->back()->with("error", $e->getMessage())->withInput($request->all());
         }
@@ -200,6 +202,7 @@ class WebController extends Controller
             'doc' => 'required|mimes:doc,docx,pdf',
             'turnitin' => 'required|mimes:doc,docx,pdf',
             'mobile' => 'required|numeric|digits:10',
+            'email' => 'required|email',
         ]);
         try {
             $paper = null;
@@ -221,13 +224,14 @@ class WebController extends Controller
                 'status_id' => 1,
                 'theme_id' => $request->theme_id,
                 'mobile' => $request->mobile,
+                'email' => $request->email,
                 'turnitin' => $turnitin,
                 'paper' => $paper,
                 'payment' => $payment,
                 'type' => 'asce',
             ]);
             $staff = User::where('role', 'staff')->where('id', StaffTheme::where('theme_id', $request->theme_id)->latest()->first()->user_id)->first();
-            Mail::to($staff?->email ?? $this->email)->cc($this->email)->send(new PaperSubmissionEmail($paper, $mime));
+            Mail::to($request->email)->cc($staff?->email ?? $this->email)->cc($this->email)->send(new PaperSubmissionEmail($paper, $mime));
         } catch (Exception $e) {
             return redirect()->back()->with("error", $e->getMessage())->withInput($request->all());
         }

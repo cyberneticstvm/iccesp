@@ -18,6 +18,13 @@
                                 @enderror
                             </div>
                             <div class="form-group col-lg-4 mb-4 text-start">
+                                <label class="text-danger">Email ID</label>
+                                <input type="email" value="{{ old('email') }}" data-msg-required="Please enter Email." maxlength="100" class="form-control" name="email" required="" placeholder="Email ID">
+                                @error('email')
+                                <small class="text-danger">{{ $errors->first('email') }}</small>
+                                @enderror
+                            </div>
+                            <div class="form-group col-lg-4 mb-4 text-start">
                                 <label class="text-danger">Turnitin (Plagiarism) Report</label>
                                 <input type="file" class="form-control" name="turnitin" required="">
                                 @error('turnitin')

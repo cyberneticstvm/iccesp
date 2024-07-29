@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger('theme_id')->nullable();
             $table->string('mobile', 10)->nullable();
+            $table->string('email', 100)->nullable();
             $table->string('paper')->nullable();
             $table->string('turnitin')->nullable();
             $table->string('payment')->nullable();
