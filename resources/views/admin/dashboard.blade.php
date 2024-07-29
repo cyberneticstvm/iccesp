@@ -38,13 +38,13 @@
                                                 @forelse($papers as $key => $paper)
                                                 <tr>
                                                     <td>{{ $key + 1 }}</td>
-                                                    <td>{{ $paper->abstract?->abstract_id }}</td>
-                                                    <td>{{ $paper->abstract?->title }}</td>
-                                                    <td>{{ $paper->abstract?->theme->name }}</td>
+                                                    <td>{{ $paper->abstracts?->abstract_id }}</td>
+                                                    <td>{{ $paper->abstracts?->title }}</td>
+                                                    <td>{{ $paper->abstracts?->theme->name }}</td>
                                                     <td><a href="{{ asset($paper->paper) }}" target="_blank">View / Download</a></td>
                                                     <td><a href="{{ asset($paper->turnitin) }}" target="_blank">View / Download</a></td>
-                                                    <td>{{ $paper->abstract?->authors?->first()?->name }}</td>
-                                                    <td>{{ $paper->abstract?->email }}</td>
+                                                    <td>{{ $paper->abstracts?->authors?->first()?->name }}</td>
+                                                    <td>{{ $paper->abstracts?->email }}</td>
                                                     <td>{{ $paper->mobile }}</td>
                                                     <td>{{ $paper->created_at->format('d, M Y') }}</td>
                                                     <td>{{ $paper->status?->name }}</td>
