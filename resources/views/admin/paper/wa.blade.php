@@ -36,7 +36,7 @@
                                                 <tr>
                                                     <td>{{ $key + 1 }}</td>
                                                     <td><a href="{{ asset($paper->paper) }}" target="_blank">View / Download</a></td>
-                                                    <td>{{ $paper->theme->name }}</td>
+                                                    <td>{{ $paper->theme?->name }}</td>
                                                     <td>{{ $paper->email }}</td>
                                                     <td><a href="{{ asset($paper->turnitin) }}" target="_blank">View / Download</a></td>
                                                     <td>{{ $paper->created_at->format('d, M Y') }}</td>
