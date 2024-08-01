@@ -175,7 +175,7 @@ class WebController extends Controller
                 'status_id' => 1,
                 'theme_id' => $request->theme_id,
                 'mobile' => $request->mobile,
-                'mobile' => $request->email,
+                'email' => $request->email,
                 'turnitin' => $turnitin,
                 'paper' => $paper,
                 'payment' => $payment,
