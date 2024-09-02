@@ -6,8 +6,8 @@
             <div class="row position-relative z-index-1 pt-5-5">
                 <div class="col text-center">
                     <h2 class="text-color-dark font-weight-medium text-8 mb-5-5">Submit Paper</h2>
-                    <h4 class="fw-bold mb-5">If you haven't submitted your Abstract earlier, please submit your paper <a href="{{ route('paper.wa') }}">HERE</a></h4>
-                    <h4 class="fw-bold mb-5">If you are applied for ACSE Proceeding, please submit your paper <a href="{{ route('paper.asce') }}">HERE</a></h4>
+                    <!--<h4 class="fw-bold mb-5">If you haven't submitted your Abstract earlier, please submit your paper <a href="{{ route('paper.wa') }}">HERE</a></h4>
+                    <h4 class="fw-bold mb-5">If you are applied for ACSE Proceeding, please submit your paper <a href="{{ route('paper.asce') }}">HERE</a></h4>-->
                     <form class="" action="{{ route('paper.submit') }}" method="POST" enctype="multipart/form-data">
                         @csrf
                         <div class="row row-gutter-sm">
